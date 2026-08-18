@@ -1,0 +1,1678 @@
+{
+  "Residential Decision Making": [
+    {
+      "title": "What affects commute mode choice: neighborhood physical structure or preferences toward neighborhoods?",
+      "authors": "Tim Schwanen, Patricia L. Mokhtarian",
+      "year": 2004,
+      "venue": "Journal of Transport Geography",
+      "doi": "https://doi.org/10.1016/j.jtrangeo.2004.11.001",
+      "url": "https://openalex.org/W2098801100",
+      "abstract": "",
+      "cited_by_count": 560
+    },
+    {
+      "title": "Residential preferences and neighborhood racial segregation: A test of the schelling segregation model",
+      "authors": "William A. V. Clark",
+      "year": 1991,
+      "venue": "Demography",
+      "doi": "https://doi.org/10.2307/2061333",
+      "url": "https://openalex.org/W1998770882",
+      "abstract": "The debate over the role of the forces that create the patterns of residential separation has identified neighborhood preferences as one of the explanatory variables, but although we possess some empirical data on the nature of neighborhood racial preferences, the theoretical contributions have received only limited empirical evaluation. Among the theoretical statements, Schelling's model of the effects of small differences in preferences on residential patterns has provided a basic building block in our understanding of preferences, choices, and patterns. Several recent surveys of residential preferences provide the data with which to evaluate the underpinnings of the Schelling model. The preference/tolerance schedules that are derived from the data have a different functional form from that suggested by Schelling, but confirm the view that stable integrated equilibria are unlikely.",
+      "cited_by_count": 574
+    },
+    {
+      "title": "Residential preferences and residential choices in a multiethnic context",
+      "authors": "William A. V. Clark",
+      "year": 1992,
+      "venue": "Demography",
+      "doi": "https://doi.org/10.2307/2061828",
+      "url": "https://openalex.org/W2033763223",
+      "abstract": "A study of the expressed preferences of four different ethnic groups in the Los Angeles metropolitan area shows strong desires for own-race combinations in the ethnicity of neighborhoods that individuals say they would choose when seeking a new residence. The results also show that Anglos are not the only group to practice \"avoidance\" of other racial/ethnic neighborhoods, although avoidance behavior by Anglos is the strongest. Because the issues of racial composition are socially sensitive, additional tests examined the relationship of preferences to behavior. Although many behaviors generally follow expressed preferences, members of households who expressed \"no preference\" also were found to largely choose own race neighborhoods. The results of this study suggest that the expressed preference for own race/own ethnicity, in combination with short-distance local moves, is likely to maintain present patterns of separation in U.S. metropolitan areas.",
+      "cited_by_count": 393
+    },
+    {
+      "title": "What if you live in the wrong neighborhood? The impact of residential neighborhood type dissonance on distance traveled",
+      "authors": "Tim Schwanen, Patricia L. Mokhtarian",
+      "year": 2005,
+      "venue": "Transportation Research Part D Transport and Environment",
+      "doi": "https://doi.org/10.1016/j.trd.2004.11.002",
+      "url": "https://openalex.org/W2121826275",
+      "abstract": "",
+      "cited_by_count": 270
+    },
+    {
+      "title": "Methodological Issues in the Analysis of Residential Preferences, Residential Mobility, and Neighborhood Change",
+      "authors": "Elizabeth Bruch, Robert D. Mare",
+      "year": 2012,
+      "venue": "Sociological Methodology",
+      "doi": "https://doi.org/10.1177/0081175012444105",
+      "url": "https://openalex.org/W1997085762",
+      "abstract": "This paper reviews methods for analyzing both individual preferences and choices about where to live, and the implications of these choices for residential patterns. Although these methods are discussed in the context of residential choice, they can be applied more broadly to individual choices in a range of social contexts where behavior is interdependent. We review a variety of types of data on residential preferences and mobility and discuss appropriate statistical models for these data. We discuss the analysis of ranked and other types of clustered data; functional form issues; problems of unobserved heterogeneity in individuals and in neighborhoods; and strengths and weaknesses of stated preference data versus observations of actual mobility behavior. We also discuss specific problems with residential mobility data, including the treatment of one's current location as a potential choice, how to specify the choice set of potential movers, the aggregation of units (such as dwelling units",
+      "cited_by_count": 101
+    },
+    {
+      "title": "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment",
+      "authors": "Raj Chetty, Nathaniel Hendren, Lawrence F. Katz",
+      "year": 2016,
+      "venue": "American Economic Review",
+      "doi": "https://doi.org/10.1257/aer.20150572",
+      "url": "https://openalex.org/W1484598383",
+      "abstract": "The Moving to Opportunity (MTO) experiment offered randomly selected families housing vouchers to move from high-poverty housing projects to lower-poverty neighborhoods. We analyze MTO's impacts on children's long-term outcomes using tax data. We find that moving to a lower-poverty neighborhood when young (before age 13) increases college attendance and earnings and reduces single parenthood rates. Moving as an adolescent has slightly negative impacts, perhaps because of disruption effects. The decline in the gains from moving with the age when children move suggests that the duration of exposure to better environments during childhood is an important determinant of children’s long-term outcomes.",
+      "cited_by_count": 2313
+    },
+    {
+      "title": "Residential Location Choice in the Era of Shared Autonomous Vehicles",
+      "authors": "Wenwen Zhang, Subhrajit Guhathakurta",
+      "year": 2018,
+      "venue": "Journal of Planning Education and Research",
+      "doi": "https://doi.org/10.1177/0739456x18776062",
+      "url": "https://openalex.org/W2806301036",
+      "abstract": "This study examines the potential changes in residential location choice in a scenario where shared autonomous vehicles (SAVs) are a popular mode of travel in the Atlanta metropolitan area. This hypothetical study is based on an agent-based simulation approach, which integrates residential location choice models with a SAV simulation model. The coupled model simulates future home location choices given current home location preferences and real estate development patterns. The results indicate that commuters may relocate to neighborhoods with better public schools and more amenities due to reductions in commute costs.",
+      "cited_by_count": 110
+    },
+    {
+      "title": "A Unified Framework for Measuring Preferences for Schools and Neighborhoods",
+      "authors": "Patrick Bayer, Fernando Ferreira, R. S. McMillan",
+      "year": 2007,
+      "venue": "National Bureau of Economic Research",
+      "doi": "https://doi.org/10.3386/w13236",
+      "url": "https://openalex.org/W2114071237",
+      "abstract": "This paper develops a comprehensive framework for estimating household preferences for school and neighborhood attributes in the presence of sorting. It embeds a boundary discontinuity design in a heterogeneous model of residential choice to address the endogeneity of school and neighborhood attributes. The model is estimated using restricted-access Census data from a large metropolitan area, yielding a number of new results. First, households are willing to pay less than one percent more in house prices --substantially lower than previous estimates --when the average performance of the local school increases by five percent. Second, much of the apparent willingness to pay for more educated and wealthier neighbors is explained by the correlation of these sociodemographic measures with unobserved neighborhood quality. Third, neighborhood race is not capitalized directly into housing prices; instead, the negative correlation of neighborhood race and housing prices is due entirely to the fact that blacks live in unobservably",
+      "cited_by_count": 288
+    },
+    {
+      "title": "Latent lifestyle preferences and household location decisions",
+      "authors": "Joan L. Walker, Jieping Li",
+      "year": 2006,
+      "venue": "Journal of Geographical Systems",
+      "doi": "https://doi.org/10.1007/s10109-006-0030-0",
+      "url": "https://openalex.org/W2090736998",
+      "abstract": "",
+      "cited_by_count": 335
+    },
+    {
+      "title": "The role of location in residential location choice models: a review of literature",
+      "authors": "Patrick Schirmer, Michael A.B. van Eggermond, Kay W. Axhausen",
+      "year": 2014,
+      "venue": "Journal of Transport and Land Use",
+      "doi": "https://doi.org/10.5198/jtlu.v7i2.740",
+      "url": "https://openalex.org/W1966208130",
+      "abstract": "Geospatial data available to researchers has increased tremendously over the last several decades, opening up opportunities to define residential location in multiple ways. This has led to a myriad of variables to define \"location'' in residential location choice models. In this paper, we propose a common classification for location variables and categorize findings from a wide range of studies. We find similar preferences but different measurement methods and market segments for locations across different study regions. Recent studies consider the residential unit as choice alternative, making it possible to include a detailed description of the built environment. However, these studies are still limited in number and the inclusion of socioeconomic environment is more common. Transport land-use models can benefit from the inclusion of points of interest, such as schools, network distances, and the distance to previous locations. For the results of location choice models to be transferable to different disciplines,",
+      "cited_by_count": 188
+    },
+    {
+      "title": "Latent lifestyle preferences and household location decisions",
+      "authors": "Joan L. Walker, Jieping Li",
+      "year": 2006,
+      "venue": "Journal of Geographical Systems",
+      "doi": "https://doi.org/10.1007/s10109-006-0030-0",
+      "url": "https://openalex.org/W2090736998",
+      "abstract": "",
+      "cited_by_count": 335
+    },
+    {
+      "title": "Conflict monitoring and decision making: Reconciling two perspectives on anterior cingulate function",
+      "authors": "Matthew Botvinick",
+      "year": 2007,
+      "venue": "Cognitive Affective & Behavioral Neuroscience",
+      "doi": "https://doi.org/10.3758/cabn.7.4.356",
+      "url": "https://openalex.org/W2110113299",
+      "abstract": "",
+      "cited_by_count": 1151
+    },
+    {
+      "title": "GIS‐based multicriteria decision analysis: a survey of the literature",
+      "authors": "Jacek Malczewski",
+      "year": 2006,
+      "venue": "International Journal of Geographical Information Systems",
+      "doi": "https://doi.org/10.1080/13658810600661508",
+      "url": "https://openalex.org/W2136050606",
+      "abstract": "The integration of GIS and multicriteria decision analysis has attracted significant interest over the last 15 years or so. This paper surveys the GIS‐based multicriteria decision analysis (GIS‐MCDA) approaches using a literature review and classification of articles from 1990 to 2004. An electronic search indicated that over 300 articles appeared in refereed journals. The paper provides taxonomy of those articles and identifies trends and developments in GIS‐MCDA.",
+      "cited_by_count": 2234
+    },
+    {
+      "title": "Jobs-Housing Balancing and Regional Mobility",
+      "authors": "Robert Cervero",
+      "year": 1989,
+      "venue": "Journal of the American Planning Association",
+      "doi": "https://doi.org/10.1080/01944368908976014",
+      "url": "https://openalex.org/W2070640766",
+      "abstract": "Despite the steady migration of jobs to the suburbs over the past decade, many suburban residents commute farther than ever. In this article I attribute the widening separation of suburban workplaces and the residences of suburban workers to several factors: fiscal and exclusionary zoning that results in an undersupply of housing; rents and housing costs that price many service workers out of the local residential market; and several demographic trends, including the growth in dual wage-earner households and career shifts. Case studies of metropolitan Chicago and San Francisco confirm the displacing effects of high housing costs and housing shortages. In addition, data from over 40 major suburban employment centers in the United States show that suburban workplaces with severe jobs-housing imbalances tend to have low shares of workers making walking and cycling trips and high levels of congestion on connecting freeways. I argue that inclusionary zoning, tax-base sharing, fair-sharing housing",
+      "cited_by_count": 568
+    },
+    {
+      "title": "Why Is Manhattan So Expensive? Regulation and the Rise in Housing Prices",
+      "authors": "Edward L. Glaeser, Joseph Gyourko, Raven E. Saks",
+      "year": 2005,
+      "venue": "The Journal of Law and Economics",
+      "doi": "https://doi.org/10.1086/429979",
+      "url": "https://openalex.org/W3125335993",
+      "abstract": "In Manhattan, housing prices have soared since the 1990s. Although rising incomes, lower interest rates, and other factors can explain the demand side of this increase, some sluggishness in the supply of apartment buildings is needed to account for high and rising prices. In a market dominated by high‐rises, the marginal cost of supplying more housing is the cost of adding an extra floor to any new building. Home building is a highly competitive industry with almost no natural barriers to entry, and yet prices in Manhattan currently appear to be more than twice their supply costs. We argue that land use restrictions are the natural explanation for this gap. We also present evidence that regulation is constraining the supply of housing in a number of other housing markets across the country. In these areas, increases in demand have led not to more housing units but to higher prices.",
+      "cited_by_count": 662
+    },
+    {
+      "title": "Multiple criteria facility location problems: A survey",
+      "authors": "Reza Zanjirani Farahani, Maryam SteadieSeifi, Nasrin Asgari",
+      "year": 2009,
+      "venue": "Applied Mathematical Modelling",
+      "doi": "https://doi.org/10.1016/j.apm.2009.10.005",
+      "url": "https://openalex.org/W2171290056",
+      "abstract": "",
+      "cited_by_count": 652
+    },
+    {
+      "title": "A Comparative Study of Multiple-Criteria Decision-Making Methods under Stochastic Inputs",
+      "authors": "Athanasios Kolios, Varvara Mytilinou, Estívaliz Lozano‐Mínguez, Konstantinos Salonitis",
+      "year": 2016,
+      "venue": "Energies",
+      "doi": "https://doi.org/10.3390/en9070566",
+      "url": "https://openalex.org/W2475764105",
+      "abstract": "This paper presents an application and extension of multiple-criteria decision-making (MCDM) methods to account for stochastic input variables. More in particular, a comparative study is carried out among well-known and widely-applied methods in MCDM, when applied to the reference problem of the selection of wind turbine support structures for a given deployment location. Along with data from industrial experts, six deterministic MCDM methods are studied, so as to determine the best alternative among the available options, assessed against selected criteria with a view toward assigning confidence levels to each option. Following an overview of the literature around MCDM problems, the best practice implementation of each method is presented aiming to assist stakeholders and decision-makers to support decisions in real-world applications, where many and often conflicting criteria are present within uncertain environments. The outcomes of this research highlight that more sophisticated methods, such as technique for the order of preference by",
+      "cited_by_count": 289
+    },
+    {
+      "title": "The Housing Boom and Bust: Model Meets Evidence",
+      "authors": "Greg Kaplan, Kurt Mitman, Giovanni L. Violante",
+      "year": 2020,
+      "venue": "Journal of Political Economy",
+      "doi": "https://doi.org/10.1086/708816",
+      "url": "https://openalex.org/W2745932046",
+      "abstract": "We build a model of the US economy with multiple aggregate shocks that generate fluctuations in equilibrium house prices. Through counterfactual experiments, we study the housing boom-bust around the Great Recession, with three main results. First, the main driver of movements in house prices and rents was a shift in beliefs, not a change in credit conditions. Second, the boom-bust in house prices explains half of the corresponding swings in nondurable expenditures through a wealth effect. Third, a large-scale debt forgiveness program would have done little to temper the collapse of house prices and expenditures but would have dramatically reduced foreclosures and induced a small, but persistent, increase in consumption during the recovery.",
+      "cited_by_count": 449
+    },
+    {
+      "title": "Identifying the drivers behind housing preferences of first‐time owners",
+      "authors": "Richard Reed, Anthony Mills",
+      "year": 2007,
+      "venue": "Property Management",
+      "doi": "https://doi.org/10.1108/02637470710753611",
+      "url": "https://openalex.org/W2019516273",
+      "abstract": "Purpose The purpose of this paper is to provide a rare insight into the motivation behind first‐time buyers when looking to purchase their first home. The factors driving demand preferences for detached housing are constantly changing and difficult to measure, and often deemed to be a complex bundle of attributes. Design/methodology/approach The research in this paper is based on interviews with purchasers at a series of locations across Melbourne, Australia, who were actively seeking to purchase a home for the first time. The data were analysed using factor analysis to identify the core decision criteria in a new house that were most sought after. Findings The findings in this paper confirmed that “financial” issues accounted for approximately 30 percent of the actual decision by first‐time buyers to purchase housing, where decisions relating to the timing and choice of housing are dependent on “site‐specific” factors. Research limitations/implications The research in this",
+      "cited_by_count": 50
+    },
+    {
+      "title": "A Unified Framework for Measuring Preferences for Schools and Neighborhoods",
+      "authors": "Patrick Bayer, Fernando Ferreira, R. S. McMillan",
+      "year": 2007,
+      "venue": "National Bureau of Economic Research",
+      "doi": "https://doi.org/10.3386/w13236",
+      "url": "https://openalex.org/W2114071237",
+      "abstract": "This paper develops a comprehensive framework for estimating household preferences for school and neighborhood attributes in the presence of sorting. It embeds a boundary discontinuity design in a heterogeneous model of residential choice to address the endogeneity of school and neighborhood attributes. The model is estimated using restricted-access Census data from a large metropolitan area, yielding a number of new results. First, households are willing to pay less than one percent more in house prices --substantially lower than previous estimates --when the average performance of the local school increases by five percent. Second, much of the apparent willingness to pay for more educated and wealthier neighbors is explained by the correlation of these sociodemographic measures with unobserved neighborhood quality. Third, neighborhood race is not capitalized directly into housing prices; instead, the negative correlation of neighborhood race and housing prices is due entirely to the fact that blacks live in unobservably",
+      "cited_by_count": 288
+    },
+    {
+      "title": "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment",
+      "authors": "Raj Chetty, Nathaniel Hendren, Lawrence F. Katz",
+      "year": 2016,
+      "venue": "American Economic Review",
+      "doi": "https://doi.org/10.1257/aer.20150572",
+      "url": "https://openalex.org/W1484598383",
+      "abstract": "The Moving to Opportunity (MTO) experiment offered randomly selected families housing vouchers to move from high-poverty housing projects to lower-poverty neighborhoods. We analyze MTO's impacts on children's long-term outcomes using tax data. We find that moving to a lower-poverty neighborhood when young (before age 13) increases college attendance and earnings and reduces single parenthood rates. Moving as an adolescent has slightly negative impacts, perhaps because of disruption effects. The decline in the gains from moving with the age when children move suggests that the duration of exposure to better environments during childhood is an important determinant of children’s long-term outcomes.",
+      "cited_by_count": 2313
+    },
+    {
+      "title": "The Social Determinants of Health: Coming of Age",
+      "authors": "Paula Braveman, Susan Egerter, David R. Williams",
+      "year": 2011,
+      "venue": "Annual Review of Public Health",
+      "doi": "https://doi.org/10.1146/annurev-publhealth-031210-101218",
+      "url": "https://openalex.org/W2164184454",
+      "abstract": "In the United States, awareness is increasing that medical care alone cannot adequately improve health overall or reduce health disparities without also addressing where and how people live. A critical mass of relevant knowledge has accumulated, documenting associations, exploring pathways and biological mechanisms, and providing a previously unavailable scientific foundation for appreciating the role of social factors in health. We review current knowledge about health effects of social (including economic) factors, knowledge gaps, and research priorities, focusing on upstream social determinants-including economic resources, education, and racial discrimination-that fundamentally shape the downstream determinants, such as behaviors, targeted by most interventions. Research priorities include measuring social factors better, monitoring social factors and health relative to policies, examining health effects of social factors across lifetimes and generations, incrementally elucidating pathways through knowledge linkage, testing multidimensional interventions, and addressing political will as a key barrier to translating knowledge into action.",
+      "cited_by_count": 2453
+    },
+    {
+      "title": "The Development of a Standardized Neighborhood Deprivation Index",
+      "authors": "Lynne C. Messer, Barbara Laraia, Jay S. Kaufman, Janet Eyster, Claudia Holzman",
+      "year": 2006,
+      "venue": "Journal of Urban Health",
+      "doi": "https://doi.org/10.1007/s11524-006-9094-x",
+      "url": "https://openalex.org/W1969600340",
+      "abstract": "",
+      "cited_by_count": 1019
+    },
+    {
+      "title": "Residential self-selection effects in an activity time-use behavior model",
+      "authors": "Abdul Rawoof Pinjari, Chandra R. Bhat, David A. Hensher",
+      "year": 2009,
+      "venue": "Transportation Research Part B Methodological",
+      "doi": "https://doi.org/10.1016/j.trb.2009.02.002",
+      "url": "https://openalex.org/W2092625225",
+      "abstract": "",
+      "cited_by_count": 135
+    },
+    {
+      "title": "Residential Environments and Cardiovascular Risk",
+      "authors": "Ana V. Diez Roux",
+      "year": 2003,
+      "venue": "Journal of Heredity",
+      "doi": "https://doi.org/10.1093/jurban/jtg065",
+      "url": "https://openalex.org/W2141214792",
+      "abstract": "",
+      "cited_by_count": 450
+    },
+    {
+      "title": "Neighborhood Environments and Coronary Heart Disease: A Multilevel Analysis",
+      "authors": "Ana V. Diez–Roux, F. Javier Nieto, Carles Muntañer, H. A. Tyroler, G W Comstock",
+      "year": 1997,
+      "venue": "American Journal of Epidemiology",
+      "doi": "https://doi.org/10.1093/oxfordjournals.aje.a009191",
+      "url": "https://openalex.org/W2124041619",
+      "abstract": "The authors investigated whether neighborhood socioeconomic characteristics are associated with coronary heart disease prevalence and risk factors, whether these associations persist after adjustment for individual-level social class indicators, and whether the effects of individual-level indicators vary across neighborhoods. The study sample consisted of 12,601 persons in four US communities (Washington County, Maryland; Forsyth County, North Carolina; Minneapolis, Minnesota; and Jackson, Mississippi) participating in the baseline examination of the Atherosclerosis Risk in Communities Study (1987-1989). Neighborhood characteristics were obtained from 1990 US Census block-group measures. Multilevel models were used to estimate associations with neighborhood variables after adjustment for individual-level indicators of social class. Living in deprived neighborhoods was associated with increased prevalence of coronary heart disease and increased levels of risk factors, with associations generally persisting after adjustment for individual-level variables. Inconsistent associations were documented for serum cholesterol and disease prevalence in African-American men. For Jackson African-American men living in poor",
+      "cited_by_count": 750
+    },
+    {
+      "title": "The Impacts of Neighborhoods on Intergenerational Mobility II: County-Level Estimates*",
+      "authors": "Raj Chetty, Nathaniel Hendren",
+      "year": 2018,
+      "venue": "The Quarterly Journal of Economics",
+      "doi": "https://doi.org/10.1093/qje/qjy006",
+      "url": "https://openalex.org/W2544001857",
+      "abstract": "We estimate the causal effect of each county in the United States on children's incomes in adulthood. We first estimate a fixed effects model that is identified by analyzing families who move across counties with children of different ages. We then use these fixed effect estimates to (i) quantify how much places matter for intergenerational mobility, (ii) construct forecasts of the causal effect of growing up in each county that can be used to guide families seeking to move to opportunity, and (iii) characterize which types of areas produce better outcomes. For children growing up in low-income families, each year of childhood exposure to a one standard deviation (std. dev.) better county increases income in adulthood by 0.5%. There is substantial variation in counties' causal effects even within metro areas. Counties with less concentrated poverty, less income inequality, better schools, a larger share of two-parent families, and lower crime rates",
+      "cited_by_count": 735
+    },
+    {
+      "title": "Is Income Inequality a Determinant of Population Health? Part 1. A Systematic Review",
+      "authors": "John Lynch, George Davey Smith, Sam Harper, Marianne M. Hillemeier, Nancy A. Ross",
+      "year": 2004,
+      "venue": "Milbank Quarterly",
+      "doi": "https://doi.org/10.1111/j.0887-378x.2004.00302.x",
+      "url": "https://openalex.org/W1965127077",
+      "abstract": "This article reviews 98 aggregate and multilevel studies examining the associations between income inequality and health. Overall, there seems to be little support for the idea that income inequality is a major, generalizable determinant of population health differences within or between rich countries. Income inequality may, however, directly influence some health outcomes, such as homicide in some contexts. The strongest evidence for direct health effects is among states in the United States, but even that is somewhat mixed. Despite little support for a direct effect of income inequality on health per se, reducing income inequality by raising the incomes of the most disadvantaged will improve their health, help reduce health inequalities, and generally improve population health.",
+      "cited_by_count": 949
+    },
+    {
+      "title": "Fixed and random effects models: making an informed choice",
+      "authors": "Andrew Bell, Malcolm Fairbrother, Kelvyn Jones",
+      "year": 2018,
+      "venue": "Quality & Quantity",
+      "doi": "https://doi.org/10.1007/s11135-018-0802-x",
+      "url": "https://openalex.org/W2886443073",
+      "abstract": "This paper assesses the options available to researchers analysing multilevel (including longitudinal) data, with the aim of supporting good methodological decision-making. Given the confusion in the literature about the key properties of fixed and random effects (FE and RE) models, we present these models’ capabilities and limitations. We also discuss the within-between RE model, sometimes misleadingly labelled a ‘hybrid’ model, showing that it is the most general of the three, with all the strengths of the other two. As such, and because it allows for important extensions—notably random slopes—we argue it should be used (as a starting point at least) in all multilevel analyses. We develop the argument through simulations, evaluating how these models cope with some likely mis-specifications. These simulations reveal that (1) failing to include random slopes can generate anti-conservative standard errors, and (2) assuming random intercepts are Normally distributed, when they are not, introduces only modest biases.",
+      "cited_by_count": 1098
+    },
+    {
+      "title": "Residential self-selection and travel behaviour: What are the effects of attitudes, reasons for location choice and the built environment?",
+      "authors": "Dick Ettema, R. Nieuwenhuis",
+      "year": 2017,
+      "venue": "Journal of Transport Geography",
+      "doi": "https://doi.org/10.1016/j.jtrangeo.2017.01.009",
+      "url": "https://openalex.org/W2590067399",
+      "abstract": "",
+      "cited_by_count": 176
+    }
+  ],
+  "GIS": [
+    {
+      "title": "GIS‐based multicriteria decision analysis: a survey of the literature",
+      "authors": "Jacek Malczewski",
+      "year": 2006,
+      "venue": "International Journal of Geographical Information Systems",
+      "doi": "https://doi.org/10.1080/13658810600661508",
+      "url": "https://openalex.org/W2136050606",
+      "abstract": "The integration of GIS and multicriteria decision analysis has attracted significant interest over the last 15 years or so. This paper surveys the GIS‐based multicriteria decision analysis (GIS‐MCDA) approaches using a literature review and classification of articles from 1990 to 2004. An electronic search indicated that over 300 articles appeared in refereed journals. The paper provides taxonomy of those articles and identifies trends and developments in GIS‐MCDA.",
+      "cited_by_count": 2234
+    },
+    {
+      "title": "A framework for GIS-based site selection and technical potential evaluation of PV solar farm using Fuzzy-Boolean logic and AHP multi-criteria decision-making approach",
+      "authors": "Younes Noorollahi, Ali Ghenaatpisheh Senani, Ahmad Fadaei, Mobina Simaee, Rahim Moltames",
+      "year": 2022,
+      "venue": "Renewable Energy",
+      "doi": "https://doi.org/10.1016/j.renene.2021.12.124",
+      "url": "https://openalex.org/W4226221652",
+      "abstract": "",
+      "cited_by_count": 214
+    },
+    {
+      "title": "GIS-based site suitability analysis for wind farm development in Saudi Arabia",
+      "authors": "M.A. Baseer, Shafiqur Rehman, Josua P. Meyer, Md. Mahbub Alam",
+      "year": 2017,
+      "venue": "Energy",
+      "doi": "https://doi.org/10.1016/j.energy.2017.10.016",
+      "url": "https://openalex.org/W2763623309",
+      "abstract": "",
+      "cited_by_count": 226
+    },
+    {
+      "title": "Land Suitability Analysis for Solar Farms Exploitation Using GIS and Fuzzy Analytic Hierarchy Process (FAHP)—A Case Study of Iran",
+      "authors": "Ehsan Noorollahi, Dawud Fadai, Mohsen Akbarpour Shirazi, Seyed Hassan Ghodsipour",
+      "year": 2016,
+      "venue": "Energies",
+      "doi": "https://doi.org/10.3390/en9080643",
+      "url": "https://openalex.org/W2508640174",
+      "abstract": "Considering the geographical location and climatic conditions of Iran, solar energy can provide a considerable portion of the energy demand for the country. This study develops a two-step framework. In the first step, the map of unsuitable regions is extracted based on the defined constraints. In the next step, in order to identify the suitability of different regions, 11 defined criteria, including solar radiation, average annual temperatures, distance from power transmission lines, distance from major roads, distance from residential area, elevation, slope, land use, average annual cloudy days, average annual humidity and average annual dusty days, are identified. The relative weights of defined criteria and sub-criteria are also determined applying fuzzy analytical hierarchy process (FAHP) technique. Next, by overlaying these criteria layers, the final map of prioritization of different regions of Iran for exploiting solar photovoltaic (PV) plants is developed. Based on Iran’s political divisions, investigation and analysis of the",
+      "cited_by_count": 280
+    },
+    {
+      "title": "Modelling sustainable urban development by the integration of constrained cellular automata and GIS",
+      "authors": "Xia Li, Anthony Gar‐On Yeh",
+      "year": 2000,
+      "venue": "International Journal of Geographical Information Systems",
+      "doi": "https://doi.org/10.1080/136588100240886",
+      "url": "https://openalex.org/W2127059652",
+      "abstract": "Cellular Automata (CA) have attracted growing attention in urban simulation because their capability in spatial modelling is not fully developed in GIS. This paper discusses how cellular automata (CA) can be extended and integrated with GIS to help planners to search for better urban forms for sustainable development. The cellular automata model is built within a grid-GIS system to facilitate easy access to GIS databases for constructing the constraints. The essence of the model is that constraint space is used to regulate cellular space. Local, regional and global constraints play important roles in affecting modelling results. In addition, 'grey' cells are defined to represent the degrees or percentages of urban land development during the iterations of modelling for more accurate results. The model can be easily controlled by the parameter k using a power transformation function for calculating the constraint scores. It can be used as a useful planning tool",
+      "cited_by_count": 638
+    },
+    {
+      "title": "Land Suitability Analysis of Urban Growth in Seremban Malaysia, Using GIS Based Analytical Hierarchy Process",
+      "authors": "Maher Milad Aburas, Sabrina H.O. Abdullah, Mohammad Firuz Ramli, Zulfa Hanan Ash’aari",
+      "year": 2017,
+      "venue": "Procedia Engineering",
+      "doi": "https://doi.org/10.1016/j.proeng.2017.07.155",
+      "url": "https://openalex.org/W2755255815",
+      "abstract": "One of the critical issues in urban planning is the determination of appropriate locations for urban growth in marginal areas adjacent to large-scale development. This study aims to use a Geographic Information System (GIS) and Analytical Hierarchy Process (AHP) to choose the best locations of urban growth in Seremban, Malaysia. Various social, economic, environmental, utilities, and physical factors were used to generate a final land suitability map (LSI) including elevation, slope, soil texture, population density, land cover, distance to roads, highways, railways, powerlines, streams, industrial, residential, commercial, and educational areas. The findings of the study reveal that highly suitable areas for urban growth in Seremban reach up to 48% of its total area, while unsuitable and less suitable areas make up 35%. These findings confirm that unsuitable and less suitable areas such as forests and agricultural lands cover approximately half of Seremban, which means that these techniques can help save",
+      "cited_by_count": 106
+    },
+    {
+      "title": "A suitability mapping for the PV solar farms in Egypt based on GIS-AHP to optimize multi-criteria feasibility",
+      "authors": "Bahaa Elboshy, Mamdooh Alwetaishi, Reda M. H. Aly, Amr S. Zalhaf",
+      "year": 2021,
+      "venue": "Ain Shams Engineering Journal",
+      "doi": "https://doi.org/10.1016/j.asej.2021.10.013",
+      "url": "https://openalex.org/W3211406760",
+      "abstract": "Nowadays, photovoltaic (PV) are considered a promising alternative solution as a clean energy source. The power output from the solar PV module is proportional to the amount of solar radiation received by its surface. Hence, the determination of the most convenient locations of PV systems is crucial to maximize their output power. In this paper, the most suitable sites of PV farms in Egypt are identified based on the multi-criteria decision-making (MCDM) technique using the geographic information system (GIS) software. Four categories have been taken into acount; location, environment, meteorology, and climatology, to select the suitable locations. Based on experts’ knowledge ten criteria belong to the main categiories have been weighted using the analytical hierarchy process (AHP) and combined in PV land suitabliltiy index which maped using GIS techniques. The conducted suitability map could be used to guiding installation of renewable energy projects in the future.",
+      "cited_by_count": 152
+    },
+    {
+      "title": "Critical analysis of Big Data challenges and analytical methods",
+      "authors": "Uthayasankar Sivarajah, Muhammad Mustafa Kamal, Zahir Irani, Vishanth Weerakkody",
+      "year": 2016,
+      "venue": "Journal of Business Research",
+      "doi": "https://doi.org/10.1016/j.jbusres.2016.08.001",
+      "url": "https://openalex.org/W2487200295",
+      "abstract": "Big Data (BD), with their potential to ascertain valued insights for enhanced decision-making process, have recently attracted substantial interest from both academics and practitioners. Big Data Analytics (BDA) is increasingly becoming a trending practice that many organizations are adopting with the purpose of constructing valuable information from BD. The analytics process, including the deployment and use of BDA tools, is seen by organizations as a tool to improve operational efficiency though it has strategic potential, drive new revenue streams and gain competitive advantages over business rivals. However, there are different types of analytic applications to consider. Therefore, prior to hasty use and buying costly BD tools, there is a need for organizations to first understand the BDA landscape. Given the significant nature of the BD and BDA, this paper presents a state-of-the-art review that presents a holistic view of the BD challenges and BDA methods theorized/proposed/employed by organizations to help",
+      "cited_by_count": 2034
+    },
+    {
+      "title": "GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&amp;K, India",
+      "authors": "Jahangeer A. Parry, Showkat A. Ganaie, M. Sultan Bhat",
+      "year": 2018,
+      "venue": "Journal of Urban Management",
+      "doi": "https://doi.org/10.1016/j.jum.2018.05.002",
+      "url": "https://openalex.org/W2807658480",
+      "abstract": "Rapid urbanization and consequent haphazard growth of cities result in deterioration of infrastructure facilities, loss of agricultural land, water bodies, open spaces, and many micro-climatic changes. This unprecedented growth in city population put pressure on urban amenities and led to their uneven distribution. The Srinagar and Jammu cities witnessed alarming population growth rates in the last thirty years, thus resulted in various problems like pollution, traffic jam, leap-frog development, uneven provision of urban amenities etc. The present study attempted to find out the urban land suitability for the provision of urban amenities. Land use suitability assessment is a key determinant in any urban and suburban planning and decision-making process. The suitability assessment is carried out through AHP model using a set of criteria involving geo-physical and socioeconomic variables. The variables taken for the study are slope, altitude, land use/land cover and existing amenity status. The unit of study is a",
+      "cited_by_count": 168
+    },
+    {
+      "title": "Flood management and a GIS modelling method to assess flood-hazard areas—a case study",
+      "authors": "Nektarios N. Kourgialas, George P. Karatzas",
+      "year": 2011,
+      "venue": "Hydrological Sciences Journal",
+      "doi": "https://doi.org/10.1080/02626667.2011.555836",
+      "url": "https://openalex.org/W1990240845",
+      "abstract": "This paper presents a viable approach for flood management strategy in a river basin based on the European Floods Directive. A reliable flood management plan has two components: (a) a proper flood management strategy, and (b) the determination of the flood-hazard areas. A method to evaluate the benefits of a flood warning system is presented herein, as well as a method to estimate the flood-hazard areas. Six factors were considered in order to estimate the spatial distribution of the hazardous areas: flow accumulation, slope, land use, rainfall intensity, geology and elevation. The study area was divided into five regions characterized by different degrees of flood hazard ranging from very low to very high. The produced map of flood-hazard areas identifies the areas and settlements at high risk of flooding. The proposed methodology can be applied to any river basin and here was applied to the Koiliaris River basin in Greece.",
+      "cited_by_count": 432
+    },
+    {
+      "title": "GIS-based site suitability analysis for wind farm development in Saudi Arabia",
+      "authors": "M.A. Baseer, Shafiqur Rehman, Josua P. Meyer, Md. Mahbub Alam",
+      "year": 2017,
+      "venue": "Energy",
+      "doi": "https://doi.org/10.1016/j.energy.2017.10.016",
+      "url": "https://openalex.org/W2763623309",
+      "abstract": "",
+      "cited_by_count": 226
+    },
+    {
+      "title": "Land suitability analysis for agriculture in the Abbay basin using remote sensing, GIS and AHP techniques",
+      "authors": "Seleshi Yalew, Ann van Griensven, Marloes Mul, Pieter van der Zaag",
+      "year": 2016,
+      "venue": "Modeling Earth Systems and Environment",
+      "doi": "https://doi.org/10.1007/s40808-016-0167-x",
+      "url": "https://openalex.org/W2437321664",
+      "abstract": "",
+      "cited_by_count": 199
+    },
+    {
+      "title": "A geospatial analysis of multi-hazard risk in Dharan, Nepal",
+      "authors": "Sanam K. Aksha, Lynn M. Resler, Luke Juran, Laurence W. Carstensen",
+      "year": 2020,
+      "venue": "Geomatics Natural Hazards and Risk",
+      "doi": "https://doi.org/10.1080/19475705.2019.1710580",
+      "url": "https://openalex.org/W3002524248",
+      "abstract": "Natural hazard risk assessment generally focuses on a single hazard type, such as earthquakes, landslides, or floods. This emphasis tends to consider physical processes in isolation. However, most locations are simultaneously at risk to multiple, interacting hazards that generate cascading effects or synergies. Although scholars have proposed a multi-hazard risk framework based on probabilities, the quality and quantity of data required for such an approach are often unavailable in developing countries. Using geospatial and socioeconomic data, this study represents a first step in assessing multi-hazard risk in the city of Dharan, Nepal. Three hazards—landslides, floods, and earthquakes—were considered for an integrated hazard assessment using statistical methods and the Analytic Hierarchy Process (AHP). We employed a Social Vulnerability Index (SoVI) to create a vulnerability map of the study area, which was then combined with a multi-hazard hazard map to produce a total risk map. Our results indicate that eastern Dharan along",
+      "cited_by_count": 142
+    },
+    {
+      "title": "A suitability mapping for the PV solar farms in Egypt based on GIS-AHP to optimize multi-criteria feasibility",
+      "authors": "Bahaa Elboshy, Mamdooh Alwetaishi, Reda M. H. Aly, Amr S. Zalhaf",
+      "year": 2021,
+      "venue": "Ain Shams Engineering Journal",
+      "doi": "https://doi.org/10.1016/j.asej.2021.10.013",
+      "url": "https://openalex.org/W3211406760",
+      "abstract": "Nowadays, photovoltaic (PV) are considered a promising alternative solution as a clean energy source. The power output from the solar PV module is proportional to the amount of solar radiation received by its surface. Hence, the determination of the most convenient locations of PV systems is crucial to maximize their output power. In this paper, the most suitable sites of PV farms in Egypt are identified based on the multi-criteria decision-making (MCDM) technique using the geographic information system (GIS) software. Four categories have been taken into acount; location, environment, meteorology, and climatology, to select the suitable locations. Based on experts’ knowledge ten criteria belong to the main categiories have been weighted using the analytical hierarchy process (AHP) and combined in PV land suitabliltiy index which maped using GIS techniques. The conducted suitability map could be used to guiding installation of renewable energy projects in the future.",
+      "cited_by_count": 152
+    },
+    {
+      "title": "Geospatial Analysis of Solar Energy in Riyadh Using a GIS-AHP-Based Technique",
+      "authors": "Lamya Albraheem, Leena Alabdulkarim",
+      "year": 2021,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "doi": "https://doi.org/10.3390/ijgi10050291",
+      "url": "https://openalex.org/W3159013502",
+      "abstract": "In recent years, spatial multi-criteria decision analysis (MCDA) has been applied to different types of spatial problems, such as solar power site suitability. MCDA can be used to support the process of identifying suitable regions for solar energy projects. To the best of our knowledge, no study has addressed the problem of site evaluation for solar photovoltaic PV systems in the Riyadh region. Therefore, a spatial MCDA framework is proposed to perform a geospatial analysis of solar energy in the Riyadh region, which includes data collection, spatial analysis, a spatial decision support system and visualization. The methodology that was used to solve the site suitability problem is described. It involved the combination of a Geographical Information System (GIS) and the Analytic Hierarchy Process (GIS-AHP). The results show that the most suitable sites are in the north and northwest of the Riyadh region, with an area that represents 16,748 Km2 with",
+      "cited_by_count": 63
+    },
+    {
+      "title": "GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&amp;K, India",
+      "authors": "Jahangeer A. Parry, Showkat A. Ganaie, M. Sultan Bhat",
+      "year": 2018,
+      "venue": "Journal of Urban Management",
+      "doi": "https://doi.org/10.1016/j.jum.2018.05.002",
+      "url": "https://openalex.org/W2807658480",
+      "abstract": "Rapid urbanization and consequent haphazard growth of cities result in deterioration of infrastructure facilities, loss of agricultural land, water bodies, open spaces, and many micro-climatic changes. This unprecedented growth in city population put pressure on urban amenities and led to their uneven distribution. The Srinagar and Jammu cities witnessed alarming population growth rates in the last thirty years, thus resulted in various problems like pollution, traffic jam, leap-frog development, uneven provision of urban amenities etc. The present study attempted to find out the urban land suitability for the provision of urban amenities. Land use suitability assessment is a key determinant in any urban and suburban planning and decision-making process. The suitability assessment is carried out through AHP model using a set of criteria involving geo-physical and socioeconomic variables. The variables taken for the study are slope, altitude, land use/land cover and existing amenity status. The unit of study is a",
+      "cited_by_count": 168
+    },
+    {
+      "title": "Applications of GIS and geospatial analyses in COVID-19 research: A systematic review",
+      "authors": "Rakibul Ahasan, Md. Shaharier Alam, Torit Chakraborty, Md Mahbub Hossain",
+      "year": 2020,
+      "venue": "F1000Research",
+      "doi": "https://doi.org/10.12688/f1000research.27544.1",
+      "url": "https://openalex.org/W3106943683",
+      "abstract": "<ns3:p> <ns3:bold>Background:</ns3:bold> Geographic information science (GIS) has established itself as a distinct domain and incredibly useful whenever the research is related to geography, space, and other spatio-temporal dimensions. However, the scientific landscape on the integration of GIS in COVID-related studies is largely unknown. In this systematic review, we assessed the current evidence on the implementation of GIS and other geospatial tools in the COVID-19 pandemic. </ns3:p> <ns3:p> <ns3:bold>Methods:</ns3:bold> We systematically retrieved and reviewed 79 research articles that either directly used GIS or other geospatial tools as part of their analysis. We grouped the identified papers under six broader thematic groups based on the objectives and research questions of the study- environmental, socio-economic, and cultural, public health, spatial transmission, computer-aided modeling, and data mining. </ns3:p> <ns3:p> <ns3:bold>Results:</ns3:bold> The interdisciplinary nature of how geographic and spatial analysis was used in COVID-19 research was notable among the reviewed papers. Although GIS has substantial",
+      "cited_by_count": 69
+    },
+    {
+      "title": "Utilizing Cloud Computing to address big geospatial data challenges",
+      "authors": "Chaowei Yang, Manzhu Yu, Fei Hu, Yongyao Jiang, Yun Li",
+      "year": 2016,
+      "venue": "Computers Environment and Urban Systems",
+      "doi": "https://doi.org/10.1016/j.compenvurbsys.2016.10.010",
+      "url": "https://openalex.org/W2547221248",
+      "abstract": "Big Data has emerged with new opportunities for research, development, innovation and business. It is characterized by the so-called four Vs: volume, velocity, veracity and variety and may bring significant value through the processing of Big Data. The transformation of Big Data's 4 Vs into the 5th (value) is a grand challenge for processing capacity. Cloud Computing has emerged as a new paradigm to provide computing as a utility service for addressing different processing needs with a) on demand services, b) pooled resources, c) elasticity, d) broad band access and e) measured services. The utility of delivering computing capability fosters a potential solution for the transformation of Big Data's 4 Vs into the 5th (value). This paper investigates how Cloud Computing can be utilized to address Big Data challenges to enable such transformation. We introduce and review four geospatial scientific examples, including climate studies, geospatial knowledge mining, land cover simulation,",
+      "cited_by_count": 195
+    },
+    {
+      "title": "GIS-Based Planning and Modeling for Renewable Energy: Challenges and Future Research Avenues",
+      "authors": "Bernd Resch, Günther Sagl, Tobias Törnros, Andreas Bachmaier, Jan-Bleicke Eggers",
+      "year": 2014,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "doi": "https://doi.org/10.3390/ijgi3020662",
+      "url": "https://openalex.org/W2081160624",
+      "abstract": "In the face of the broad political call for an “energy turnaround”, we are currently witnessing three essential trends with regard to energy infrastructure planning, energy generation and storage: from planned production towards fluctuating production on the basis of renewable energy sources, from centralized generation towards decentralized generation and from expensive energy carriers towards cost-free energy carriers. These changes necessitate considerable modifications of the energy infrastructure. Even though most of these modifications are inherently motivated by geospatial questions and challenges, the integration of energy system models and Geographic Information Systems (GIS) is still in its infancy. This paper analyzes the shortcomings of previous approaches in using GIS in renewable energy-related projects, extracts distinct challenges from these previous efforts and, finally, defines a set of core future research avenues for GIS-based energy infrastructure planning with a focus on the use of renewable energy. These future research avenues comprise the availability base",
+      "cited_by_count": 166
+    },
+    {
+      "title": "A Hybrid Approach Integrating Entropy-AHP and GIS for Suitability Assessment of Urban Emergency Facilities",
+      "authors": "Penjani Hopkins Nyimbili, Turan Erden",
+      "year": 2020,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "doi": "https://doi.org/10.3390/ijgi9070419",
+      "url": "https://openalex.org/W3040523081",
+      "abstract": "Globalization has become a major issue of focus as rapid urban populations and urbanization effects are on the rise. A critical need arises for effective urban planning for Istanbul in relation to the use of a hybrid approach integrating AHP-Entropy and GIS for emergency facility planning. In this paper, the combination of AHP and Entropy methods was used for evaluating criterion weights subjectively and objectively. These techniques were utilized with regard to the assessment of suitable areas for planning new urban emergency facilities for Istanbul province which experiences increasing urban fire-related emergencies. AHP and Entropy have been used to evaluate the weights of determined criteria from expert preference judgments and GIS for processing, analysis and visualization of the model result in the form of a suitability map for new urban emergency facilities. Validation of the model was performed on the criteria with the strongest influence in the decision outcome and",
+      "cited_by_count": 78
+    }
+  ],
+  "MCDM": [
+    {
+      "title": "A New Model for Determining Weight Coefficients of Criteria in MCDM Models: Full Consistency Method (FUCOM)",
+      "authors": "Dragan Pamučar, Željko Stević, Siniša Sremac",
+      "year": 2018,
+      "venue": "Symmetry",
+      "doi": "https://doi.org/10.3390/sym10090393",
+      "url": "https://openalex.org/W2891154333",
+      "abstract": "In this paper, a new multi-criteria problem solving method—the Full Consistency Method (FUCOM)—is proposed. The model implies the definition of two groups of constraints that need to satisfy the optimal values of weight coefficients. The first group of constraints is the condition that the relations of the weight coefficients of criteria should be equal to the comparative priorities of the criteria. The second group of constraints is defined on the basis of the conditions of mathematical transitivity. After defining the constraints and solving the model, in addition to optimal weight values, a deviation from full consistency (DFC) is obtained. The degree of DFC is the deviation value of the obtained weight coefficients from the estimated comparative priorities of the criteria. In addition, DFC is also the reliability confirmation of the obtained weights of criteria. In order to illustrate the proposed model and evaluate its performance, FUCOM was tested on several",
+      "cited_by_count": 838
+    },
+    {
+      "title": "MCDM and Various Prioritization Methods in AHP for CSS: A Comprehensive Review",
+      "authors": "Jayadev Gyani, Ahsan Uddin Ahmed, Mohd Anul Haq",
+      "year": 2022,
+      "venue": "IEEE Access",
+      "doi": "https://doi.org/10.1109/access.2022.3161742",
+      "url": "https://openalex.org/W4220833154",
+      "abstract": "Availability and diversity of cloud service providers (CSPs) had put the users into confusion for its selection of the appropriate service providers. Some cloud service providers are good at some services while others are good at offering other services. The selection of an appropriate cloud service is one of the multi-criteria decision analysis (MCDA) problems that became a critical issue of public concern in the uncertain cloud industry. Based on multiple criteria, various multi-criteria decision-making (MCDM) methods can be used for the selection of the best CSPs. Researchers considered MCDM techniques as the best methodology for deciding cloud rank. The paper presents a set of decision criteria and their sub-criteria required for evaluating CSPs. The main goal of this paper is to present a review of various MCDM methods for decision-making. Furthermore, the strengths and weaknesses of various MDCM techniques are discussed to help the researchers about the current trends",
+      "cited_by_count": 95
+    },
+    {
+      "title": "MAINTENANCE STRATEGY SELECTION USING AHP AND COPRAS UNDER FUZZY ENVIRONMENT / PRIEŽIŪROS STRATEGIJOS PARINKIMAS TAIKANT AHP IR COPRAS METODUS NEAPIBRĖŽTOSE SITUACIJOSE",
+      "authors": "Mohammad Majid Fouladgar, Abdolreza Yazdani–Chamzini, Ali Lashgari, Edmundas Kazimieras Zavadskas, Zenonas Turskis",
+      "year": 2012,
+      "venue": "International Journal of Strategic Property Management",
+      "doi": "https://doi.org/10.3846/1648715x.2012.666657",
+      "url": "https://openalex.org/W1973208282",
+      "abstract": "Asset management, as a systematic process of operating, maintaining, and upgrading physical assets, is an important element of decision-making in heavy equipment management and operation. Maintenance strategy selection plays a significant role in mining design. However, the nature of maintenance strategy selection is a complex multi-criteria decision making (MCDM) problem including both tangible and intangible parameters which are often in conflicting with each other. As well as when decision makers are uncertain in determining and defining the ratings and the weights of alternatives and criteria respectively, fuzzy theory provides an appropriate tool to handle the existing uncertainties. In this paper, a new fuzzy MCDM method based on the concepts of COPRAS (COmplex PRoportional ASsessment) and AHP (Analytical Hierarchy Process) was proposed to evaluate the feasible maintenance strategy. The linguistic terms are employed to assess the ratings and weights. Fuzzy AHP is utilized to calculate the weights of the evaluation criteria;",
+      "cited_by_count": 171
+    },
+    {
+      "title": "A Comparative Study of the AHP and TOPSIS Techniques for Dam Site Selection Using GIS: A Case Study of Sistan and Baluchestan Province, Iran",
+      "authors": "Ali Jozaghi, Babak Alizadeh, Mohsen Hatami, Ian Flood, Mohammad Khorrami",
+      "year": 2018,
+      "venue": "Geosciences",
+      "doi": "https://doi.org/10.3390/geosciences8120494",
+      "url": "https://openalex.org/W2898642737",
+      "abstract": "The application of multiple criteria decision-making (MCDM) techniques in real-life problems has increased in recent years. The need to build advanced decision models with higher capabilities that can support decision-making in a broad spectrum of applications, promotes the integration of MCDM techniques with applicable systems, including artificial intelligence, and Geographic Information Systems (GIS). The Analytic Hierarchy Process (AHP) and Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS) are among the most widely adopted MCDM techniques capable of resolving water resources challenges. A critical problem associated with water resource management is dam site selection. This paper presents a comparative analysis of TOPSIS and AHP in the context of decision-making using GIS for dam site selection. The comparison was made based on geographic and water quality criteria. The geographical criteria are geology, land use, sediment, erosion, slope, groundwater, and discharge. The water quality criteria include Soluble Sodium Percentage, Total",
+      "cited_by_count": 174
+    },
+    {
+      "title": "Multiple criteria facility location problems: A survey",
+      "authors": "Reza Zanjirani Farahani, Maryam SteadieSeifi, Nasrin Asgari",
+      "year": 2009,
+      "venue": "Applied Mathematical Modelling",
+      "doi": "https://doi.org/10.1016/j.apm.2009.10.005",
+      "url": "https://openalex.org/W2171290056",
+      "abstract": "",
+      "cited_by_count": 652
+    },
+    {
+      "title": "Analysis of a Robot Selection Problem Using Two Newly Developed Hybrid MCDM Models of TOPSIS-ARAS and COPRAS-ARAS",
+      "authors": "Shankha Shubhra Goswami, Dhiren Kumar Behera, Asif Afzal, Abdul Razak Kaladgi, Sher Afghan Khan",
+      "year": 2021,
+      "venue": "Symmetry",
+      "doi": "https://doi.org/10.3390/sym13081331",
+      "url": "https://openalex.org/W3183965003",
+      "abstract": "Traditional Multi-Criteria Decision Making (MCDM) methods have now become outdated; therefore, most researchers are focusing on more robust hybrid MCDM models that combine two or more MCDM techniques to address decision-making problems. The authors attempted to create two novel hybrid MCDM systems in this paper by integrating Additive Ratio ASsessment (ARAS) with Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS) and Complex PRoportional ASsessment (COPRAS). To demonstrate the ability and effectiveness of these two hybrid models i.e., TOPSIS-ARAS and COPRAS-ARAS were applied to solve a real-time robot selection problem with 12 alternative robots and five selection criteria, while evaluating the parametric importance using the CRiteria Importance Through Inter criteria Correlation (CRITIC) objective weighting estimation tool. The rankings of the robot alternatives gained from these two hybrid models were also compared to the obtained results from eight other solo MCDM tools. Although the rankings by the applied methods",
+      "cited_by_count": 128
+    },
+    {
+      "title": "A comprehensive analysis of weighting and multicriteria methods in the context of sustainable energy",
+      "authors": "Mehmet Şahin",
+      "year": 2020,
+      "venue": "International Journal of Environmental Science and Technology",
+      "doi": "https://doi.org/10.1007/s13762-020-02922-7",
+      "url": "https://openalex.org/W3086423855",
+      "abstract": "",
+      "cited_by_count": 225
+    },
+    {
+      "title": "Evaluating construction projects of hotels based on environmental sustainability with MCDM framework",
+      "authors": "Sarfaraz Hashemkhani Zolfani, Morteza Pourhossein, Morteza Yazdani, Edmundas Kazimieras Zavadskas",
+      "year": 2017,
+      "venue": "Alexandria Engineering Journal",
+      "doi": "https://doi.org/10.1016/j.aej.2016.11.002",
+      "url": "https://openalex.org/W2574667966",
+      "abstract": "Environmental issues have got incredible attention among daily life activities. Sustainability penetrated in all society practices specially construction industry due to its substantial impact on the environment. Monitoring and controlling architectural project contains a decision problem with multi-varieties analysis. This study aimed to evaluate construction projects of hotels regarding environmental sustainability. To this end, a hybrid Multiple Criteria Decision Making (MCDM) model is proposed. Step‐wise Weight Assessment Ratio Analysis (SWARA) and Complex proportional assessment (COPRAS) compose a unified framework. A private construction project is supposed as a case study. The project is based on establishing a five star hotel in Tehran, Iran. In this research SWARA produces criteria weights and COPRAS will rank decision alternatives. This study can be a strategic route for other similar researches in other fields.",
+      "cited_by_count": 164
+    },
+    {
+      "title": "A fuzzy AHP-TOPSIS approach to supply partner selection in continuous aid humanitarian supply chains",
+      "authors": "V. G. Venkatesh, Abraham Zhang, Eric Deakins, Sunil Luthra, Sachin Kumar Mangla",
+      "year": 2018,
+      "venue": "Annals of Operations Research",
+      "doi": "https://doi.org/10.1007/s10479-018-2981-1",
+      "url": "https://openalex.org/W2883536597",
+      "abstract": "",
+      "cited_by_count": 133
+    },
+    {
+      "title": "Bioethanol facility location selection using best-worst method",
+      "authors": "Siamak Kheybari, Mostafa Kazemi, Jafar Rezaei",
+      "year": 2019,
+      "venue": "Applied Energy",
+      "doi": "https://doi.org/10.1016/j.apenergy.2019.03.054",
+      "url": "https://openalex.org/W2922570235",
+      "abstract": "",
+      "cited_by_count": 201
+    },
+    {
+      "title": "Heuristic Decision Making",
+      "authors": "Gerd Gigerenzer, Wolfgang Gaissmaier",
+      "year": 2010,
+      "venue": "Annual Review of Psychology",
+      "doi": "https://doi.org/10.1146/annurev-psych-120709-145346",
+      "url": "https://openalex.org/W2096016260",
+      "abstract": "As reflected in the amount of controversy, few areas in psychology have undergone such dramatic conceptual changes in the past decade as the emerging science of heuristics. Heuristics are efficient cognitive processes, conscious or unconscious, that ignore part of the information. Because using heuristics saves effort, the classical view has been that heuristic decisions imply greater errors than do \"rational\" decisions as defined by logic or statistical models. However, for many decisions, the assumptions of rational models are not met, and it is an empirical rather than an a priori issue how well cognitive heuristics function in an uncertain world. To answer both the descriptive question (\"Which heuristics do people use in which situations?\") and the prescriptive question (\"When should people rely on a given heuristic rather than a complex strategy to make better judgments?\"), formal models are indispensable. We review research that tests formal models of heuristic inference, including",
+      "cited_by_count": 3985
+    },
+    {
+      "title": "GIS‐based multicriteria decision analysis: a survey of the literature",
+      "authors": "Jacek Malczewski",
+      "year": 2006,
+      "venue": "International Journal of Geographical Information Systems",
+      "doi": "https://doi.org/10.1080/13658810600661508",
+      "url": "https://openalex.org/W2136050606",
+      "abstract": "The integration of GIS and multicriteria decision analysis has attracted significant interest over the last 15 years or so. This paper surveys the GIS‐based multicriteria decision analysis (GIS‐MCDA) approaches using a literature review and classification of articles from 1990 to 2004. An electronic search indicated that over 300 articles appeared in refereed journals. The paper provides taxonomy of those articles and identifies trends and developments in GIS‐MCDA.",
+      "cited_by_count": 2234
+    },
+    {
+      "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews",
+      "authors": "Matthew J. Page, David Moher, Patrick M. Bossuyt, Isabelle Boutron, Tammy Hoffmann",
+      "year": 2021,
+      "venue": "BMJ",
+      "doi": "https://doi.org/10.1136/bmj.n160",
+      "url": "https://openalex.org/W3123893780",
+      "abstract": "The PRISMA 2020 statement includes a checklist of 27 items to guide reporting of systematic reviews In this article we explain why reporting of each item is recommended, present bullet points that detail the reporting recommendations, and present examples from published reviews We hope that uptake of the PRISMA 2020 statement will lead to more transparent, complete, and accurate reporting of systematic reviews, thus facilitating evidence based decision making on 1 September",
+      "cited_by_count": 11461
+    },
+    {
+      "title": "Multi-Criteria Decision-Making (MCDM) for the Assessment of Renewable Energy Technologies in a Household: A Review",
+      "authors": "Indrė Šikšnelytė-Butkienė, Edmundas Kazimieras Zavadskas, Dalia Štreimikienė",
+      "year": 2020,
+      "venue": "Energies",
+      "doi": "https://doi.org/10.3390/en13051164",
+      "url": "https://openalex.org/W3010369807",
+      "abstract": "Different power generation technologies have different advantages and disadvantages. However, if compared to traditional energy sources, renewable energy sources provide a possibility to solve the climate change and economic decarbonization issues that are so relevant today. Therefore, the analysis and evaluation of renewable energy technologies has been receiving increasing attention in the politics of different countries and the scientific literature. The household sector consumes almost one third of all energy produced, thus studies on the evaluation of renewable energy production technologies in households are very important. This article reviews the scientific literature that have used multiple-criteria decision-making (MCDM) methods as a key tool to evaluate renewable energy technologies in households. The findings of the conducted research are categorized according to the objectives pursued and the criteria on which the evaluation was based are discussed. The article also provides an overview and in-depth analysis of MCDM methods and distinguishes the main",
+      "cited_by_count": 265
+    },
+    {
+      "title": "A review of multi-criteria decision-making methods for bioenergy systems",
+      "authors": "James A. Scott, William Ho, Prasanta Kumar Dey",
+      "year": 2012,
+      "venue": "Energy",
+      "doi": "https://doi.org/10.1016/j.energy.2012.03.074",
+      "url": "https://openalex.org/W1965172015",
+      "abstract": "",
+      "cited_by_count": 191
+    },
+    {
+      "title": "A framework for GIS-based site selection and technical potential evaluation of PV solar farm using Fuzzy-Boolean logic and AHP multi-criteria decision-making approach",
+      "authors": "Younes Noorollahi, Ali Ghenaatpisheh Senani, Ahmad Fadaei, Mobina Simaee, Rahim Moltames",
+      "year": 2022,
+      "venue": "Renewable Energy",
+      "doi": "https://doi.org/10.1016/j.renene.2021.12.124",
+      "url": "https://openalex.org/W4226221652",
+      "abstract": "",
+      "cited_by_count": 214
+    },
+    {
+      "title": "Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+      "authors": "Christopher J L Murray, Aleksandr Y. Aravkin, Peng Zheng, Cristiana Abbafati, Kaja Abbas",
+      "year": 2020,
+      "venue": "The Lancet",
+      "doi": "https://doi.org/10.1016/s0140-6736(20)30752-2",
+      "url": "https://openalex.org/W3092861045",
+      "abstract": "BACKGROUND: Rigorous analysis of levels and trends in exposure to leading risk factors and quantification of their effect on human health are important to identify where public health is making progress and in which cases current efforts are inadequate. The Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2019 provides a standardised and comprehensive assessment of the magnitude of risk factor exposure, relative risk, and attributable burden of disease. METHODS: GBD 2019 estimated attributable mortality, years of life lost (YLLs), years of life lived with disability (YLDs), and disability-adjusted life-years (DALYs) for 87 risk factors and combinations of risk factors, at the global level, regionally, and for 204 countries and territories. GBD uses a hierarchical list of risk factors so that specific risk factors (eg, sodium intake), and related aggregates (eg, diet quality), are both evaluated. This method has six analytical steps. (1) We included 560 risk-outcome pairs",
+      "cited_by_count": 9794
+    },
+    {
+      "title": "Hospital site selection using two-stage fuzzy multi-criteria decision making process",
+      "authors": "Alì Soltani, Ibrahim Zargari Marandi",
+      "year": 2011,
+      "venue": "Journal of Urban and Environmental Engineering",
+      "doi": "https://doi.org/10.4090/juee.2011.v5n1.032043",
+      "url": "https://openalex.org/W2087220761",
+      "abstract": "Abstract: Site selection for sitting of urban activities/facilities is one of the crucial policy-related decisions taken by urban planners and policy makers. The process of site selection is inherently complicated. A careless site imposes exorbitant costs on city budget and damages the environment inevitably. Nowadays, multi-attributes decision making approaches are suggested to use to improve precision of decision making and reduce surplus side effects. Two well-known techniques, analytical hierarchal process and analytical network process are among multi-criteria decision making systems which can easily be consistent with both quantitative and qualitative criteria. These are also developed to be fuzzy analytical hierarchal process and fuzzy analytical network process systems which are capable of accommodating inherent uncertainty and vagueness in multi-criteria decision-making. This paper reports the process and results of a hospital site selection within the Region 5 of Shiraz metropolitan area, Iran using integrated fuzzy analytical network process systems with Geographic Information",
+      "cited_by_count": 108
+    },
+    {
+      "title": "Optimal landfill site selection using ArcGIS Multi-Criteria Decision-Making (MCDM) and Analytic Hierarchy Process (AHP) for Kinshasa City",
+      "authors": "Yllah Okin Kang, Helmut Yabar, Takeshi Mizunoya, Yoshiro Higano",
+      "year": 2024,
+      "venue": "Environmental Challenges",
+      "doi": "https://doi.org/10.1016/j.envc.2023.100826",
+      "url": "https://openalex.org/W4391065403",
+      "abstract": "Rapid urbanization and population growth present pressing challenges for effective solid waste management in burgeoning cities. This study addresses the critical issue of landfill site selection in Kinshasa City, employing a systematic and objective approach through the integration of ArcGIS Multi-Criteria Decision-Making (MCDM) and the Analytic Hierarchy Process (AHP). The research utilizes diverse spatial datasets, encompassing factors such as proximity to residential areas, accessibility, land use, environmental constraints, and proximity to water bodies, to generate suitability maps. The findings reveal that there are large areas within Kinshasa City that exhibit high suitability for landfill establishment, and that the existing landfill in Kinshasa City is situated within areas deemed unsuitable based on the selected criteria in this study, underscoring the urgency of deeper analysis for future landfill siting, prioritizing the minimization of environmental impact, health risks for nearby communities, and ensurance of a long-term sustainability of waste management practices in Kinshasa",
+      "cited_by_count": 62
+    },
+    {
+      "title": "Combining multi-criteria decision making (MCDM) methods with building information modelling (BIM): A review",
+      "authors": "Tan Tan, Grant Mills, Eleni Papadonikolaki, Zhening Liu",
+      "year": 2020,
+      "venue": "Automation in Construction",
+      "doi": "https://doi.org/10.1016/j.autcon.2020.103451",
+      "url": "https://openalex.org/W3097269121",
+      "abstract": "",
+      "cited_by_count": 207
+    }
+  ],
+  "Recommendation": [
+    {
+      "title": "Millennials Housing Preferences Model in Jakarta",
+      "authors": "Yunilson Mulyano, Raden Aswin Rahadi, Urfi Amaliah",
+      "year": 2020,
+      "venue": "European Journal of Business Management and Research",
+      "doi": "https://doi.org/10.24018/ejbmr.2020.5.1.240",
+      "url": "https://openalex.org/W3008018085",
+      "abstract": "This paper will discuss the housing preferences among Millennials in Jakarta. The approach used is by analyzing twenty papers related to housing preferences, making synthesis from collected paper, and producing critical view for each related papers. The objective of this research is to find the reasons for the Millennial Generation when purchasing a house. This paper found that housing preferences for Millennials divided into several indicators, such: location, accessibility, price, physical attributes, facilities, design, and aesthetic aspects, developer reputation, and land ownership. All of these indicators will determine the choices of Millennials in buying houses, especially the character of the house, which landed a house or vertical house. This limitation of this research is that this research only studies about preferences on millennials generation who lived in the Jakarta Metropolitan Area. The findings of this study will be useful for the stakeholders, real estate developers, and consumers. The government could",
+      "cited_by_count": 32
+    },
+    {
+      "title": "It’s all about perceptions: A DEMATEL approach to exploring user perceptions of real estate online platforms",
+      "authors": "Fahim Ullah, Samad M. E. Sepasgozar, Muhammad Jamaluddin Thaheem, Cynthia Wang, Muhammad Imran",
+      "year": 2021,
+      "venue": "Ain Shams Engineering Journal",
+      "doi": "https://doi.org/10.1016/j.asej.2021.04.023",
+      "url": "https://openalex.org/W3163336139",
+      "abstract": "Real Estate Online Platforms (REOPs) are used for conveying real estate and property-related information to potential users (buyers, renters, or sellers). The information leveraged through REOPs supports these users in reaching conclusive rent or buy decisions. Despite their promised utility, user perception about accepting online information through REOPs is unexplored. Using a comprehensive questionnaire and data collected from 65 users, the current study captures the users’ perception of REOPs. Risk, service, information, system, technology adoption model (RSISTAM) is proposed comprising of seven users’ perceptions: risk (PR), service quality (PSEQ), information quality (PIQ), and system quality (PSYQ) from the information systems success model, and usefulness (PU), ease of use (PEU) and behaviour to accept (BAU) from TAM. The results are analysed using the decision making trial and evaluation laboratory (DEMATEL) approach, which shows that PIQ, PSEQ and PEU are the causes and PR, PSYQ, PU and BAU are the effects. Among",
+      "cited_by_count": 89
+    },
+    {
+      "title": "Smart ‘Tourist Cities’ Revisited: Culture-Led Urban Sustainability and the Global Real Estate Market",
+      "authors": "Ioannis Vardopoulos, Maria Papoui-Evangelou, Богдана Носова, Luca Salvati",
+      "year": 2023,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su15054313",
+      "url": "https://openalex.org/W4322619392",
+      "abstract": "Smart tourism destinations have received increasing attention during the last few years. Digital technologies have reshaped the smart city paradigm in terms of both resilience and sustainability, capitalizing cities’ cultural and historical components while providing unique potential for growth in the real estate industry. Real estate, in particular, is considered a main asset to the tourist experience, whether it is in the form of hospitality accommodation facilities, urban landscapes, or cultural heritage hotspots. In addition, the effect of cultural sites and overall destination attractiveness on real estate dynamics (land/housing prices and building activity) is well established. Thus, uncovering how enhanced technological throughputs and synergies, culture-led urban sustainability initiatives and the real estate dimension are directly (or indirectly) associated could support cities to better delineate policies for their promotion as international, sustainable, and resilient tourist destinations. With this perspective, the present study focused on four particular cities’ successful smart initiatives, namely",
+      "cited_by_count": 57
+    },
+    {
+      "title": "Fairness in Information Access Systems",
+      "authors": "Michael D. Ekstrand, Anubrata Das, Robin Burke, Fernando Díaz",
+      "year": 2022,
+      "venue": "Foundations and Trends® in Information Retrieval",
+      "doi": "https://doi.org/10.1561/1500000079",
+      "url": "https://openalex.org/W4285059900",
+      "abstract": "Recommendation, information retrieval, and other information access systems pose unique challenges for investigating and applying the fairness and non-discrimination concepts that have been developed for studying other machine learning systems. While fair information access shares many commonalities with fair classification, there are important differences: the multistakeholder nature of information access applications, the rank-based problem setting, the centrality of personalization in many cases, and the role of user response all complicate the problem of identifying precisely what types and operationalizations of fairness may be relevant. In this monograph, we present a taxonomy of the various dimensions of fair information access and survey the literature to date on this new and rapidly-growing topic. We preface this with brief introductions to information access and algorithmic fairness to facilitate the use of this work by scholars with experience in one (or neither) of these fields who wish to study their intersection. We conclude with",
+      "cited_by_count": 128
+    },
+    {
+      "title": "An Intelligent Recommendation System for Real Estate Commodity",
+      "authors": "Tsung-Yin Ou, Guanyu Lin, Hsin‐Pin Fu, Shih-Chia Wei, Wen-Lung Tsai",
+      "year": 2022,
+      "venue": "Computer Systems Science and Engineering",
+      "doi": "https://doi.org/10.32604/csse.2022.022637",
+      "url": "https://openalex.org/W4210873734",
+      "abstract": "Most real estate agents develop new objects by visiting unfamiliar clients, distributing leaflets, or browsing other real estate trading website platforms, whereas consumers often rely on websites to search and compare prices when purchasing real property. In addition to being time consuming, this search process renders it difficult for agents and consumers to understand the status changes of objects. In this study, Python is used to write web crawler and image recognition programs to capture object information from the web pages of real estate agents; perform data screening, arranging, and cleaning; compare the text of real estate object information; as well as integrate and use the convolutional neural network of a deep learning algorithm to implement image recognition. In this study, data are acquired from two business-to-consumer real estate agency networks, i.e., the Sinyi real estate agent and the Yungching real estate agent, and one consumer-to-consumer real estate agency platform,",
+      "cited_by_count": 10
+    },
+    {
+      "title": "Steps Forward: Review and Recommendations for Research on Walkability, Physical Activity and Cardiovascular Health",
+      "authors": "Gina S. Lovasi, Stephanie T. Grady, Andrew Rundle",
+      "year": 2011,
+      "venue": "Public health reviews",
+      "doi": "https://doi.org/10.1007/bf03391647",
+      "url": "https://openalex.org/W120942210",
+      "abstract": "Built environments that support walking and other physical activities have the potential to reduce cardiovascular disease (CVD). Walkable neighborhoods-characterized by density, land use diversity, and well-connected transportation networks-have been linked to more walking, less obesity, and lower coronary heart disease risk. Yet ongoing research on pedestrian-friendly built environments has the potential to address important gaps. While much of the literature has focused on urban form and planning characteristics, additional aspects of street-scapes, such as natural and architectural amenities, should also be considered. Promising future directions include (1) integration of multiple built environment measures that facilitate an understanding of how individuals perceive and act within their environment; (2) examination of both the daily physical activities that are most feasibly influenced by the local environment and those more deliberate or vigorous patterns of physical activity that are most predictive of CVD; (3) consideration of multiple pathways that could mediate a link between",
+      "cited_by_count": 121
+    },
+    {
+      "title": "Factors Affecting Residential Satisfaction in Slum Rehabilitation Housing in Mumbai",
+      "authors": "Bangkim Kshetrimayum, Ronita Bardhan, Tetsu Kubota",
+      "year": 2020,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su12062344",
+      "url": "https://openalex.org/W3011358505",
+      "abstract": "Affordable housing for the low-income population, who mostly live in slums, is an endemic challenge for cities in developing countries. As a remedy for the slum-free city, most of the major metropolis are resorting to slum rehabilitation housing. Rehabilitation connotes the improved quality of life that provides contentment, yet what entails residential satisfaction in such low-income situations remains a blind spot in literature. The study aims to examine the factors affecting residential satisfaction of slum rehabilitation housing in Mumbai, India. Here, the moderation effects of sociodemographic characteristics between residential satisfaction and its predictors are elaborated using a causal model. Data on residents’ perception of the residential environment were collected from 981 households in three different slum rehabilitation housing areas spatially spread across Mumbai. The causal model indicated that residential satisfaction was significantly determined by internal conditions of dwelling resulting from design, community environment and access to facilities. Gender, age, mother",
+      "cited_by_count": 63
+    },
+    {
+      "title": "Access-Based Consumption: The Case of Car Sharing: Table 1.",
+      "authors": "Fleura Bardhi, Giana M. Eckhardt",
+      "year": 2012,
+      "venue": "Journal of Consumer Research",
+      "doi": "https://doi.org/10.1086/666376",
+      "url": "https://openalex.org/W2026318397",
+      "abstract": "Access-based consumption, defined as transactions that can be market mediated but where no transfer of ownership takes place, is becoming increasingly popular, yet it is not well theorized. This study examines the nature of access as it contrasts to ownership and sharing, specifically the consumer-object, consumer-consumer, and consumer-marketer relationships. Six dimensions are identified to distinguish among the range of access-based consumptionscapes: temporality, anonymity, market mediation, consumer involvement, the type of accessed object, and political consumerism. Access-based consumption is examined in the context of car sharing via an interpretive study of Zipcar consumers. Four outcomes of these dimensions in the context of car sharing are identified: lack of identification, varying significance of use and sign value, negative reciprocity resulting in a big-brother model of governance, and a deterrence of brand community. The implications of our findings for understanding the nature of exchange, consumption, and brand community are discussed.",
+      "cited_by_count": 1975
+    },
+    {
+      "title": "Citizen Science as a Tool for Conservation in Residential Ecosystems",
+      "authors": "Caren B. Cooper, Janis L. Dickinson, Tina Phillips, Rick Bonney",
+      "year": 2007,
+      "venue": "Ecology and Society",
+      "doi": "https://doi.org/10.5751/es-02197-120211",
+      "url": "https://openalex.org/W130925041",
+      "abstract": "Cooper, C. B., J. Dickinson, T. Phillips, and R. Bonney. 2007. Citizen science as a tool for conservation in residential ecosystems. Ecology and Society 12(2): 11. https://doi.org/10.5751/ES-02197-120211",
+      "cited_by_count": 749
+    },
+    {
+      "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews",
+      "authors": "Matthew J. Page, David Moher, Patrick M. Bossuyt, Isabelle Boutron, Tammy Hoffmann",
+      "year": 2021,
+      "venue": "BMJ",
+      "doi": "https://doi.org/10.1136/bmj.n160",
+      "url": "https://openalex.org/W3123893780",
+      "abstract": "The PRISMA 2020 statement includes a checklist of 27 items to guide reporting of systematic reviews In this article we explain why reporting of each item is recommended, present bullet points that detail the reporting recommendations, and present examples from published reviews We hope that uptake of the PRISMA 2020 statement will lead to more transparent, complete, and accurate reporting of systematic reviews, thus facilitating evidence based decision making on 1 September",
+      "cited_by_count": 11461
+    },
+    {
+      "title": "Price elasticity of residential demand for water: A meta‐analysis",
+      "authors": "Molly Espey, James A. Espey, W. Shaw",
+      "year": 1997,
+      "venue": "Water Resources Research",
+      "doi": "https://doi.org/10.1029/97wr00571",
+      "url": "https://openalex.org/W2018513392",
+      "abstract": "Meta‐analysis is used to determine if there are factors that systematically affect price elasticity estimates in studies of residential water demand in the United States. An econometric model is estimated, using price elasticity estimates from previous studies as the dependent variable. Explanatory variables include functional form, cross‐sectional versus time series, water price specification, rate structure, location, season, and estimation technique. Inclusion of income, rainfall, and evapotranspiration are all found to influence the estimate of the price elasticity. Population density, household size, and temperature do not significantly influence the estimate of the price elasticity. Pricing structure and season are also found to significantly influence the estimate of the price elasticity.",
+      "cited_by_count": 471
+    },
+    {
+      "title": "Measuring residential satisfaction: a residential environmental satisfaction scale (RESS)",
+      "authors": "C. C. M. Adriaanse",
+      "year": 2007,
+      "venue": "Journal of Housing and the Built Environment",
+      "doi": "https://doi.org/10.1007/s10901-007-9082-9",
+      "url": "https://openalex.org/W2049895189",
+      "abstract": "The aim of this article is to introduce an integrative and more comprehensive approach to measurement of residential environmental satisfaction. Domains of residential environmental satisfaction were empirically examined using techniques for multivariate analysis. Data were mainly drawn from the Housing Demand Survey (WoningBehoefteOnderzoek 2002), an a-select sample of 75,034 respondents that is representative for the population of Dutch residents in 2002. The Housing Demand Survey is one of the most extensive sample surveys in the Netherlands and is held every 4 years. The results of exploratory factor analysis give empirical support for the usefulness of the theoretically proposed three-component model of residential environmental satisfaction. Furthermore, multi-group analysis supports the assumption of similarity of perceived quality of the living situation among people varying in degree of residential environmental satisfaction. Reliability and validity tests confirm that the Residential Environmental Satisfaction Scale-Dutch Language Version (RESS-DLV) is an adequate instrument and that it contributes",
+      "cited_by_count": 288
+    },
+    {
+      "title": "Eliciting public preferences for healthcare: a systematic review of techniques",
+      "authors": "Mandy Ryan, David A. Scott, Catherine Reeves, Angela Bate, Edwin van Teijlingen",
+      "year": 2001,
+      "venue": "Health Technology Assessment",
+      "doi": "https://doi.org/10.3310/hta5050",
+      "url": "https://openalex.org/W1983122360",
+      "abstract": "BACKGROUND: Limited resources coupled with unlimited demand for healthcare mean that decisions have to be made regarding the allocation of scarce resources across competing interventions. Policy documents have advocated the importance of public views as one such criterion. In principle, the elicitation of public values represents a big step forward. However, for the exercise to be worthwhile, useful information must be obtained that is scientifically defensible, whilst decision-makers must be able and willing to use it. AIMS AND OBJECTIVES: The aim was to identify techniques that could be reasonably used to elicit public views on the provision of healthcare. Hence, the objectives were: (1) to identify research methods with the potential to take account of public views on the delivery of healthcare; (2) to identify criteria for assessing these methods; (3) to assess the methods identified according to the predefined criteria; (4) to assess the importance of public views vis-à-vis",
+      "cited_by_count": 646
+    },
+    {
+      "title": "Autonomous driving and residential location preferences: Evidence from a stated choice survey",
+      "authors": "Rico Krueger, Taha Hossein Rashidi, Vinayak Dixit",
+      "year": 2019,
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "doi": "https://doi.org/10.1016/j.trc.2019.09.018",
+      "url": "https://openalex.org/W2978533025",
+      "abstract": "",
+      "cited_by_count": 83
+    },
+    {
+      "title": "Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): Explanation and Elaboration",
+      "authors": "Jan P. Vandenbroucke, Erik von Elm, Douglas G. Altman, Peter C Gøtzsche, Cynthia D. Mulrow",
+      "year": 2007,
+      "venue": "PLoS Medicine",
+      "doi": "https://doi.org/10.1371/journal.pmed.0040297",
+      "url": "https://openalex.org/W2116810060",
+      "abstract": "Much medical research is observational. The reporting of observational studies is often of insufficient quality. Poor reporting hampers the assessment of the strengths and weaknesses of a study and the generalisability of its results. Taking into account empirical evidence and theoretical considerations, a group of methodologists, researchers, and editors developed the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) recommendations to improve the quality of reporting of observational studies. The STROBE Statement consists of a checklist of 22 items, which relate to the title, abstract, introduction, methods, results and discussion sections of articles. Eighteen items are common to cohort studies, case-control studies and cross-sectional studies and four are specific to each of the three study designs. The STROBE Statement provides guidance to authors about how to improve the reporting of observational studies and facilitates critical appraisal and interpretation of studies by reviewers, journal editors and readers. This explanatory and",
+      "cited_by_count": 8534
+    },
+    {
+      "title": "The Socio-Demographic and Psychological Predictors of Residential Energy Consumption: A Comprehensive Review",
+      "authors": "Elisha R. Frederiks, Karen Stenner, Elizabeth V. Hobman",
+      "year": 2015,
+      "venue": "Energies",
+      "doi": "https://doi.org/10.3390/en8010573",
+      "url": "https://openalex.org/W1973823147",
+      "abstract": "This article provides a comprehensive review of theory and research on the individual-level predictors of household energy usage. Drawing on literature from across the social sciences, we examine two broad categories of variables that have been identified as potentially important for explaining variability in energy consumption and conservation: socio-demographic factors (e.g., income, employment status, dwelling type/size, home ownership, household size, stage of family life cycle) and psychological factors (e.g., beliefs and attitudes, motives and intentions, perceived behavioral control, cost-benefit appraisals, personal and social norms). Despite an expanding literature, we find that empirical evidence of the impact of these variables has been far from consistent and conclusive to date. Such inconsistency poses challenges for drawing generalizable conclusions, and underscores the complexity of consumer behavior in this domain. In this article, we propose that a multitude of factors—whether directly, indirectly, or in interaction—influence how householders consume and conserve energy. Theory, research and",
+      "cited_by_count": 353
+    },
+    {
+      "title": "A Survey of Location Prediction on Twitter",
+      "authors": "Xin Zheng, Jialong Han, Aixin Sun",
+      "year": 2018,
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "doi": "https://doi.org/10.1109/tkde.2018.2807840",
+      "url": "https://openalex.org/W2612301670",
+      "abstract": "Locations, e.g., countries, states, cities, and point-of-interests, are central to news, emergency events, and people's daily lives. Automatic identification of locations associated with or mentioned in documents has been explored for decades. As one of the most popular online social network platforms, Twitter has attracted a large number of users who send millions of tweets on daily basis. Due to the world-wide coverage of its users and real-time freshness of tweets, location prediction on Twitter has gained significant attention in recent years. Research efforts are spent on dealing with new challenges and opportunities brought by the noisy, short, and context-rich nature of tweets. In this survey, we aim at offering an overall picture of location prediction on Twitter. Specifically, we concentrate on the prediction of user home locations, tweet locations, and mentioned locations. We first define the three tasks and review the evaluation metrics. By summarizing Twitter network, tweet content,",
+      "cited_by_count": 249
+    },
+    {
+      "title": "A Survey on Wireless Body Area Networks for eHealthcare Systems in Residential Environments",
+      "authors": "Mohammad Ghamari, Balazs Janko, R. Simon Sherratt, William Harwin, Robert J. Piechocki",
+      "year": 2016,
+      "venue": "Sensors",
+      "doi": "https://doi.org/10.3390/s16060831",
+      "url": "https://openalex.org/W2412353053",
+      "abstract": "Current progress in wearable and implanted health monitoring technologies has strong potential to alter the future of healthcare services by enabling ubiquitous monitoring of patients. A typical health monitoring system consists of a network of wearable or implanted sensors that constantly monitor physiological parameters. Collected data are relayed using existing wireless communication protocols to a base station for additional processing. This article provides researchers with information to compare the existing low-power communication technologies that can potentially support the rapid development and deployment of WBAN systems, and mainly focuses on remote monitoring of elderly or chronically ill patients in residential environments.",
+      "cited_by_count": 295
+    }
+  ],
+  "Property/Housing": [
+    {
+      "title": "Analyzing housing prices in Shanghai with open data: Amenity, accessibility and urban structure",
+      "authors": "Han Li, Yehua Dennis Wei, Yangyi Wu, Guang Tian",
+      "year": 2018,
+      "venue": "Cities",
+      "doi": "https://doi.org/10.1016/j.cities.2018.11.016",
+      "url": "https://openalex.org/W2902637964",
+      "abstract": "",
+      "cited_by_count": 308
+    },
+    {
+      "title": "Impacts of Street-Visible Greenery on Housing Prices: Evidence from a Hedonic Price Model and a Massive Street View Image Dataset in Beijing",
+      "authors": "Yonglin Zhang, Rencai Dong",
+      "year": 2018,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "doi": "https://doi.org/10.3390/ijgi7030104",
+      "url": "https://openalex.org/W2794423274",
+      "abstract": "Street greenery is a component of urban green infrastructure. By forming foundational green corridors in urban ecological systems, street greenery provides vital ecological, social, and cultural functions, and benefits the wellbeing of citizens. However, because of the difficulty of quantifying people’s visual perceptions, the impact of street-visible greenery on housing prices has not been fully studied. Using Beijing, which has a mature real estate market, as an example, this study evaluated 22,331 transactions in 2014 in 2370 private housing estates. We selected 25 variables that were classified into three categories—location, housing, and neighbourhood characteristics—and introduced an index called the horizontal green view index (HGVI) into a hedonic pricing model to measure the value of the visual perception of street greenery in neighbouring residential developments. The results show that (1) Beijing’s homebuyers would like to reside in residential units with a higher HGVI; (2) Beijing’s homebuyers favour larger lakes; and (3)",
+      "cited_by_count": 183
+    },
+    {
+      "title": "Exploring Determinants of Housing Prices in Beijing: An Enhanced Hedonic Regression with Open Access POI Data",
+      "authors": "Yixiong Xiao, Xiang Chen, Qiang Li, Yu Xi, Jin Chen",
+      "year": 2017,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "doi": "https://doi.org/10.3390/ijgi6110358",
+      "url": "https://openalex.org/W2769797207",
+      "abstract": "The housing market in Chinese metropolises have become inflated significantly over the last decade. In addition to an economic upturn and housing policies that have potentially fueled the real estate bubble, factors that have contributed to the spatial heterogeneity of housing prices can be dictated by the amenity value in the proximity of communities, such as accessibility to business centers and transportation hubs. In the past, scholars have employed the hedonic pricing model to quantify the amenity value in relation to structural, locational, and environmental variables. These studies, however, are limited by two methodological obstacles that are relatively difficult to overcome. The first pertains to difficulty of data collection in regions where geospatial datasets are strictly controlled and limited. The second refers to the spatial autocorrelation effect inherent in the hedonic analysis. Using Beijing, China as a case study, we addressed these two issues by (1) collecting residential housing and",
+      "cited_by_count": 76
+    },
+    {
+      "title": "Spatial and Social Media Data Analytics of Housing Prices in Shenzhen, China",
+      "authors": "Chao Wu, Xinyue Ye, Fu Ren, You Wan, Pengfei Ning",
+      "year": 2016,
+      "venue": "PLoS ONE",
+      "doi": "https://doi.org/10.1371/journal.pone.0164553",
+      "url": "https://openalex.org/W2543793035",
+      "abstract": "Housing is among the most pressing issues in urban China and has received considerable scholarly attention. Researchers have primarily concentrated on identifying the factors that influence residential property prices and how such mechanisms function. However, few studies have examined the potential factors that influence housing prices from a big data perspective. In this article, we use a big data perspective to determine the willingness of buyers to pay for various factors. The opinions and geographical preferences of individuals for places can be represented by visit frequencies given different motivations. Check-in data from the social media platform Sina Visitor System is used in this article. Here, we use kernel density estimation (KDE) to analyse the spatial patterns of check-in spots (or places of interest, POIs) and employ the Getis-Ord [Formula: see text] method to identify the hot spots for different types of POIs in Shenzhen, China. New indexes are then proposed",
+      "cited_by_count": 98
+    },
+    {
+      "title": "The impact of neighborhood services on land values: an estimation through the hedonic pricing model",
+      "authors": "Asad Aziz, Muhammad Mushahid Anwar, Muhammad Dawood",
+      "year": 2020,
+      "venue": "GeoJournal",
+      "doi": "https://doi.org/10.1007/s10708-019-10127-w",
+      "url": "https://openalex.org/W3008559652",
+      "abstract": "Abstract A strong need exists to increase the knowledge and recognize the values of neighborhood services. This paper makes an attempt to examine the impact of neighborhood services on land values, through analysis based on results obtained from multi linear regression analysis. This case study was done in area of dense urban settlement to check the consequence of neighborhood services through the hedonic pricing model base variables which include the structural, locational, community and neighborhood services. The regression coefficient was checked at ( p &lt; 0.05) level of significance for each variable. The primary data was collect through the questionnaire filling by random sampling and Punjab Urban Gazette was used for the verification of land values in study area. The results found a valuable potential on land and property values of neighborhood services through the regression analysis results express through R (0.926), R 2 (0.856) and coefficient tables to represent",
+      "cited_by_count": 34
+    },
+    {
+      "title": "Spatial Effects of Public Service Facilities Accessibility on Housing Prices: A Case Study of Xi’an, China",
+      "authors": "Lan Feng, Qi Wu, Tao Zhou, Huili Da",
+      "year": 2018,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su10124503",
+      "url": "https://openalex.org/W2902317130",
+      "abstract": "The premium effect of public service facilities on the housing market is a critical determinant of housing prices, leading to the competition of different social groups in the housing market and fueling spatial inequality. Taking Xi’an, China as a case in point, this study uses Geographic Information System (GIS) to describe the spatial distribution pattern of housing prices and urban public service facilities. Using the mixed geographically weighted regression model (MGWR) and the geographical detector model (GD), this study reveals the spatial effects of these facilities’ accessibility on housing prices. The results show that commercial and leisure facilities are spatially stationary, whereas a non-stationary effect is observed among those providing educational, medical, cultural, sport, and financial services. From the urban spatial resource allocation perspective, facilities meeting people’s basic needs, such as medical care and education, constitute the basic elements of housing price differentiation. When any two of these interact, a",
+      "cited_by_count": 71
+    },
+    {
+      "title": "Valuing school quality using boundary discontinuities",
+      "authors": "Stephen Gibbons, Stephen Machin, Olmo Silva",
+      "year": 2012,
+      "venue": "Journal of Urban Economics",
+      "doi": "https://doi.org/10.1016/j.jue.2012.11.001",
+      "url": "https://openalex.org/W2107722515",
+      "abstract": "",
+      "cited_by_count": 294
+    },
+    {
+      "title": "Influence Factors and Regression Model of Urban Housing Prices Based on Internet Open Access Data",
+      "authors": "Hao Wu, Hongzan Jiao, Yang Yu, Zhigang Li, Zhenghong Peng",
+      "year": 2018,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su10051676",
+      "url": "https://openalex.org/W2803909576",
+      "abstract": "With the commercialization of housing and the deepening of urbanization in China, housing prices are having increasing influence on the land market, and thus indirectly affecting urban development. As various spatial features of an urban housing property directly affect its price, the study of this connection has significance for urban planning. The present study uses mainly open internet data of housing prices, supplemented by other data sources, to identify the spatial features of housing prices and the influence factors in a case study city, Wuhan. Methods employed in the study include the hedonic linear regression model, the geographically weighted regression (GWR) model and the artificial neural network (ANN) model, etc. Progress is made in the following two aspects: first, when calculating the influence factors, hierarchical values for accessibility variables of certain public facilities are used instead of simple Euclidean distance and the results shows a better model fit; second, the",
+      "cited_by_count": 54
+    },
+    {
+      "title": "Urban Green Spaces and Housing Prices: An Alternative Perspective",
+      "authors": "Veronika Liebelt, Stephan Bartke, Nina Schwarz",
+      "year": 2019,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su11133707",
+      "url": "https://openalex.org/W2953950167",
+      "abstract": "Urban green spaces (UGS) are essential components of sustainable cities that provide many benefits to urban residents, such as recreation or aesthetics. Urban residents may be willing to pay for some of these ecosystem services. Indeed, studies investigating the formation of housing prices through hedonic pricing analysis have shown that UGS can influence housing prices. Hedonic pricing analysis puts housing units at the center of analysis. In this study, we investigate whether an alternative perspective provides additional insights into the effects of UGS on pricing. The proposed approach puts UGS into the center of analysis by applying an analysis of buffer zones to housing prices, thus, linking approaches from urban economics and landscape ecology. Such an analysis could deepen our understanding of the effects of UGS on housing prices by analyzing price–distance slopes around UGS-thus supporting more informed decisions on efficient UGS management and urban planning. Our results using a",
+      "cited_by_count": 79
+    },
+    {
+      "title": "The Research Development of Hedonic Price Model-Based Real Estate Appraisal in the Era of Big Data",
+      "authors": "Cankun Wei, Meichen Fu, Li Wang, Hanbing Yang, Feng Tang",
+      "year": 2022,
+      "venue": "Land",
+      "doi": "https://doi.org/10.3390/land11030334",
+      "url": "https://openalex.org/W4214532404",
+      "abstract": "In the era of big data, advances in relevant technologies are profoundly impacting the field of real estate appraisal. Many scholars regard the integration of big data technology as an inevitable future trend in the real estate appraisal industry. In this paper, we summarize 124 studies investigating the use of big data technology to optimize real estate appraisal through the hedonic price model (HPM). We also list a variety of big data resources and key methods widely used in the real estate appraisal field. On this basis, the development of real estate appraisal moving forward is analyzed. The results obtained in the current studies are as follows: First, the big data resources currently applied to real estate appraisal include more than a dozen big data types from three data sources; the internet, remote sensing, and the Internet of things (IoT). Additionally, it was determined that web crawler technology represents the",
+      "cited_by_count": 66
+    },
+    {
+      "title": "Valuing Urban Wetlands: A Property Price Approach",
+      "authors": "Brent L. Mahan, Stephen Polasky, Richard M. Adams",
+      "year": 2000,
+      "venue": "Land Economics",
+      "doi": "https://doi.org/10.2307/3147260",
+      "url": "https://openalex.org/W4244348959",
+      "abstract": "This study estimates the value of wetland amenities in the Portland, Oregon, metropolitan area using the hedonic property price model. Residential housing and wetland data are used to relate the sales price of a property to structural characteristics, neighborhood attributes, and amenities of wetlands and other environmental characteristics. Measures of interest are distance to and size of wetlands, including distancet of our different wetland types; open water, emergent vegetation, scrub-shrub, and forested. Other environmental variables include proximity to parks, lakes, streams, and rivers. Results indicate that wetlands influence the value of residential property and that wetlands influence property values differently than other amenities. Increasing the size of the nearest wetland to a residence by one acre increased the residence's value by $24. Similarly, reducing the distance to the nearest wetland by 1, 000 feet increased the value by $436. Home values were not influenced by wetland type.",
+      "cited_by_count": 318
+    },
+    {
+      "title": "Why Is Manhattan So Expensive? Regulation and the Rise in Housing Prices",
+      "authors": "Edward L. Glaeser, Joseph Gyourko, Raven E. Saks",
+      "year": 2005,
+      "venue": "The Journal of Law and Economics",
+      "doi": "https://doi.org/10.1086/429979",
+      "url": "https://openalex.org/W3125335993",
+      "abstract": "In Manhattan, housing prices have soared since the 1990s. Although rising incomes, lower interest rates, and other factors can explain the demand side of this increase, some sluggishness in the supply of apartment buildings is needed to account for high and rising prices. In a market dominated by high‐rises, the marginal cost of supplying more housing is the cost of adding an extra floor to any new building. Home building is a highly competitive industry with almost no natural barriers to entry, and yet prices in Manhattan currently appear to be more than twice their supply costs. We argue that land use restrictions are the natural explanation for this gap. We also present evidence that regulation is constraining the supply of housing in a number of other housing markets across the country. In these areas, increases in demand have led not to more housing units but to higher prices.",
+      "cited_by_count": 662
+    },
+    {
+      "title": "Influence of School Accessibility on Housing Values",
+      "authors": "Hoong Chor Chin, Kok Wai Foong",
+      "year": 2006,
+      "venue": "Journal of Urban Planning and Development",
+      "doi": "https://doi.org/10.1061/(asce)0733-9488(2006)132:3(120)",
+      "url": "https://openalex.org/W2016578023",
+      "abstract": "Accessibility to schools, especially prestigious ones, is often recognized as an important attribute that determines housing prices. It is usually cited as a major selling point for new housing developments in Singapore. This paper explores the relationship between accessibility to prestigious schools and the value of housing properties using a hedonic housing price model based on data drawn from the sales records of individual housing transactions in Singapore for 4years from 2000 to 2003. While traditional hedonic analyses have employed straight-line distance measurements to focal points such as the Central Business District, as an indicator of accessibility, this study employs accessibility measurements computed for zones where the properties are located. The findings indicate that the accessibility to prestigious schools does affect residential property price, and it significantly explains the variation in housing prices in Singapore. However, these are not valued as highly as other attributes, such as neighborhood prestige and",
+      "cited_by_count": 102
+    },
+    {
+      "title": "The Impact of Public School Attributes on Home Sale Prices in California",
+      "authors": "David Clark, William E. Herrin",
+      "year": 2000,
+      "venue": "Growth and Change",
+      "doi": "https://doi.org/10.1111/0017-4815.00134",
+      "url": "https://openalex.org/W2067724758",
+      "abstract": "The quality of public schools is often cited as an important attribute which distinguishes a community. Indeed, a recent public opinion poll conducted by the California Public Education Partnership indicates that residents rank improvements in public education higher than such high profile issues as environmental quality and crime reduction. In order to explore the role of educational quality in determining residential property values, a hedonic housing price model is used on a large sample of homes which sold within Fresno County in California over the period 1990‐1994. After controlling for a wide range of housing characteristics and neighborhood features, the findings indicate that the school district does significantly influence the real sale price. Then the relative importance of inputs into the production of educational services is investigated as compared to output measures of productivity. These findings suggest that both input and output measures are important. However, elasticity estimates of input",
+      "cited_by_count": 143
+    },
+    {
+      "title": "Incorporating spatial variation in housing attribute prices: a comparison of geographically weighted regression and the spatial expansion method",
+      "authors": "Christopher Bitter, Gordon F. Mulligan, Sandy Dall’erba",
+      "year": 2006,
+      "venue": "Journal of Geographical Systems",
+      "doi": "https://doi.org/10.1007/s10109-006-0028-7",
+      "url": "https://openalex.org/W2101677938",
+      "abstract": "",
+      "cited_by_count": 264
+    },
+    {
+      "title": "Effects of Transportation Infrastructure and Location on Residential Real Estate Values: Application of Spatial Autoregressive Techniques",
+      "authors": "Murtaza Haider, Eric J. Miller",
+      "year": 2000,
+      "venue": "Transportation Research Record Journal of the Transportation Research Board",
+      "doi": "https://doi.org/10.3141/1722-01",
+      "url": "https://openalex.org/W2056131953",
+      "abstract": "Proximity to transportation infrastructure (highways and public transit) influences residential real estate values. Housing values also are influenced by propinquity to a shopping facility or a recreational amenity. Spatial autoregressive (SAR) models were used to estimate the impact of locational elements on the price of residential properties sold during 1995 in the Greater Toronto Area. A large data set consisting of 27,400 freehold sales was used in the study. Moran’s I was estimated to determine the effects of spatial autocorrelation that existed in housing values. SAR models, using a combination of locational influences, neighborhood characteristics, and structural attributes, explained 83 percent variance in housing values. Using the “comparable sales approach,” a spatiotemporal lag variable was estimated for every property in the database. This research discovered that SAR models offered a better fit than nonspatial models. This study also discovered that in the presence of other explanatory variables, locational and transportation",
+      "cited_by_count": 163
+    },
+    {
+      "title": "Impacts of Street-Visible Greenery on Housing Prices: Evidence from a Hedonic Price Model and a Massive Street View Image Dataset in Beijing",
+      "authors": "Yonglin Zhang, Rencai Dong",
+      "year": 2018,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "doi": "https://doi.org/10.3390/ijgi7030104",
+      "url": "https://openalex.org/W2794423274",
+      "abstract": "Street greenery is a component of urban green infrastructure. By forming foundational green corridors in urban ecological systems, street greenery provides vital ecological, social, and cultural functions, and benefits the wellbeing of citizens. However, because of the difficulty of quantifying people’s visual perceptions, the impact of street-visible greenery on housing prices has not been fully studied. Using Beijing, which has a mature real estate market, as an example, this study evaluated 22,331 transactions in 2014 in 2370 private housing estates. We selected 25 variables that were classified into three categories—location, housing, and neighbourhood characteristics—and introduced an index called the horizontal green view index (HGVI) into a hedonic pricing model to measure the value of the visual perception of street greenery in neighbouring residential developments. The results show that (1) Beijing’s homebuyers would like to reside in residential units with a higher HGVI; (2) Beijing’s homebuyers favour larger lakes; and (3)",
+      "cited_by_count": 183
+    },
+    {
+      "title": "The Housing Market Impacts of Shale Gas Development",
+      "authors": "Lucija Muehlenbachs, Elisheba Spiller, Christopher Timmins",
+      "year": 2015,
+      "venue": "American Economic Review",
+      "doi": "https://doi.org/10.1257/aer.20140079",
+      "url": "https://openalex.org/W1521866842",
+      "abstract": "Using data from Pennsylvania and an array of empirical techniques to control for confounding factors, we recover hedonic estimates of property value impacts from nearby shale gas development that vary with water source, well productivity, and visibility. Results indicate large negative impacts on nearby groundwater-dependent homes, while piped-water-dependent homes exhibit smaller positive impacts, suggesting benefits from lease payments. Results have implications for the debate over regulation of shale gas development. (JEL L71, Q35, Q53, R31)",
+      "cited_by_count": 398
+    },
+    {
+      "title": "Hedonic Price Indexes for Housing",
+      "authors": "Robert Hill",
+      "year": 2011,
+      "venue": "OECD statistics working papers",
+      "doi": "https://doi.org/10.1787/5kghzxpt6g6f-en",
+      "url": "https://openalex.org/W2146903892",
+      "abstract": "Every house is different. It is important that house price indexes take account of these quality differences. Hedonic methods which express house prices as a function of a vector of characteristics (such as number of bedrooms and bathrooms, land area and location) are particularly useful for this purpose. In this report I consider some of the developments in the hedonic methodology, as it is applied in a housing context, that have occurred in the last three decades. A number of hedonic house price indexes are now available. However, it is often difficult to see how these indexes relate to each other. For this reason the paper attempts to impose some structure on the literature by developing a taxonomy of hedonic methods, and then show how existing methods fit into this taxonomy. Also discussed are some promising areas for future research in the hedonic field, particularly the use of geospatial data",
+      "cited_by_count": 71
+    },
+    {
+      "title": "Do Seller Disclosures Affect Property Values? Buyer Information and the Hedonic Model",
+      "authors": "John C. Pope",
+      "year": 2008,
+      "venue": "Land Economics",
+      "doi": "https://doi.org/10.3368/le.84.4.551",
+      "url": "https://openalex.org/W2123785876",
+      "abstract": "The hedonic method is widely used to infer the value of environmental amenities that are bundled with real property. The interpretation of hedonic prices as marginal values requires that households are “fully informed.”Yet, there is evidence that buyers are often less informed than sellers. A graphical illustration in this study suggests that asymmetric information between buyers and sellers can affect hedonic prices. This intuition is confirmed by a quasi-random experiment that exploits spatial and information discontinuities stemming from a seller disclosure for flood zones. Results suggest a 4% decline in housing prices in flood zones after disclosures commenced. <i>(JEL Q51, R52)</i>",
+      "cited_by_count": 154
+    }
+  ],
+  "Infrastructure": [
+    {
+      "title": "Is Uber a substitute or complement for public transit?",
+      "authors": "Jonathan D. Hall, Craig Palsson, Joseph Price",
+      "year": 2018,
+      "venue": "Journal of Urban Economics",
+      "doi": "https://doi.org/10.1016/j.jue.2018.09.003",
+      "url": "https://openalex.org/W2747193592",
+      "abstract": "",
+      "cited_by_count": 590
+    },
+    {
+      "title": "Public Transport Accessibility: A Literature Review",
+      "authors": "Muhammad Atiullah Saif, Mohammad Maghrour Zefreh, Ádám Török",
+      "year": 2018,
+      "venue": "Periodica Polytechnica Transportation Engineering",
+      "doi": "https://doi.org/10.3311/pptr.12072",
+      "url": "https://openalex.org/W2802733409",
+      "abstract": "Accessibility is one of the most important outcomes of the transportation system. Public transport can be more attractive by providing \"Door to door mobility\" and development of transportation services is an important factor of social quality. Public transport accessibility has gained vital importance in designing and evaluating the transit system in terms of mobility and sustainability. Apart from the transport system itself, public transport accessibility has the considerable impact on life satisfaction in the form of perceived accessibility. Moreover, researchers have revealed several impact and correlation of provision of public transport accessibility to the environment and daily life which would have a noticeable impact on public health and other aspects of public daily life. Furthermore, the correlation between public transport accessibility and job opportunities has attracted the researchers' attention in the literature. Also, public participation in social activities has been investigated based on public transport accessibility and their close connection",
+      "cited_by_count": 310
+    },
+    {
+      "title": "Towards equitable transit: examining transit accessibility and social need in Toronto, Canada, 1996–2006",
+      "authors": "Nicole Foth, Kevin Manaugh, Ahmed El-Geneidy",
+      "year": 2013,
+      "venue": "Journal of Transport Geography",
+      "doi": "https://doi.org/10.1016/j.jtrangeo.2012.12.008",
+      "url": "https://openalex.org/W2048284513",
+      "abstract": "",
+      "cited_by_count": 409
+    },
+    {
+      "title": "Explaining walking distance to public transport: The dominance of public transport supply",
+      "authors": "Rhonda Daniels, Corinne Mulley",
+      "year": 2013,
+      "venue": "Journal of Transport and Land Use",
+      "doi": "https://doi.org/10.5198/jtlu.v6i2.308",
+      "url": "https://openalex.org/W2099729899",
+      "abstract": "Potential influences on explaining walking distance from home to access public transport are investigated, including trip and demographic characteristics and public transport supply. In Sydney, Australia, people walk farther to the train than to the bus, the distributions of walking distances are different for each mode, and the trip and demographic characteristics of train and bus users are different. Given the decision to walk to public transport, demographic characteristics such as age, gender, income, and labor force status and trip characteristics such as trip purpose, time of day and week, fare and ticket type, and trip duration are not significant in explaining walking distance to each mode of public transport. The mode of the public transport trip is the most important determinant of walking distance, reflecting the different supply and spacing of each mode. For instance, there are many more bus stops than train stations. The differences between train and",
+      "cited_by_count": 407
+    },
+    {
+      "title": "The role of location in residential location choice models: a review of literature",
+      "authors": "Patrick Schirmer, Michael A.B. van Eggermond, Kay W. Axhausen",
+      "year": 2014,
+      "venue": "Journal of Transport and Land Use",
+      "doi": "https://doi.org/10.5198/jtlu.v7i2.740",
+      "url": "https://openalex.org/W1966208130",
+      "abstract": "Geospatial data available to researchers has increased tremendously over the last several decades, opening up opportunities to define residential location in multiple ways. This has led to a myriad of variables to define \"location'' in residential location choice models. In this paper, we propose a common classification for location variables and categorize findings from a wide range of studies. We find similar preferences but different measurement methods and market segments for locations across different study regions. Recent studies consider the residential unit as choice alternative, making it possible to include a detailed description of the built environment. However, these studies are still limited in number and the inclusion of socioeconomic environment is more common. Transport land-use models can benefit from the inclusion of points of interest, such as schools, network distances, and the distance to previous locations. For the results of location choice models to be transferable to different disciplines,",
+      "cited_by_count": 188
+    },
+    {
+      "title": "Accessibility and Transit-Oriented Development in European metropolitan areas",
+      "authors": "Enrica Papa, Luca Bertolini",
+      "year": 2015,
+      "venue": "Journal of Transport Geography",
+      "doi": "https://doi.org/10.1016/j.jtrangeo.2015.07.003",
+      "url": "https://openalex.org/W1903604466",
+      "abstract": "This study investigates how urban form is related to accessibility. In particular, it explores the relationship between Transit-Oriented Development (TOD) and rail-based accessibility in a metropolitan area. The following overarching questions are addressed: Does a TOD-informed urban spatial structure correlate with high rail based accessibility? Which features of TOD are correlated to rail-based accessibility? These questions are answered through a comparative analysis of six metropolitan areas in Europe. The “TOD degree”, operationalized as the extent to which urban development is concentrated along rail corridors and stations, is correlated with a cumulative opportunity measure of rail-based accessibility to jobs and inhabitants. The comparison demonstrates that rail-based accessibility is higher in urban areas where inhabitants and jobs are more concentrated around the railway network and in lesser measure in urban areas with higher values of network connectivity. No correlation is found between rail-based accessibility and average densities of inhabitants and jobs.",
+      "cited_by_count": 307
+    },
+    {
+      "title": "Residential mobility and location choice: a nested logit model with sampling of alternatives",
+      "authors": "Brian H. Y. Lee, Paul Waddell",
+      "year": 2010,
+      "venue": "Transportation",
+      "doi": "https://doi.org/10.1007/s11116-010-9270-4",
+      "url": "https://openalex.org/W2106314545",
+      "abstract": "Residential mobility and relocation choice are essential parts of integrated transportation and land use models. These decision processes have been examined and modeled individually to a great extent but there remain gaps in the literature on the underlying behaviors that connect them. Households may partly base their decision to move from or stay at a current location on the price and quality of the available alternatives. Conversely, households that are on the market for a new location may evaluate housing choices relative to their previous residence. How and the degree to which these decisions relate to each other are, however, not completely understood. This research is intended to contribute to the body of empirical evidence that will help answer these questions. It is hypothesized that residential mobility and location choice are related household decisions that can be modeled together using a two-tier hierarchical structure. This paper presents a novel nested",
+      "cited_by_count": 205
+    },
+    {
+      "title": "Advance transit oriented development typology: case study in Brisbane, Australia",
+      "authors": "Md. Kamruzzaman, Douglas Baker, Simon Washington, Gavin Turrell",
+      "year": 2013,
+      "venue": "Journal of Transport Geography",
+      "doi": "https://doi.org/10.1016/j.jtrangeo.2013.11.002",
+      "url": "https://openalex.org/W2032376005",
+      "abstract": "",
+      "cited_by_count": 337
+    },
+    {
+      "title": "Modeling the commute mode share of transit using continuous accessibility to jobs",
+      "authors": "Andrew Owen, David Levinson",
+      "year": 2015,
+      "venue": "Transportation Research Part A Policy and Practice",
+      "doi": "https://doi.org/10.1016/j.tra.2015.02.002",
+      "url": "https://openalex.org/W2032917993",
+      "abstract": "",
+      "cited_by_count": 276
+    },
+    {
+      "title": "Micromobility and public transport integration: The current state of knowledge",
+      "authors": "Giulia Oeschger, Páraic Carroll, Brian Caulfield",
+      "year": 2020,
+      "venue": "Transportation Research Part D Transport and Environment",
+      "doi": "https://doi.org/10.1016/j.trd.2020.102628",
+      "url": "https://openalex.org/W3098092737",
+      "abstract": "Cities globally are grappling with the negative externalities of car travel and are therefore striving to move towards a more sustainable urban transportation system. The introduction and popularity of new personal transport modes, such as e-scooters and electric bicycles, could potentially accelerate this transition as they become more commonplace and are accepted into regulatory frameworks. The integration of these new modes and vehicles into public transport systems, for example, could enhance accessibility and lead to potential modal shifts away from private car use. In order to assess the potential for change that micromobility holds, it is key to study these new modes in the context of access and egress trips to and from public transport. This paper presents an extensive systematic literature review of studies that focus specifically on the integration of micromobility and public transport systems and is, to the knowledge of the authors, the first review focusing on",
+      "cited_by_count": 386
+    },
+    {
+      "title": "Promoting ecosystem and human health in urban areas using Green Infrastructure: A literature review",
+      "authors": "Konstantinos Tzoulas, Kalevi Korpela, Stephen Venn, Vesa Yli‐Pelkonen, Aleksandra Kaźmierczak",
+      "year": 2007,
+      "venue": "Landscape and Urban Planning",
+      "doi": "https://doi.org/10.1016/j.landurbplan.2007.02.001",
+      "url": "https://openalex.org/W2097935015",
+      "abstract": "",
+      "cited_by_count": 2809
+    },
+    {
+      "title": "Effects of ocean sprawl on ecological connectivity: impacts and solutions",
+      "authors": "Melanie J. Bishop, Mariana Mayer‐Pinto, Laura Airoldi, Louise B. Firth, Rebecca L. Morris",
+      "year": 2017,
+      "venue": "Journal of Experimental Marine Biology and Ecology",
+      "doi": "https://doi.org/10.1016/j.jembe.2017.01.021",
+      "url": "https://openalex.org/W2588942130",
+      "abstract": "The growing number of artificial structures in estuarine, coastal and marine environments is causing “ocean sprawl”. Artificial structures do not only modify marine and coastal ecosystems at the sites of their placement, but may also produce larger-scale impacts through their alteration of ecological connectivity - the movement of organisms, materials and energy between habitat units within seascapes. Despite the growing awareness of the capacity of ocean sprawl to influence ecological connectivity, we lack a comprehensive understanding of how artificial structures modify ecological connectivity in near- and off-shore environments, and when and where their effects on connectivity are greatest. We review the mechanisms by which ocean sprawl may modify ecological connectivity, including trophic connectivity associated with the flow of nutrients and resources. We also review demonstrated, inferred and likely ecological impacts of such changes to connectivity, at scales from genes to ecosystems, and potential strategies of management for mitigating these effects.",
+      "cited_by_count": 457
+    },
+    {
+      "title": "Smart cities of the future",
+      "authors": "Michael Batty, Kay W. Axhausen, Fosca Giannotti, Alexei Pozdnoukhov, Armando Bazzani",
+      "year": 2012,
+      "venue": "The European Physical Journal Special Topics",
+      "doi": "https://doi.org/10.1140/epjst/e2012-01703-3",
+      "url": "https://openalex.org/W1969085745",
+      "abstract": "Here we sketch the rudiments of what constitutes a smart city which we define as a city in which ICT is merged with traditional infrastructures, coordinated and integrated using new digital technologies. We first sketch our vision defining seven goals which concern: developing a new understanding of urban problems; effective and feasible ways to coordinate urban technologies; models and methods for using urban data across spatial and temporal scales; developing new technologies for communication and dissemination; developing new forms of urban governance and organisation; defining critical problems relating to cities, transport, and energy; and identifying risk, uncertainty, and hazards in the smart city. To this, we add six research challenges: to relate the infrastructure of smart cities to their operational functioning and planning through management, control and optimisation; to explore the notion of the city as a laboratory for innovation; to provide portfolios of urban simulation which inform future designs;",
+      "cited_by_count": 2210
+    },
+    {
+      "title": "‘Cold spots’ of Urban Infrastructure: ‘Shrinking’ Processes in Eastern Germany and the Modern Infrastructural Ideal",
+      "authors": "Timothy Moss",
+      "year": 2008,
+      "venue": "International Journal of Urban and Regional Research",
+      "doi": "https://doi.org/10.1111/j.1468-2427.2008.00790.x",
+      "url": "https://openalex.org/W1931506574",
+      "abstract": "Abstract This article explores the unfamiliar, but increasingly prevalent problem of overcapacity in urban infrastructure systems in regions subject to dramatic socio‐economic restructuring. Taking the case of water supply and wastewater disposal systems in Eastern Germany as an example, it examines firstly how infrastructure overcapacities have emerged since reunification in 1990 as a result both of sharply declining water consumption in the wake of ‘shrinking’ processes and of infrastructure expansion. Secondly, the article analyses what impact chronic overcapacity is having on the governance of water infrastructure systems. This empirical analysis is framed conceptually in terms of the current debate on the changing relationship between infrastructures and the localities they serve. It assesses specifically how far and in what ways the phenomenon of overcapacity in technical networks resonates with the ‘splintering urbanism’ thesis developed by Stephen Graham and Simon Marvin. It argues that the serious technical and economic problems posed by",
+      "cited_by_count": 207
+    },
+    {
+      "title": "Factors influencing the choice of shared bicycles and shared electric bikes in Beijing",
+      "authors": "Andrew Campbell, Christopher Cherry, Megan S. Ryerson, Xinmiao Yang",
+      "year": 2016,
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "doi": "https://doi.org/10.1016/j.trc.2016.03.004",
+      "url": "https://openalex.org/W2302781442",
+      "abstract": "China leads the world in both public bikeshare and private electric bike (e-bike) growth. Current trajectories indicate the viability of deploying large-scale shared e-bike (e-bikeshare) systems in China. We employ a stated preference survey and multinomial logit to model the factors influencing the choice to switch from an existing transportation mode to bikeshare or e-bikeshare in Beijing. Demand is influenced by distinct sets of factors: the bikeshare choice is most sensitive to measures of effort and comfort while the e-bikeshare choice is more sensitive to user heterogeneities. Bikeshare demand is strongly negatively impacted by trip distance, temperature, precipitation, and poor air quality. User demographics however do not factor strongly on the bikeshare choice, indicating the mode will draw users from across the social spectrum. The e-bikeshare choice is much more tolerant of trip distance, high temperatures and poor air quality, though precipitation is also a highly negative factor. User demographics",
+      "cited_by_count": 479
+    },
+    {
+      "title": "Green Infrastructure Planning Principles: An Integrated Literature Review",
+      "authors": "Renato Pereira Monteiro, José Carlos Ferreira, Paula Antunes",
+      "year": 2020,
+      "venue": "Land",
+      "doi": "https://doi.org/10.3390/land9120525",
+      "url": "https://openalex.org/W3113189482",
+      "abstract": "Green infrastructure is a strategically planned network of natural and semi-natural areas, including green and blue spaces and other ecosystems, designed and managed to deliver a wide range of ecosystem services at various scales. Apart from the ecological functions, green infrastructure, as a planning tool, contributes to social and economic benefits, leading to the achievement of sustainable, resilient, inclusive and competitive urban areas. Despite recent developments, there is still no consensus among researchers and practitioners regarding the concept of green infrastructure as well as its implementation approaches, which makes it often difficult for urban planners and other professionals in the field to develop a robust green infrastructure in some parts of the world. To address this issue, an integrative literature review was conducted to identify which green infrastructure planning principles should be acknowledged in spatial planning practices to promote sustainability and resilience. As a result of this literature review, the",
+      "cited_by_count": 223
+    },
+    {
+      "title": "Infrastructuring Environments",
+      "authors": "Anders Blok, Moe Nakazora, Brit Ross Winthereik",
+      "year": 2016,
+      "venue": "Science as Culture",
+      "doi": "https://doi.org/10.1080/09505431.2015.1081500",
+      "url": "https://openalex.org/W4255153269",
+      "abstract": "Since the 1960s, the notion of a singular global environmental crisis has been popularized through the efforts of scientists, environmental activists, and the global news media. A succession of env...",
+      "cited_by_count": 163
+    },
+    {
+      "title": "Housing Estates in Europe",
+      "authors": "Daniel Baldwin Hess, Tiit Tammaru, Maarten van Ham",
+      "year": 2018,
+      "venue": "The urban book series",
+      "doi": "https://doi.org/10.1007/978-3-319-92813-5",
+      "url": "https://openalex.org/W2910080397",
+      "abstract": "This open access book focuses on the formation and later socio-spatial trajectories of large housing estates in Europe. It highlights people-based and placed-based complex challenges of housing estates and investigates the role of large housing estates in poverty and ethnic concentrations.",
+      "cited_by_count": 121
+    },
+    {
+      "title": "Geographies of energy transition: Space, place and the low-carbon economy",
+      "authors": "Gavin Bridge, Stefan Bouzarovski, Michael Bradshaw, Nick Eyre",
+      "year": 2012,
+      "venue": "Energy Policy",
+      "doi": "https://doi.org/10.1016/j.enpol.2012.10.066",
+      "url": "https://openalex.org/W2001956722",
+      "abstract": "This paper makes a case for examining energy transition as a geographical process, involving the reconfiguration of current patterns and scales of economic and social activity. The paper draws on a seminar series on the ‘Geographies of Energy Transition: security, climate, governance' hosted by the authors between 2009 and 2011, which initiated a dialogue between energy studies and the discipline of human geography. Focussing on the UK Government's policy for a low carbon transition, the paper provides a conceptual language with which to describe and assess the geographical implications of a transition towards low carbon energy. Six concepts are introduced and explained: location, landscape, territoriality, spatial differentiation, scaling, and spatial embeddedness. Examples illustrate how the geographies of a future low-carbon economy are not yet determined and that a range of divergent – and contending – potential geographical futures are in play. More attention to the spaces and places that transition",
+      "cited_by_count": 1469
+    }
+  ],
+  "Environment": [
+    {
+      "title": "Urban liveability: Emerging lessons from Australia for exploring the potential for indicators to measure the social determinants of health",
+      "authors": "Hannah Badland, Carolyn Whitzman, Melanie Lowe, Melanie Davern, Lu Aye",
+      "year": 2014,
+      "venue": "Social Science & Medicine",
+      "doi": "https://doi.org/10.1016/j.socscimed.2014.04.003",
+      "url": "https://openalex.org/W1989300628",
+      "abstract": "",
+      "cited_by_count": 321
+    },
+    {
+      "title": "New urban models for more sustainable, liveable and healthier cities post covid19; reducing air pollution, noise and heat island effects and increasing green space and physical activity",
+      "authors": "Mark Nieuwenhuijsen",
+      "year": 2021,
+      "venue": "Environment International",
+      "doi": "https://doi.org/10.1016/j.envint.2021.106850",
+      "url": "https://openalex.org/W3199144102",
+      "abstract": "Cities are centres of innovation and wealth creation, but also hotspots of air pollution and noise, heat island effects and lack of green space, which are all detrimental to human health. They are also hotspots of COVID19. COVID19 has led to a rethink of urban public space. Therefore, is it time to re-think our urban models and reduce the health burden? We provide a narrative meta-review around a number of cutting edge and visionary urban models that that may affect health and that have been reported over the past few years. New urban concepts such as the Superblocks, the low traffic neighbourhood, 15 Minute city, Car free city or a mixture of these that may go some way in reducing the health burden related to current urban and transport practices. They will reduce air pollution and noise, heat island effects and increase green space and physical activity levels. What is",
+      "cited_by_count": 333
+    },
+    {
+      "title": "Impact of the jobs-housing balance on urban commuting in Beijing in the transformation era",
+      "authors": "Pengjun Zhao, Bin Lü, Gert de Roo",
+      "year": 2009,
+      "venue": "Journal of Transport Geography",
+      "doi": "https://doi.org/10.1016/j.jtrangeo.2009.09.008",
+      "url": "https://openalex.org/W2145376706",
+      "abstract": "",
+      "cited_by_count": 260
+    },
+    {
+      "title": "Urban planning and quality of life: A review of pathways linking the built environment to subjective well-being",
+      "authors": "Kostas Mouratidis",
+      "year": 2021,
+      "venue": "Cities",
+      "doi": "https://doi.org/10.1016/j.cities.2021.103229",
+      "url": "https://openalex.org/W3157547930",
+      "abstract": "In light of the rapid global urbanization, providing a better quality of life in cities is becoming an increasingly critical issue for urban planning. However, the links between the built environment and subjective well-being are not sufficiently understood. This paper reviews the evidence on the range of pathways linking the built environment to subjective well-being. Seven potential pathways are identified and reviewed: (1) travel, (2) leisure, (3) work, (4) social relationships, (5) residential well-being, (6) emotional responses, and (7) health. Based on this knowledge, the paper presents an overview of strategies for improving subjective well-being through urban planning. Among others, proposed strategies are to: enhance conditions for active travel; improve public transport while restricting cars; provide easy access to facilities and services; develop or steer technology and emerging mobility options to improve inclusiveness and quality of life for different groups; integrate various forms of urban nature as much as possible;",
+      "cited_by_count": 850
+    },
+    {
+      "title": "Balanced Urban Development: Options and Strategies for Liveable Cities",
+      "authors": "Basant Maheshwari, Vijay P. 1946- Singh, Bhadranie Thoradeniya",
+      "year": 2016,
+      "venue": "Water science and technology library",
+      "doi": "https://doi.org/10.1007/978-3-319-28112-4",
+      "url": "https://openalex.org/W2559404688",
+      "abstract": "This book provides a unique synthesis of concepts and tools to examine natural resource, socio-economic, legal, policy and institutional issues that are important for managing urban growth into the future. The book will particularly help the reader to understand the current issues and challenges and develop strategies and practices to cope with future pressures of urbanisation and peri-urban land, water and energy use challenges. In particular, the book will help the reader to discover underlying principles for the planning of future cities and peri-urban regions in relation to: (i) Balanced urban development policies and institutions for future cities; (ii) Understanding the effects of land use change, population increase, and water demand on the liveability of cities; (iii) Long-term planning needs and transdisciplinary approaches to ensure the secured future for generations ahead; and (iv) Strategies to adapt the cities and land, water and energy uses for viable and liveable cities. There",
+      "cited_by_count": 118
+    },
+    {
+      "title": "Sustainalism: An Integrated Socio-Economic-Environmental Model to Address Sustainable Development and Sustainability",
+      "authors": "N. P. Hariram, K.B. Mekha, Vipinraj Suganthan, K. Sudhakar",
+      "year": 2023,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su151310682",
+      "url": "https://openalex.org/W4383551991",
+      "abstract": "This paper delves into the multifaceted concept of sustainability, covering its evolution, laws, principles, as well as the different domains and challenges related to achieving it in the modern world. Although capitalism, socialism, and communism have been utilized throughout history, their strengths and drawbacks have failed to address sustainable development comprehensively. Therefore, a holistic approach is necessary, which forms the basis for a new development model called sustainalism. This study proposes a new socio-economic theory of sustainalism that prioritizes quality of life, social equity, culture, world peace, social justice, and well-being. This paper outlines the six principles of sustainalism and identifies sustainalists as individuals who embrace these new concepts. This study also explores how to attain sustainalism in the modern world through a sustainable revolution, representing a step toward a sustainable era. In conclusion, this paper summarizes the key points and emphasizes the need for a new approach to sustainalism",
+      "cited_by_count": 652
+    },
+    {
+      "title": "The Superblock model: A review of an innovative urban model for sustainability, liveability, health and well-being",
+      "authors": "Mark Nieuwenhuijsen, Audrey de Nazelle, Marta Cirach Pradas, Carolyn Daher, Angel M. Dzhambov",
+      "year": 2024,
+      "venue": "Environmental Research",
+      "doi": "https://doi.org/10.1016/j.envres.2024.118550",
+      "url": "https://openalex.org/W4392388516",
+      "abstract": "INTRODUCTION: Current urban and transport planning practices have significant negative health, environmental, social and economic impacts in most cities. New urban development models and policies are needed to reduce these negative impacts. The Superblock model is one such innovative urban model that can significantly reduce these negative impacts through reshaping public spaces into more diverse uses such as increase in green space, infrastructure supporting social contacts and physical activity, and through prioritization of active mobility and public transport, thereby reducing air pollution, noise and urban heat island effects. This paper reviews key aspects of the Superblock model, its implementation and initial evaluations in Barcelona and the potential international uptake of the model in Europe and globally, focusing on environmental, climate, lifestyle, liveability and health aspects. METHODS: We used a narrative meta-review approach and PubMed and Google scholar databases were searched using specific terms. RESULTS: The implementation of the Super block",
+      "cited_by_count": 105
+    },
+    {
+      "title": "Creating liveable cities in Australia: Mapping urban policy implementation and evidence-based national liveability indicators",
+      "authors": "Jonathan Arundel, Melanie Lowe, Paula Hooper, Rebecca Roberts, Julianna Rozek",
+      "year": 2024,
+      "venue": "UWA Profiles and Research Repository (University of Western Australia)",
+      "doi": "https://doi.org/10.25439/rmt.27373932",
+      "url": "https://openalex.org/W2777591041",
+      "abstract": "The co-benefits of urban liveability for the economy, social inclusion, environmental and social sustainability, and public health are now well recognised by all levels of government in Australia and internationally. Liveable communities are safe, socially cohesive and inclusive, and environmentally sustainable. They have affordable housing that is linked (via public transport, walking and cycling infrastructure) to employment; education; shops and services; public open space; and social, cultural and recreational opportunities. This report assesses the availability and implementation of policies governing seven characteristics of cities that can contribute to creating liveable communities, in Australian capital cities: - Walkability; - Public transport; - Public open space; - Housing affordability; - Employment; - Food environments; and - Alcohol environments",
+      "cited_by_count": 61
+    },
+    {
+      "title": "Does higher density housing enhance liveability? Case studies of housing intensification in Auckland",
+      "authors": "Errol Haarhoff, Lee Beattie, Ann Dupuis",
+      "year": 2016,
+      "venue": "Cogent Social Sciences",
+      "doi": "https://doi.org/10.1080/23311886.2016.1243289",
+      "url": "https://openalex.org/W2530767194",
+      "abstract": "Larger cities in Australia and New Zealand have urban consolidation policies promoting higher-density development, justified on the grounds of enhancing urban sustainability. Despite evidence for persistent preferences for lower density, there has been a significant increase in the supply of higher-density housing over recent years. More recent iterations of urban growth management policies, however, are now justified on the grounds that higher-density will result in enhanced “liveability”. Reflecting on research findings from case studies of residents in medium density housing in Auckland, this paper examines the extent to which liveability is being enhanced in intensified suburban contexts. Using resident expressions of housing satisfaction as an indicator of liveability, the findings point to some positive outcomes. However, despite these perceptions, future housing aspirations tend to remain oriented to detached housing and lower densities, which raises policy issues for the promotion and management of urban consolidation and higher densities.",
+      "cited_by_count": 46
+    },
+    {
+      "title": "Sustainable Housing in the Urban Context: International Sustainable Development Indicator Sets and Housing",
+      "authors": "Nessa Winston, Montserrat Pareja‐Eastaway",
+      "year": 2007,
+      "venue": "Social Indicators Research",
+      "doi": "https://doi.org/10.1007/s11205-007-9165-8",
+      "url": "https://openalex.org/W1996952098",
+      "abstract": "",
+      "cited_by_count": 134
+    },
+    {
+      "title": "Health Effects of Fine Particulate Air Pollution: Lines that Connect",
+      "authors": "C. Arden Pope, Douglas W. Dockery",
+      "year": 2006,
+      "venue": "Journal of the Air & Waste Management Association",
+      "doi": "https://doi.org/10.1080/10473289.2006.10464485",
+      "url": "https://openalex.org/W2140282454",
+      "abstract": "Efforts to understand and mitigate thehealth effects of particulate matter (PM) air pollutionhave a rich and interesting history. This review focuseson six substantial lines of research that have been pursued since 1997 that have helped elucidate our understanding about the effects of PM on human health. There hasbeen substantial progress in the evaluation of PM health effects at different time-scales of exposure and in the exploration of the shape of the concentration-response function. There has also been emerging evidence of PM-related cardiovascular health effects and growing knowledge regarding interconnected general pathophysiological pathways that link PM exposure with cardiopulmonary morbidiity and mortality. Despite important gaps in scientific knowledge and continued reasons for some skepticism, a comprehensive evaluation of the research findings provides persuasive evidence that exposure to fine particulate air pollution has adverse effects on cardiopulmonaryhealth. Although much of this research has been motivated by environmental public health policy, these results",
+      "cited_by_count": 6761
+    },
+    {
+      "title": "Socioeconomic Disparities and Air Pollution Exposure: a Global Review",
+      "authors": "Anjum Hajat, Charlene Hsia, Marie S. O’Neill",
+      "year": 2015,
+      "venue": "Current Environmental Health Reports",
+      "doi": "https://doi.org/10.1007/s40572-015-0069-5",
+      "url": "https://openalex.org/W1703748868",
+      "abstract": "",
+      "cited_by_count": 1091
+    },
+    {
+      "title": "Healthy Neighborhoods: Walkability and Air Pollution",
+      "authors": "Julian Marshall, Michael Bräuer, Lawrence D. Frank",
+      "year": 2009,
+      "venue": "Environmental Health Perspectives",
+      "doi": "https://doi.org/10.1289/ehp.0900595",
+      "url": "https://openalex.org/W2025547609",
+      "abstract": "BACKGROUND: The built environment may influence health in part through the promotion of physical activity and exposure to pollution. To date, no studies have explored interactions between neighborhood walkability and air pollution exposure. METHODS: We estimated concentrations of nitric oxide (NO), a marker for direct vehicle emissions), and ozone (O(3)) and a neighborhood walkability score, for 49,702 (89% of total) postal codes in Vancouver, British Columbia, Canada. NO concentrations were estimated from a land-use regression model, O(3) was estimated from ambient monitoring data; walkability was calculated based on geographic attributes such as land-use mix, street connectivity, and residential density. RESULTS: All three attributes exhibit an urban-rural gradient, with high walkability and NO concentrations, and low O(3) concentrations, near the city center. Lower-income areas tend to have higher NO concentrations and walkability and lower O(3) concentrations. Higher-income areas tend to have lower pollution (NO and O(3)). \"Sweet-spot\" neighborhoods (low pollution, high",
+      "cited_by_count": 287
+    },
+    {
+      "title": "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment",
+      "authors": "Raj Chetty, Nathaniel Hendren, Lawrence F. Katz",
+      "year": 2016,
+      "venue": "American Economic Review",
+      "doi": "https://doi.org/10.1257/aer.20150572",
+      "url": "https://openalex.org/W1484598383",
+      "abstract": "The Moving to Opportunity (MTO) experiment offered randomly selected families housing vouchers to move from high-poverty housing projects to lower-poverty neighborhoods. We analyze MTO's impacts on children's long-term outcomes using tax data. We find that moving to a lower-poverty neighborhood when young (before age 13) increases college attendance and earnings and reduces single parenthood rates. Moving as an adolescent has slightly negative impacts, perhaps because of disruption effects. The decline in the gains from moving with the age when children move suggests that the duration of exposure to better environments during childhood is an important determinant of children’s long-term outcomes.",
+      "cited_by_count": 2313
+    },
+    {
+      "title": "Where, When, Why, and For Whom Do Residential Contexts Matter? Moving Away from the Dichotomous Understanding of Neighborhood Effects",
+      "authors": "Patrick Sharkey, Jacob Faber",
+      "year": 2014,
+      "venue": "Annual Review of Sociology",
+      "doi": "https://doi.org/10.1146/annurev-soc-071913-043350",
+      "url": "https://openalex.org/W2098484201",
+      "abstract": "The literature on neighborhood effects frequently is evaluated or interpreted in relation to the question, “Do neighborhoods matter?” We argue that this question has had a disproportionate influence on the field and does not align with the complexity of theoretical models of neighborhood effects or empirical findings that have arisen from the literature. In this article, we focus on empirical work that considers how different dimensions of individuals' residential contexts become salient in their lives, how contexts influence individuals' lives over different timeframes, how individuals are affected by social processes operating at different scales, and how residential contexts influence the lives of individuals in heterogeneous ways. In other words, we review research that examines where, when, why, and for whom do residential contexts matter. Using the large literature on neighborhoods and educational and cognitive outcomes as an example, the research we review suggests that any attempt to reduce the literature",
+      "cited_by_count": 850
+    },
+    {
+      "title": "Residential Environments and Cardiovascular Risk",
+      "authors": "Ana V. Diez Roux",
+      "year": 2003,
+      "venue": "Journal of Heredity",
+      "doi": "https://doi.org/10.1093/jurban/jtg065",
+      "url": "https://openalex.org/W2141214792",
+      "abstract": "",
+      "cited_by_count": 450
+    },
+    {
+      "title": "The Development of a Standardized Neighborhood Deprivation Index",
+      "authors": "Lynne C. Messer, Barbara Laraia, Jay S. Kaufman, Janet Eyster, Claudia Holzman",
+      "year": 2006,
+      "venue": "Journal of Urban Health",
+      "doi": "https://doi.org/10.1007/s11524-006-9094-x",
+      "url": "https://openalex.org/W1969600340",
+      "abstract": "",
+      "cited_by_count": 1019
+    },
+    {
+      "title": "Air pollution, physical activity and health: A mapping review of the evidence",
+      "authors": "Marko Tainio, Zorana Jovanovic Andersen, Mark Nieuwenhuijsen, Liang Hu, Audrey de Nazelle",
+      "year": 2020,
+      "venue": "Environment International",
+      "doi": "https://doi.org/10.1016/j.envint.2020.105954",
+      "url": "https://openalex.org/W3108960196",
+      "abstract": "BACKGROUND: Exposure to air pollution and physical inactivity are both significant risk factors for non-communicable diseases (NCDs). These risk factors are also linked so that the change in exposure in one will impact risks and benefits of the other. These links are well captured in the active transport (walking, cycling) health impact models, in which the increases in active transport leading to increased inhaled dose of air pollution. However, these links are more complex and go beyond the active transport research field. Hence, in this study, we aimed to summarize the empirical evidence on the links between air pollution and physical activity, and their combined effect on individual and population health. OBJECTIVES AND METHODS: We conducted a non-systematic mapping review of empirical and modelling evidence of the possible links between exposure to air pollution and physical activity published until Autumn 2019. We reviewed empirical evidence for the (i) impact of",
+      "cited_by_count": 485
+    },
+    {
+      "title": "The Built Environment and Mental Health",
+      "authors": "Gary W. Evans",
+      "year": 2003,
+      "venue": "Journal of Heredity",
+      "doi": "https://doi.org/10.1093/jurban/jtg063",
+      "url": "https://openalex.org/W2076008204",
+      "abstract": "",
+      "cited_by_count": 1373
+    },
+    {
+      "title": "Exposure to traffic-related air pollution and risk of development of childhood asthma: A systematic review and meta-analysis",
+      "authors": "Haneen Khreis, Charlotte Kelly, James Tate, Roger Parslow, Karen Lucas",
+      "year": 2016,
+      "venue": "Environment International",
+      "doi": "https://doi.org/10.1016/j.envint.2016.11.012",
+      "url": "https://openalex.org/W2552764727",
+      "abstract": "",
+      "cited_by_count": 807
+    }
+  ],
+  "AI/ML": [
+    {
+      "title": "Tackling Climate Change with Machine Learning",
+      "authors": "Lynn H. Kaack, David Rolnick, Priya L. Donti, Kelly Kochanski, Alexandre Lacoste",
+      "year": 2022,
+      "venue": "OPUS 4 (Zuse Institute Berlin)",
+      "doi": "https://doi.org/10.1145/3485128",
+      "url": "https://openalex.org/W4210916416",
+      "abstract": "Climate change is one of the greatest challenges facing humanity, and we, as machine learning experts, may wonder how we can help. Here we describe how machine learning can be a powerful tool in reducing greenhouse gas emissions and helping society adapt to a changing climate. From smart grids to disaster management, we identify high impact problems where existing gaps can be filled by machine learning, in collaboration with other fields. Our recommendations encompass exciting research questions as well as promising business opportunities. We call on the machine learning community to join the global effort against climate change.",
+      "cited_by_count": 930
+    },
+    {
+      "title": "Identity and Language Learning",
+      "authors": "Bonny Norton",
+      "year": 2013,
+      "venue": "Multilingual Matters eBooks",
+      "doi": "https://doi.org/10.21832/9781783090563",
+      "url": "https://openalex.org/W230660992",
+      "abstract": "This second edition of Norton’s classic text on language learning and identity will bring her ground-breaking ideas to a new generation of students, teachers and researchers. Featuring a comprehensive Introduction and an Afterword by Claire Kramsch, this new edition integrates research, theory and classroom practice.",
+      "cited_by_count": 1673
+    },
+    {
+      "title": "PREDICTION OF CROP YIELD AND FERTILIZER RECOMMENDATION USING MACHINE LEARNING ALGORITHMS",
+      "authors": "Devdatta A Bondre, Santosh Mahagaonkar",
+      "year": 2019,
+      "venue": "International Journal of Engineering Applied Sciences and Technology",
+      "doi": "https://doi.org/10.33564/ijeast.2019.v04i05.055",
+      "url": "https://openalex.org/W2987077916",
+      "abstract": "Machine learning is an emerging research field in crop yield analysis. Yield prediction is a very important issue in agriculture. Any farmer is interested in knowing how much yield he is about to expect. In the past, yield prediction was performed by considering farmer's experience on particular field and crop. The yield prediction is a major issue that remains to be solved based on available data. Machine learning techniques are the better choice for this purpose. Different Machine learning techniques are used and evaluated in agriculture for estimating the future year's crop production. This paper proposes and implements a system to predict crop yield from previous data. This is achieved by applying machine learning algorithms like Support Vector Machine and Random Forest on agriculture data and recommends fertilizer suitable for every particular crop. The paper focuses on creation of a prediction model which may be used for future prediction of",
+      "cited_by_count": 177
+    },
+    {
+      "title": "The Role of AI, Machine Learning, and Big Data in Digital Twinning: A Systematic Literature Review, Challenges, and Opportunities",
+      "authors": "M. Mazhar Rathore, Syed Attique Shah, Dhirendra Shukla, Elmahdi Bentafat, Spiridon Bakiras",
+      "year": 2021,
+      "venue": "IEEE Access",
+      "doi": "https://doi.org/10.1109/access.2021.3060863",
+      "url": "https://openalex.org/W3132985895",
+      "abstract": "Digital twinning is one of the top ten technology trends in the last couple of years, due to its high applicability in the industrial sector. The integration of big data analytics and artificial intelligence/machine learning (AI-ML) techniques with digital twinning, further enriches its significance and research potential with new opportunities and unique challenges. To date, a number of scientific models have been designed and implemented related to this evolving topic. However, there is no systematic review of digital twinning, particularly focusing on the role of AI-ML and big data, to guide the academia and industry towards future developments. Therefore, this article emphasizes the role of big data and AI-ML in the creation of digital twins (DTs) or DT-based systems for various industrial applications, by highlighting the current state-of-the-art deployments. We performed a systematic review on top of multidisciplinary electronic bibliographic databases, in addition to existing patents in the field. Also,",
+      "cited_by_count": 590
+    },
+    {
+      "title": "Tackling Climate Change with Machine Learning",
+      "authors": "David Rolnick, Priya L. Donti, Lynn H. Kaack, Kelly Kochanski, Alexandre Lacoste",
+      "year": 2022,
+      "venue": "ACM Computing Surveys",
+      "doi": "https://doi.org/10.1145/3485128",
+      "url": "https://openalex.org/W2950398529",
+      "abstract": "Climate change is one of the greatest challenges facing humanity, and we, as machine learning (ML) experts, may wonder how we can help. Here we describe how ML can be a powerful tool in reducing greenhouse gas emissions and helping society adapt to a changing climate. From smart grids to disaster management, we identify high impact problems where existing gaps can be filled by ML, in collaboration with other fields. Our recommendations encompass exciting research questions as well as promising business opportunities. We call on the ML community to join the global effort against climate change.",
+      "cited_by_count": 193
+    },
+    {
+      "title": "Machine Learning Methods in Weather and Climate Applications: A Survey",
+      "authors": "Liuyi Chen, Bocheng Han, Xuesong Wang, Jiazhen Zhao, Wenke Yang",
+      "year": 2023,
+      "venue": "Applied Sciences",
+      "doi": "https://doi.org/10.3390/app132112019",
+      "url": "https://openalex.org/W4388288440",
+      "abstract": "With the rapid development of artificial intelligence, machine learning is gradually becoming popular for predictions in all walks of life. In meteorology, it is gradually competing with traditional climate predictions dominated by physical models. This survey aims to consolidate the current understanding of Machine Learning (ML) applications in weather and climate prediction—a field of growing importance across multiple sectors, including agriculture and disaster management. Building upon an exhaustive review of more than 20 methods highlighted in existing literature, this survey pinpointed eight techniques that show particular promise for improving the accuracy of both short-term weather and medium-to-long-term climate forecasts. According to the survey, while ML demonstrates significant capabilities in short-term weather prediction, its application in medium-to-long-term climate forecasting remains limited, constrained by factors such as intricate climate variables and data limitations. Current literature tends to focus narrowly on either short-term weather or medium-to-long-term climate forecasting, often neglecting the relationship between",
+      "cited_by_count": 183
+    },
+    {
+      "title": "A Comprehensive Review of Crop Yield Prediction Using Machine Learning Approaches With Special Emphasis on Palm Oil Yield Prediction",
+      "authors": "Mamunur Rashid, Bifta Sama Bari, Yusri Yusup, Mohamad Anuar Kamaruddin, Nuzhat Khan",
+      "year": 2021,
+      "venue": "IEEE Access",
+      "doi": "https://doi.org/10.1109/access.2021.3075159",
+      "url": "https://openalex.org/W3159310484",
+      "abstract": "An early and reliable estimation of crop yield is essential in quantitative and financial evaluation at the field level for determining strategic plans in agricultural commodities for import-export policies and doubling farmer’s incomes. Crop yield predictions are carried out to estimate higher crop yield through the use of machine learning algorithms which are one of the challenging issues in the agricultural sector. Due to this developing significance of crop yield prediction, this article provides an exhaustive review on the use of machine learning algorithms to predict crop yield with special emphasis on palm oil yield prediction. Initially, the current status of palm oil yield around the world is presented, along with a brief discussion on the overview of widely used features and prediction algorithms. Then, the critical evaluation of the state-of-the-art machine learning-based crop yield prediction, machine learning application in the palm oil industry and comparative analysis of related studies",
+      "cited_by_count": 362
+    },
+    {
+      "title": "A machine learning approach to cluster destination image on Instagram",
+      "authors": "Veronika Arefieva, Roman Egger, Joanne Yu",
+      "year": 2021,
+      "venue": "Tourism Management",
+      "doi": "https://doi.org/10.1016/j.tourman.2021.104318",
+      "url": "https://openalex.org/W3136148461",
+      "abstract": "Symbols are powerful in branding and marketing to represent tourist attractions. By bridging semiotics, marketing, and data science in the tourism context, this study uncovers the destination image based on Instagram photographs. This study constructed a novel methodological framework by evaluating different machine learning models to group textual information based on pictorial content. The results highlighted specific destination image clusters such as the wilderness and spirituality of alpine experiences. This information facilitates marketers' understanding of tourists’ preferences and movement. It also discloses blind spots that are less promoted by the marketers.",
+      "cited_by_count": 164
+    },
+    {
+      "title": "A Systematic Review of Smart Real Estate Technology: Drivers of, and Barriers to, the Use of Digital Disruptive Technologies and Online Platforms",
+      "authors": "Fahim Ullah, Samad M. E. Sepasgozar, Cynthia Wang",
+      "year": 2018,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su10093142",
+      "url": "https://openalex.org/W2891520355",
+      "abstract": "Real estate needs to improve its adoption of disruptive technologies to move from traditional to smart real estate (SRE). This study reviews the adoption of disruptive technologies in real estate. It covers the applications of nine such technologies, hereby referred to as the Big9. These are: drones, the internet of things (IoT), clouds, software as a service (SaaS), big data, 3D scanning, wearable technologies, virtual and augmented realities (VR and AR), and artificial intelligence (AI) and robotics. The Big9 are examined in terms of their application to real estate and how they can furnish consumers with the kind of information that can avert regrets. The review is based on 213 published articles. The compiled results show the state of each technology’s practice and usage in real estate. This review also surveys dissemination mechanisms, including smartphone technology, websites and social media-based online platforms, as well as the core components of SRE:",
+      "cited_by_count": 227
+    },
+    {
+      "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+      "authors": "Yogesh K. Dwivedi, Laurie Hughes, Elvira Ismagilova, Gert Aarts, Crispin Coombs",
+      "year": 2019,
+      "venue": "International Journal of Information Management",
+      "doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+      "url": "https://openalex.org/W2969625533",
+      "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and autonomous decision-making, engendering new opportunities for continued innovation. The impact of AI could be significant, with industries ranging from: finance , healthcare, manufacturing, retail, supply chain , logistics and utilities, all potentially disrupted by the onset of AI technologies. The study brings together the collective insight from a number of leading expert contributors to highlight the significant opportunities, realistic assessment of impact, challenges and",
+      "cited_by_count": 4222
+    },
+    {
+      "title": "How artificial intelligence will change the future of marketing",
+      "authors": "Thomas H. Davenport, Abhijit Guha, Dhruv Grewal, Timna Breßgott",
+      "year": 2019,
+      "venue": "Journal of the Academy of Marketing Science",
+      "doi": "https://doi.org/10.1007/s11747-019-00696-0",
+      "url": "https://openalex.org/W2979906316",
+      "abstract": "Abstract In the future, artificial intelligence (AI) is likely to substantially change both marketing strategies and customer behaviors. Building from not only extant research but also extensive interactions with practice, the authors propose a multidimensional framework for understanding the impact of AI involving intelligence levels, task types, and whether AI is embedded in a robot. Prior research typically addresses a subset of these dimensions; this paper integrates all three into a single framework. Next, the authors propose a research agenda that addresses not only how marketing strategies and customer behaviors will change in the future, but also highlights important policy questions relating to privacy, bias and ethics. Finally, the authors suggest AI will be more effective if it augments (rather than replaces) human managers.",
+      "cited_by_count": 2497
+    },
+    {
+      "title": "Ethical and legal challenges of artificial intelligence-driven healthcare",
+      "authors": "Sara Gerke, Timo Minssen, Glenn Cohen",
+      "year": 2020,
+      "venue": "Elsevier eBooks",
+      "doi": "https://doi.org/10.1016/b978-0-12-818438-7.00012-5",
+      "url": "https://openalex.org/W3035286874",
+      "abstract": "",
+      "cited_by_count": 1014
+    },
+    {
+      "title": "A historical perspective of explainable Artificial Intelligence",
+      "authors": "Roberto Confalonieri, Ludovik Çoba, B.J. Wagner, Tarek R. Besold",
+      "year": 2020,
+      "venue": "Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery",
+      "doi": "https://doi.org/10.1002/widm.1391",
+      "url": "https://openalex.org/W3093718041",
+      "abstract": "Abstract Explainability in Artificial Intelligence (AI) has been revived as a topic of active research by the need of conveying safety and trust to users in the “how” and “why” of automated decision‐making in different applications such as autonomous driving, medical diagnosis, or banking and finance. While explainability in AI has recently received significant attention, the origins of this line of work go back several decades to when AI systems were mainly developed as (knowledge‐based) expert systems. Since then, the definition, understanding, and implementation of explainability have been picked up in several lines of research work, namely, expert systems, machine learning, recommender systems, and in approaches to neural‐symbolic learning and reasoning, mostly happening during different periods of AI history. In this article, we present a historical perspective of Explainable Artificial Intelligence. We discuss how explainability was mainly conceived in the past, how it is understood in the present and, how",
+      "cited_by_count": 378
+    },
+    {
+      "title": "Contributions and Risks of Artificial Intelligence (AI) in Building Smarter Cities: Insights from a Systematic Review of the Literature",
+      "authors": "Tan Yiğitcanlar, Kevin C. Desouza, Luke Butler, Farnoosh Roozkhosh",
+      "year": 2020,
+      "venue": "Energies",
+      "doi": "https://doi.org/10.3390/en13061473",
+      "url": "https://openalex.org/W3011648816",
+      "abstract": "Artificial intelligence (AI) is one of the most disruptive technologies of our time. Interest in the use of AI for urban innovation continues to grow. Particularly, the rise of smart cities—urban locations that are enabled by community, technology, and policy to deliver productivity, innovation, livability, wellbeing, sustainability, accessibility, good governance, and good planning—has increased the demand for AI-enabled innovations. There is, nevertheless, no scholarly work that provides a comprehensive review on the topic. This paper generates insights into how AI can contribute to the development of smarter cities. A systematic review of the literature is selected as the methodologic approach. Results are categorized under the main smart city development dimensions, i.e., economy, society, environment, and governance. The findings of the systematic review containing 93 articles disclose that: (a) AI in the context of smart cities is an emerging field of research and practice. (b) The central focus of the literature",
+      "cited_by_count": 526
+    },
+    {
+      "title": "Teachers’ readiness and intention to teach artificial intelligence in schools",
+      "authors": "Musa Adekunle Ayanwale, Ismaila Temitayo Sanusi, Owolabi Paul Adelana, Kehinde Aruleba, Solomon Sunday Oyelere",
+      "year": 2022,
+      "venue": "Computers and Education Artificial Intelligence",
+      "doi": "https://doi.org/10.1016/j.caeai.2022.100099",
+      "url": "https://openalex.org/W4295413191",
+      "abstract": "The emergence of artificial intelligence (AI) as a subject to be incorporated into K-12 educational levels places new demand on relevant stakeholders, especially teachers that drive the teaching and learning process. It is therefore important to understand how ready teachers are to teach the emerging subject as the success of AI education would probably be closely dependent on the readiness of teachers. As a result, this study presents an insight into factors influencing the behavioural intention and readiness of Nigerian in-service teachers to teach artificial intelligence. A total of 368 teachers, from elementary to high school participated in the study. We utilised quantitative methodology using variance-based structural equation modelling to understand the relationship among the eight variables (AI anxiety, perceived usefulness, AI for social good, Attitude towards using AI, perceived confidence in teaching AI, relevance of AI, AI readiness, and behavioural intention) considered in the study. The result indicated that",
+      "cited_by_count": 367
+    },
+    {
+      "title": "Harnessing Artificial Intelligence Capabilities to Improve Cybersecurity",
+      "authors": "Sherali Zeadally, Erwin Adi, Zubair Baig, Imran Ali Khan",
+      "year": 2020,
+      "venue": "IEEE Access",
+      "doi": "https://doi.org/10.1109/access.2020.2968045",
+      "url": "https://openalex.org/W3001275383",
+      "abstract": "Cybersecurity is a fast-evolving discipline that is always in the news over the last decade, as the number of threats rises and cybercriminals constantly endeavor to stay a step ahead of law enforcement. Over the years, although the original motives for carrying out cyberattacks largely remain unchanged, cybercriminals have become increasingly sophisticated with their techniques. Traditional cybersecurity solutions are becoming inadequate at detecting and mitigating emerging cyberattacks. Advances in cryptographic and Artificial Intelligence (AI) techniques (in particular, machine learning and deep learning) show promise in enabling cybersecurity experts to counter the ever-evolving threat posed by adversaries. Here, we explore AI's potential in improving cybersecurity solutions, by identifying both its strengths and weaknesses. We also discuss future research opportunities associated with the development of AI techniques in the cybersecurity field across a range of application domains.",
+      "cited_by_count": 312
+    },
+    {
+      "title": "Energetics Systems and artificial intelligence: Applications of industry 4.0",
+      "authors": "Tanveer Ahmad, Hongyu Zhu, Dongdong Zhang, Rasikh Tariq, A. Bassam",
+      "year": 2021,
+      "venue": "Energy Reports",
+      "doi": "https://doi.org/10.1016/j.egyr.2021.11.256",
+      "url": "https://openalex.org/W4200609187",
+      "abstract": "Industrial development with the growth, strengthening, stability, technical advancement, reliability, selection, and dynamic response of the power system is essential. Governments and companies invest billions of dollars in technologies to convert, harvest, rising demand, changing demand and supply patterns, efficiency, lack of analytics required for optimal energy planning, and store energy. In this scenario, artificial intelligence (AI) is starting to play a major role in the energy market. Recognizing the importance of AI, this study was conducted on seven different energetics systems and their variety of applications, including: i) electricity production; ii) power delivery; iii) electric distribution networks; iv) energy storage; v) energy saving, new energy materials, and devices; vi) energy efficiency and nanotechnology; and vii) energy policy, and economics. The main drivers are the four key techniques used in current AI technologies, including: i) fuzzy logic systems; ii) artificial neural networks; iii) genetic algorithms; and iv) expert systems. In",
+      "cited_by_count": 363
+    },
+    {
+      "title": "Artificial Intelligence to Improve the Food and Agriculture Sector",
+      "authors": "Rayda Ben Ayed, Mohsen Hanana",
+      "year": 2021,
+      "venue": "Journal of Food Quality",
+      "doi": "https://doi.org/10.1155/2021/5584754",
+      "url": "https://openalex.org/W3159526010",
+      "abstract": "The world population is expected to reach over 9 billion by 2050, which will require an increase in agricultural and food production by 70% to fit the need, a serious challenge for the agri-food industry. Such requirement, in a context of resources scarcity, climate change, COVID-19 pandemic, and very harsh socioeconomic conjecture, is difficult to fulfill without the intervention of computational tools and forecasting strategy. Hereby, we report the importance of artificial intelligence and machine learning as a predictive multidisciplinary approach integration to improve the food and agriculture sector, yet with some limitations that should be considered by stakeholders.",
+      "cited_by_count": 306
+    },
+    {
+      "title": "Alexa, <i>she's</i> not human but… Unveiling the drivers of consumers' trust in voice‐based artificial intelligence",
+      "authors": "Valentina Pitardi, Hannah R. Marriott",
+      "year": 2021,
+      "venue": "Psychology and Marketing",
+      "doi": "https://doi.org/10.1002/mar.21457",
+      "url": "https://openalex.org/W3123303846",
+      "abstract": "Abstract With the development of deep connections between humans and Artificial Intelligence voice‐based assistants (VAs), human and machine relationships have transformed. For relationships to work it is essential for trust to be established. Although the capabilities of VAs offer retailers and consumers enhanced opportunities, building trust with machines is inherently challenging. In this paper, we propose integrating Human–Computer Interaction Theories and Para‐Social Relationship Theory to develop insight into how trust and attitudes toward VAs are established. By adopting a mixed‐method approach, first, we quantitatively examine the proposed model using Covariance‐Based Structural Equation Modeling on 466 respondents; based on the findings of this study, a second qualitative study is employed to reveal four main themes. Findings show that while functional elements drive users' attitude toward using VAs, the social attributes, being social presence and social cognition, are the unique antecedents for developing trust. Additionally, the research illustrates a peculiar dynamic between",
+      "cited_by_count": 464
+    }
+  ]
+}

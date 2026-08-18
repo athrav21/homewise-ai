@@ -1,0 +1,754 @@
+{
+  "Residential Decision Making": [
+    {
+      "title": "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment",
+      "authors": "Raj Chetty, Nathaniel Hendren, Lawrence F. Katz",
+      "year": 2016,
+      "venue": "American Economic Review",
+      "doi": "https://doi.org/10.1257/aer.20150572",
+      "type": "article"
+    },
+    {
+      "title": "Residential Location Choice in the Era of Shared Autonomous Vehicles",
+      "authors": "Wenwen Zhang, Subhrajit Guhathakurta",
+      "year": 2018,
+      "venue": "Journal of Planning Education and Research",
+      "doi": "https://doi.org/10.1177/0739456x18776062",
+      "type": "article"
+    },
+    {
+      "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990\u20132019",
+      "authors": "Gregory A. Roth, George A. Mensah, Catherine O. Johnson, Giovanni Addolorato, Enrico Ammirati",
+      "year": 2020,
+      "venue": "Journal of the American College of Cardiology",
+      "doi": "https://doi.org/10.1016/j.jacc.2020.11.010",
+      "type": "article"
+    },
+    {
+      "title": "Housing Constraints and Spatial Misallocation",
+      "authors": "Chang\u2010Tai Hsieh, Enrico Moretti",
+      "year": 2019,
+      "venue": "American Economic Journal Macroeconomics",
+      "doi": "https://doi.org/10.1257/mac.20170388",
+      "type": "article"
+    },
+    {
+      "title": "The Impacts of Neighborhoods on Intergenerational Mobility II: County-Level Estimates*",
+      "authors": "Raj Chetty, Nathaniel Hendren",
+      "year": 2018,
+      "venue": "The Quarterly Journal of Economics",
+      "doi": "https://doi.org/10.1093/qje/qjy006",
+      "type": "article"
+    }
+  ],
+  "GIS": [
+    {
+      "title": "GIS-based site suitability analysis for wind farm development in Saudi Arabia",
+      "authors": "M.A. Baseer, Shafiqur Rehman, Josua P. Meyer, Md. Mahbub Alam",
+      "year": 2017,
+      "venue": "Energy",
+      "doi": "https://doi.org/10.1016/j.energy.2017.10.016",
+      "type": "article"
+    },
+    {
+      "title": "A framework for GIS-based site selection and technical potential evaluation of PV solar farm using Fuzzy-Boolean logic and AHP multi-criteria decision-making approach",
+      "authors": "Younes Noorollahi, Ali Ghenaatpisheh Senani, Ahmad Fadaei, Mobina Simaee, Rahim Moltames",
+      "year": 2022,
+      "venue": "Renewable Energy",
+      "doi": "https://doi.org/10.1016/j.renene.2021.12.124",
+      "type": "article"
+    },
+    {
+      "title": "Land Suitability Analysis for Solar Farms Exploitation Using GIS and Fuzzy Analytic Hierarchy Process (FAHP)\u2014A Case Study of Iran",
+      "authors": "Ehsan Noorollahi, Dawud Fadai, Mohsen Akbarpour Shirazi, Seyed Hassan Ghodsipour",
+      "year": 2016,
+      "venue": "Energies",
+      "doi": "https://doi.org/10.3390/en9080643",
+      "type": "article"
+    },
+    {
+      "title": "Land Suitability Analysis of Urban Growth in Seremban Malaysia, Using GIS Based Analytical Hierarchy Process",
+      "authors": "Maher Milad Aburas, Sabrina H.O. Abdullah, Mohammad Firuz Ramli, Zulfa Hanan Ash\u2019aari",
+      "year": 2017,
+      "venue": "Procedia Engineering",
+      "doi": "https://doi.org/10.1016/j.proeng.2017.07.155",
+      "type": "conference-paper"
+    },
+    {
+      "title": "A suitability mapping for the PV solar farms in Egypt based on GIS-AHP to optimize multi-criteria feasibility",
+      "authors": "Bahaa Elboshy, Mamdooh Alwetaishi, Reda M. H. Aly, Amr S. Zalhaf",
+      "year": 2021,
+      "venue": "Ain Shams Engineering Journal",
+      "doi": "https://doi.org/10.1016/j.asej.2021.10.013",
+      "type": "article"
+    },
+    {
+      "title": "GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&amp;K, India",
+      "authors": "Jahangeer A. Parry, Showkat A. Ganaie, M. Sultan Bhat",
+      "year": 2018,
+      "venue": "Journal of Urban Management",
+      "doi": "https://doi.org/10.1016/j.jum.2018.05.002",
+      "type": "article"
+    },
+    {
+      "title": "Critical analysis of Big Data challenges and analytical methods",
+      "authors": "Uthayasankar Sivarajah, Muhammad Mustafa Kamal, Zahir Irani, Vishanth Weerakkody",
+      "year": 2016,
+      "venue": "Journal of Business Research",
+      "doi": "https://doi.org/10.1016/j.jbusres.2016.08.001",
+      "type": "article"
+    },
+    {
+      "title": "Street view imagery in urban analytics and GIS: A review",
+      "authors": "Filip Biljecki, Koichi Ito",
+      "year": 2021,
+      "venue": "Landscape and Urban Planning",
+      "doi": "https://doi.org/10.1016/j.landurbplan.2021.104217",
+      "type": "article"
+    },
+    {
+      "title": "GIS-based site suitability analysis for wind farm development in Saudi Arabia",
+      "authors": "M.A. Baseer, Shafiqur Rehman, Josua P. Meyer, Md. Mahbub Alam",
+      "year": 2017,
+      "venue": "Energy",
+      "doi": "https://doi.org/10.1016/j.energy.2017.10.016",
+      "type": "article"
+    },
+    {
+      "title": "A high-resolution geospatial assessment of the rooftop solar photovoltaic potential in the European Union",
+      "authors": "Katalin B\u00f3dis, Ioannis Kougias, Arnulf J\u00e4ger\u2010Waldau, N. Taylor, S. Szab\u00f3",
+      "year": 2019,
+      "venue": "Renewable and Sustainable Energy Reviews",
+      "doi": "https://doi.org/10.1016/j.rser.2019.109309",
+      "type": "article"
+    },
+    {
+      "title": "Dynamics of land use and land cover change (LULCC) using geospatial techniques: a case study of Islamabad Pakistan",
+      "authors": "Zahra Mohammed Hassan, Rabia Shabbir, Sheikh Saeed Ahmad, Amir Haider Malik, Neelam Aziz",
+      "year": 2016,
+      "venue": "SpringerPlus",
+      "doi": "https://doi.org/10.1186/s40064-016-2414-z",
+      "type": "article"
+    },
+    {
+      "title": "Critical analysis of Big Data challenges and analytical methods",
+      "authors": "Uthayasankar Sivarajah, Muhammad Mustafa Kamal, Zahir Irani, Vishanth Weerakkody",
+      "year": 2016,
+      "venue": "Journal of Business Research",
+      "doi": "https://doi.org/10.1016/j.jbusres.2016.08.001",
+      "type": "article"
+    },
+    {
+      "title": "Geospatial Data Management Research: Progress and Future Directions",
+      "authors": "Martin Breunig, Patrick Erik Bradley, Markus Jahn, Paul Vincent Kuper, Nima Mazroob",
+      "year": 2020,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "doi": "https://doi.org/10.3390/ijgi9020095",
+      "type": "article"
+    },
+    {
+      "title": "Land Suitability Analysis for Solar Farms Exploitation Using GIS and Fuzzy Analytic Hierarchy Process (FAHP)\u2014A Case Study of Iran",
+      "authors": "Ehsan Noorollahi, Dawud Fadai, Mohsen Akbarpour Shirazi, Seyed Hassan Ghodsipour",
+      "year": 2016,
+      "venue": "Energies",
+      "doi": "https://doi.org/10.3390/en9080643",
+      "type": "article"
+    }
+  ],
+  "MCDM": [
+    {
+      "title": "A New Model for Determining Weight Coefficients of Criteria in MCDM Models: Full Consistency Method (FUCOM)",
+      "authors": "Dragan Pamu\u010dar, \u017deljko Stevi\u0107, Sini\u0161a Sremac",
+      "year": 2018,
+      "venue": "Symmetry",
+      "doi": "https://doi.org/10.3390/sym10090393",
+      "type": "article"
+    },
+    {
+      "title": "MCDM and Various Prioritization Methods in AHP for CSS: A Comprehensive Review",
+      "authors": "Jayadev Gyani, Ahsan Uddin Ahmed, Mohd Anul Haq",
+      "year": 2022,
+      "venue": "IEEE Access",
+      "doi": "https://doi.org/10.1109/access.2022.3161742",
+      "type": "article"
+    },
+    {
+      "title": "A Comparative Study of the AHP and TOPSIS Techniques for Dam Site Selection Using GIS: A Case Study of Sistan and Baluchestan Province, Iran",
+      "authors": "Ali Jozaghi, Babak Alizadeh, Mohsen Hatami, Ian Flood, Mohammad Khorrami",
+      "year": 2018,
+      "venue": "Geosciences",
+      "doi": "https://doi.org/10.3390/geosciences8120494",
+      "type": "article"
+    },
+    {
+      "title": "Analysis of a Robot Selection Problem Using Two Newly Developed Hybrid MCDM Models of TOPSIS-ARAS and COPRAS-ARAS",
+      "authors": "Shankha Shubhra Goswami, Dhiren Kumar Behera, Asif Afzal, Abdul Razak Kaladgi, Sher Afghan Khan",
+      "year": 2021,
+      "venue": "Symmetry",
+      "doi": "https://doi.org/10.3390/sym13081331",
+      "type": "article"
+    },
+    {
+      "title": "A comprehensive analysis of weighting and multicriteria methods in the context of sustainable energy",
+      "authors": "Mehmet \u015eahin",
+      "year": 2020,
+      "venue": "International Journal of Environmental Science and Technology",
+      "doi": "https://doi.org/10.1007/s13762-020-02922-7",
+      "type": "article"
+    },
+    {
+      "title": "Evaluating construction projects of hotels based on environmental sustainability with MCDM framework",
+      "authors": "Sarfaraz Hashemkhani Zolfani, Morteza Pourhossein, Morteza Yazdani, Edmundas Kazimieras Zavadskas",
+      "year": 2017,
+      "venue": "Alexandria Engineering Journal",
+      "doi": "https://doi.org/10.1016/j.aej.2016.11.002",
+      "type": "article"
+    },
+    {
+      "title": "A fuzzy AHP-TOPSIS approach to supply partner selection in continuous aid humanitarian supply chains",
+      "authors": "V. G. Venkatesh, Abraham Zhang, Eric Deakins, Sunil Luthra, Sachin Kumar Mangla",
+      "year": 2018,
+      "venue": "Annals of Operations Research",
+      "doi": "https://doi.org/10.1007/s10479-018-2981-1",
+      "type": "article"
+    },
+    {
+      "title": "Bioethanol facility location selection using best-worst method",
+      "authors": "Siamak Kheybari, Mostafa Kazemi, Jafar Rezaei",
+      "year": 2019,
+      "venue": "Applied Energy",
+      "doi": "https://doi.org/10.1016/j.apenergy.2019.03.054",
+      "type": "article"
+    },
+    {
+      "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews",
+      "authors": "Matthew J. Page, David Moher, Patrick M. Bossuyt, Isabelle Boutron, Tammy Hoffmann",
+      "year": 2021,
+      "venue": "BMJ",
+      "doi": "https://doi.org/10.1136/bmj.n160",
+      "type": "review"
+    },
+    {
+      "title": "Multi-Criteria Decision-Making (MCDM) for the Assessment of Renewable Energy Technologies in a Household: A Review",
+      "authors": "Indr\u0117 \u0160ik\u0161nelyt\u0117-Butkien\u0117, Edmundas Kazimieras Zavadskas, Dalia \u0160treimikien\u0117",
+      "year": 2020,
+      "venue": "Energies",
+      "doi": "https://doi.org/10.3390/en13051164",
+      "type": "article"
+    },
+    {
+      "title": "A framework for GIS-based site selection and technical potential evaluation of PV solar farm using Fuzzy-Boolean logic and AHP multi-criteria decision-making approach",
+      "authors": "Younes Noorollahi, Ali Ghenaatpisheh Senani, Ahmad Fadaei, Mobina Simaee, Rahim Moltames",
+      "year": 2022,
+      "venue": "Renewable Energy",
+      "doi": "https://doi.org/10.1016/j.renene.2021.12.124",
+      "type": "article"
+    },
+    {
+      "title": "Combining multi-criteria decision making (MCDM) methods with building information modelling (BIM): A review",
+      "authors": "Tan Tan, Grant Mills, Eleni Papadonikolaki, Zhening Liu",
+      "year": 2020,
+      "venue": "Automation in Construction",
+      "doi": "https://doi.org/10.1016/j.autcon.2020.103451",
+      "type": "article"
+    }
+  ],
+  "Recommendation": [
+    {
+      "title": "Barriers to and Facilitators of User Engagement With Digital Mental Health Interventions: Systematic Review",
+      "authors": "Judith Borghouts, Elizabeth V. Eikey, Gloria Mark, Cinthia De Leon, Stephen M. Schueller",
+      "year": 2021,
+      "venue": "Journal of Medical Internet Research",
+      "doi": "https://doi.org/10.2196/24387",
+      "type": "review"
+    },
+    {
+      "title": "Improvising personalized travel recommendation system with recency effects",
+      "authors": "Paromita Nitu, Joseph Coelho, Praveen Madiraju",
+      "year": 2021,
+      "venue": "Big Data Mining and Analytics",
+      "doi": "https://doi.org/10.26599/bdma.2020.9020026",
+      "type": "article"
+    },
+    {
+      "title": "Using social and behavioural science to support COVID-19 pandemic response",
+      "authors": "Jay Joseph Van Bavel, Katherine Baicker, Paulo S. Boggio, Valerio Capraro, Aleksandra Cichocka",
+      "year": 2020,
+      "venue": "Nature Human Behaviour",
+      "doi": "https://doi.org/10.1038/s41562-020-0884-z",
+      "type": "article"
+    },
+    {
+      "title": "Biobanks in the era of personalized medicine: objectives, challenges, and innovation",
+      "authors": "Judita Kinkorov\u00e1",
+      "year": 2015,
+      "venue": "The EPMA Journal",
+      "doi": "https://doi.org/10.1186/s13167-016-0053-7",
+      "type": "article"
+    },
+    {
+      "title": "A REDCap-based model for electronic consent (eConsent): Moving toward a more personalized consent",
+      "authors": "Colleen Lawrence, Leah Dunkel, Mark A. McEver, Tiffany Israel, Robert J. Taylor",
+      "year": 2020,
+      "venue": "Journal of Clinical and Translational Science",
+      "doi": "https://doi.org/10.1017/cts.2020.30",
+      "type": "article"
+    },
+    {
+      "title": "Indoor environmental quality related risk factors with energy-efficient retrofitting of housing: A literature review",
+      "authors": "Marco A. Ortiz, Laure Itard, Philomena M. Bluyssen",
+      "year": 2020,
+      "venue": "Energy and Buildings",
+      "doi": "https://doi.org/10.1016/j.enbuild.2020.110102",
+      "type": "article"
+    },
+    {
+      "title": "Millennials Housing Preferences Model in Jakarta",
+      "authors": "Yunilson Mulyano, Raden Aswin Rahadi, Urfi Amaliah",
+      "year": 2020,
+      "venue": "European Journal of Business Management and Research",
+      "doi": "https://doi.org/10.24018/ejbmr.2020.5.1.240",
+      "type": "article"
+    },
+    {
+      "title": "Uses of the digital twins concept for energy services, intelligent recommendation systems, and demand side management: A review",
+      "authors": "Abiodun E. Onile, Ram Machlev, Eduard Petlenkov, Yoash Levron, Juri Belikov",
+      "year": 2021,
+      "venue": "Energy Reports",
+      "doi": "https://doi.org/10.1016/j.egyr.2021.01.090",
+      "type": "article"
+    },
+    {
+      "title": "Geographical Proximity Boosted Recommendation Algorithms for Real Estate",
+      "authors": "Yonghong Yu, Can Wang, Li Zhang, Rong Gao, Hua Wang",
+      "year": 2018,
+      "venue": "Lecture notes in computer science",
+      "doi": "https://doi.org/10.1007/978-3-030-02925-8_4",
+      "type": "conference-paper"
+    },
+    {
+      "title": "Cognitive Dissonance in Technology Adoption: A Study of Smart Home Users",
+      "authors": "Davit Marikyan, Savvas Papagiannidis, Eleftherios Alamanos",
+      "year": 2020,
+      "venue": "Information Systems Frontiers",
+      "doi": "https://doi.org/10.1007/s10796-020-10042-3",
+      "type": "article"
+    },
+    {
+      "title": "High-quality health systems in the Sustainable Development Goals era: time for a revolution",
+      "authors": "Margaret E. Kruk, Anna Gage, Catherine Arsenault, Keely Jordan, Hannah H. Leslie",
+      "year": 2018,
+      "venue": "The Lancet Global Health",
+      "doi": "https://doi.org/10.1016/s2214-109x(18)30386-3",
+      "type": "article"
+    },
+    {
+      "title": "PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews",
+      "authors": "Matthew J. Page, David Moher, Patrick M. Bossuyt, Isabelle Boutron, Tammy Hoffmann",
+      "year": 2021,
+      "venue": "BMJ",
+      "doi": "https://doi.org/10.1136/bmj.n160",
+      "type": "review"
+    },
+    {
+      "title": "Barriers to and Facilitators of User Engagement With Digital Mental Health Interventions: Systematic Review",
+      "authors": "Judith Borghouts, Elizabeth V. Eikey, Gloria Mark, Cinthia De Leon, Stephen M. Schueller",
+      "year": 2021,
+      "venue": "Journal of Medical Internet Research",
+      "doi": "https://doi.org/10.2196/24387",
+      "type": "review"
+    },
+    {
+      "title": "Improvising personalized travel recommendation system with recency effects",
+      "authors": "Paromita Nitu, Joseph Coelho, Praveen Madiraju",
+      "year": 2021,
+      "venue": "Big Data Mining and Analytics",
+      "doi": "https://doi.org/10.26599/bdma.2020.9020026",
+      "type": "article"
+    }
+  ],
+  "Property/Housing": [
+    {
+      "title": "Impacts of Street-Visible Greenery on Housing Prices: Evidence from a Hedonic Price Model and a Massive Street View Image Dataset in Beijing",
+      "authors": "Yonglin Zhang, Rencai Dong",
+      "year": 2018,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "doi": "https://doi.org/10.3390/ijgi7030104",
+      "type": "article"
+    },
+    {
+      "title": "Exploring Determinants of Housing Prices in Beijing: An Enhanced Hedonic Regression with Open Access POI Data",
+      "authors": "Yixiong Xiao, Xiang Chen, Qiang Li, Yu Xi, Jin Chen",
+      "year": 2017,
+      "venue": "ISPRS International Journal of Geo-Information",
+      "doi": "https://doi.org/10.3390/ijgi6110358",
+      "type": "article"
+    },
+    {
+      "title": "The impact of neighborhood services on land values: an estimation through the hedonic pricing model",
+      "authors": "Asad Aziz, Muhammad Mushahid Anwar, Muhammad Dawood",
+      "year": 2020,
+      "venue": "GeoJournal",
+      "doi": "https://doi.org/10.1007/s10708-019-10127-w",
+      "type": "article"
+    },
+    {
+      "title": "A hedonic pricing method to estimate the value of waterfronts in the Gulf of Mexico",
+      "authors": "Ram P. Dahal, Robert K. Grala, Jason Gordon, Ian A. Munn, Daniel R. Petrolia",
+      "year": 2019,
+      "venue": "Urban forestry & urban greening",
+      "doi": "https://doi.org/10.1016/j.ufug.2019.04.004",
+      "type": "article"
+    },
+    {
+      "title": "A model to Estimate the Implicit Values of Housing Attributes by Applying the Hedonic Pricing Method",
+      "authors": "TD Randeniya, Gayani Ranasinghe, Susantha Amarawickrama",
+      "year": 2017,
+      "venue": "International Journal of Built Environment and Sustainability",
+      "doi": "https://doi.org/10.11113/ijbes.v4.n2.182",
+      "type": "article"
+    },
+    {
+      "title": "Spatial Effects of Public Service Facilities Accessibility on Housing Prices: A Case Study of Xi\u2019an, China",
+      "authors": "Lan Feng, Qi Wu, Tao Zhou, Huili Da",
+      "year": 2018,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su10124503",
+      "type": "article"
+    },
+    {
+      "title": "Spatial and Social Media Data Analytics of Housing Prices in Shenzhen, China",
+      "authors": "Chao Wu, Xinyue Ye, Fu Ren, You Wan, Pengfei Ning",
+      "year": 2016,
+      "venue": "PLoS ONE",
+      "doi": "https://doi.org/10.1371/journal.pone.0164553",
+      "type": "article"
+    },
+    {
+      "title": "Urban Green Spaces and Housing Prices: An Alternative Perspective",
+      "authors": "Veronika Liebelt, Stephan Bartke, Nina Schwarz",
+      "year": 2019,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su11133707",
+      "type": "article"
+    },
+    {
+      "title": "A HOUSE PRICE VALUATION BASED ON THE RANDOM FOREST APPROACH: THE MASS APPRAISAL OF RESIDENTIAL PROPERTY IN SOUTH KOREA",
+      "authors": "Jengei Hong, Heeyoul Choi, Woosung Kim",
+      "year": 2020,
+      "venue": "International Journal of Strategic Property Management",
+      "doi": "https://doi.org/10.3846/ijspm.2020.11544",
+      "type": "article"
+    },
+    {
+      "title": "The Impacts of Neighborhoods on Intergenerational Mobility II: County-Level Estimates*",
+      "authors": "Raj Chetty, Nathaniel Hendren",
+      "year": 2018,
+      "venue": "The Quarterly Journal of Economics",
+      "doi": "https://doi.org/10.1093/qje/qjy006",
+      "type": "article"
+    },
+    {
+      "title": "Impacts of Property Accessibility and Neighborhood Built Environment on Single-Unit and Multiunit Residential Property Values",
+      "authors": "Yuntao Guo, Shubham Agrawal, Srinivas Peeta, Sekhar Somenahalli",
+      "year": 2016,
+      "venue": "Transportation Research Record Journal of the Transportation Research Board",
+      "doi": "https://doi.org/10.3141/2568-15",
+      "type": "article"
+    },
+    {
+      "title": "A HOUSE PRICE VALUATION BASED ON THE RANDOM FOREST APPROACH: THE MASS APPRAISAL OF RESIDENTIAL PROPERTY IN SOUTH KOREA",
+      "authors": "Jengei Hong, Heeyoul Choi, Woosung Kim",
+      "year": 2020,
+      "venue": "International Journal of Strategic Property Management",
+      "doi": "https://doi.org/10.3846/ijspm.2020.11544",
+      "type": "article"
+    }
+  ],
+  "Infrastructure": [
+    {
+      "title": "Is Uber a substitute or complement for public transit?",
+      "authors": "Jonathan D. Hall, Craig Palsson, Joseph Price",
+      "year": 2018,
+      "venue": "Journal of Urban Economics",
+      "doi": "https://doi.org/10.1016/j.jue.2018.09.003",
+      "type": "article"
+    },
+    {
+      "title": "Public Transport Accessibility: A\u00a0Literature Review",
+      "authors": "Muhammad Atiullah Saif, Mohammad Maghrour Zefreh, \u00c1d\u00e1m T\u00f6r\u00f6k",
+      "year": 2018,
+      "venue": "Periodica Polytechnica Transportation Engineering",
+      "doi": "https://doi.org/10.3311/pptr.12072",
+      "type": "article"
+    },
+    {
+      "title": "Accessibility and Transit-Oriented Development in European metropolitan areas",
+      "authors": "Enrica Papa, Luca Bertolini",
+      "year": 2015,
+      "venue": "Journal of Transport Geography",
+      "doi": "https://doi.org/10.1016/j.jtrangeo.2015.07.003",
+      "type": "article"
+    },
+    {
+      "title": "Modeling the commute mode share of transit using continuous accessibility to jobs",
+      "authors": "Andrew Owen, David Levinson",
+      "year": 2015,
+      "venue": "Transportation Research Part A Policy and Practice",
+      "doi": "https://doi.org/10.1016/j.tra.2015.02.002",
+      "type": "article"
+    },
+    {
+      "title": "Micromobility and public transport integration: The current state of knowledge",
+      "authors": "Giulia Oeschger, P\u00e1raic Carroll, Brian Caulfield",
+      "year": 2020,
+      "venue": "Transportation Research Part D Transport and Environment",
+      "doi": "https://doi.org/10.1016/j.trd.2020.102628",
+      "type": "article"
+    },
+    {
+      "title": "The Housing Market Impacts of Shale Gas Development",
+      "authors": "Lucija Muehlenbachs, Elisheba Spiller, Christopher Timmins",
+      "year": 2015,
+      "venue": "American Economic Review",
+      "doi": "https://doi.org/10.1257/aer.20140079",
+      "type": "article"
+    },
+    {
+      "title": "High-quality health systems in the Sustainable Development Goals era: time for a revolution",
+      "authors": "Margaret E. Kruk, Anna Gage, Catherine Arsenault, Keely Jordan, Hannah H. Leslie",
+      "year": 2018,
+      "venue": "The Lancet Global Health",
+      "doi": "https://doi.org/10.1016/s2214-109x(18)30386-3",
+      "type": "article"
+    },
+    {
+      "title": "Housing Constraints and Spatial Misallocation",
+      "authors": "Chang\u2010Tai Hsieh, Enrico Moretti",
+      "year": 2019,
+      "venue": "American Economic Journal Macroeconomics",
+      "doi": "https://doi.org/10.1257/mac.20170388",
+      "type": "article"
+    }
+  ],
+  "Environment": [
+    {
+      "title": "New urban models for more sustainable, liveable and healthier cities post covid19; reducing air pollution, noise and heat island effects and increasing green space and physical activity",
+      "authors": "Mark Nieuwenhuijsen",
+      "year": 2021,
+      "venue": "Environment International",
+      "doi": "https://doi.org/10.1016/j.envint.2021.106850",
+      "type": "article"
+    },
+    {
+      "title": "Urban planning and quality of life: A review of pathways linking the built environment to subjective well-being",
+      "authors": "Kostas Mouratidis",
+      "year": 2021,
+      "venue": "Cities",
+      "doi": "https://doi.org/10.1016/j.cities.2021.103229",
+      "type": "article"
+    },
+    {
+      "title": "Balanced Urban Development: Options and Strategies for Liveable Cities",
+      "authors": "Basant Maheshwari, Vijay P. 1946- Singh, Bhadranie Thoradeniya",
+      "year": 2016,
+      "venue": "Water science and technology library",
+      "doi": "https://doi.org/10.1007/978-3-319-28112-4",
+      "type": "book"
+    },
+    {
+      "title": "Sustainalism: An Integrated Socio-Economic-Environmental Model to Address Sustainable Development and Sustainability",
+      "authors": "N. P. Hariram, K.B. Mekha, Vipinraj Suganthan, K. Sudhakar",
+      "year": 2023,
+      "venue": "Sustainability",
+      "doi": "https://doi.org/10.3390/su151310682",
+      "type": "article"
+    },
+    {
+      "title": "The Superblock model: A review of an innovative urban model for sustainability, liveability, health and well-being",
+      "authors": "Mark Nieuwenhuijsen, Audrey de Nazelle, Marta Cirach Pradas, Carolyn Daher, Angel M. Dzhambov",
+      "year": 2024,
+      "venue": "Environmental Research",
+      "doi": "https://doi.org/10.1016/j.envres.2024.118550",
+      "type": "article"
+    },
+    {
+      "title": "Creating liveable cities in Australia: Mapping urban policy implementation and evidence-based national liveability indicators",
+      "authors": "Jonathan Arundel, Melanie Lowe, Paula Hooper, Rebecca Roberts, Julianna Rozek",
+      "year": 2024,
+      "venue": "UWA Profiles and Research Repository (University of Western Australia)",
+      "doi": "https://doi.org/10.25439/rmt.27373932",
+      "type": "other"
+    },
+    {
+      "title": "Does higher density housing enhance liveability? Case studies of housing intensification in Auckland",
+      "authors": "Errol Haarhoff, Lee Beattie, Ann Dupuis",
+      "year": 2016,
+      "venue": "Cogent Social Sciences",
+      "doi": "https://doi.org/10.1080/23311886.2016.1243289",
+      "type": "article"
+    },
+    {
+      "title": "Socioeconomic Disparities and Air Pollution Exposure: a Global Review",
+      "authors": "Anjum Hajat, Charlene Hsia, Marie S. O\u2019Neill",
+      "year": 2015,
+      "venue": "Current Environmental Health Reports",
+      "doi": "https://doi.org/10.1007/s40572-015-0069-5",
+      "type": "article"
+    },
+    {
+      "title": "Air pollution, physical activity and health: A mapping review of the evidence",
+      "authors": "Marko Tainio, Zorana Jovanovic Andersen, Mark Nieuwenhuijsen, Liang Hu, Audrey de Nazelle",
+      "year": 2020,
+      "venue": "Environment International",
+      "doi": "https://doi.org/10.1016/j.envint.2020.105954",
+      "type": "article"
+    },
+    {
+      "title": "Exposure to traffic-related air pollution and risk of development of childhood asthma: A systematic review and meta-analysis",
+      "authors": "Haneen Khreis, Charlotte Kelly, James Tate, Roger Parslow, Karen Lucas",
+      "year": 2016,
+      "venue": "Environment International",
+      "doi": "https://doi.org/10.1016/j.envint.2016.11.012",
+      "type": "review"
+    },
+    {
+      "title": "The nexus between air pollution, green infrastructure and human health",
+      "authors": "Prashant Kumar, Angela Druckman, John Gallagher, Birgitta Gatersleben, Sarah Allison",
+      "year": 2019,
+      "venue": "Environment International",
+      "doi": "https://doi.org/10.1016/j.envint.2019.105181",
+      "type": "article"
+    },
+    {
+      "title": "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment",
+      "authors": "Raj Chetty, Nathaniel Hendren, Lawrence F. Katz",
+      "year": 2016,
+      "venue": "American Economic Review",
+      "doi": "https://doi.org/10.1257/aer.20150572",
+      "type": "article"
+    }
+  ],
+  "AI/ML": [
+    {
+      "title": "Tackling Climate Change with Machine Learning",
+      "authors": "Lynn H. Kaack, David Rolnick, Priya L. Donti, Kelly Kochanski, Alexandre Lacoste",
+      "year": 2022,
+      "venue": "OPUS 4 (Zuse Institute Berlin)",
+      "doi": "https://doi.org/10.1145/3485128",
+      "type": "article"
+    },
+    {
+      "title": "The Role of AI, Machine Learning, and Big Data in Digital Twinning: A Systematic Literature Review, Challenges, and Opportunities",
+      "authors": "M. Mazhar Rathore, Syed Attique Shah, Dhirendra Shukla, Elmahdi Bentafat, Spiridon Bakiras",
+      "year": 2021,
+      "venue": "IEEE Access",
+      "doi": "https://doi.org/10.1109/access.2021.3060863",
+      "type": "review"
+    },
+    {
+      "title": "PREDICTION OF CROP YIELD AND FERTILIZER RECOMMENDATION USING MACHINE LEARNING ALGORITHMS",
+      "authors": "Devdatta A Bondre, Santosh Mahagaonkar",
+      "year": 2019,
+      "venue": "International Journal of Engineering Applied Sciences and Technology",
+      "doi": "https://doi.org/10.33564/ijeast.2019.v04i05.055",
+      "type": "article"
+    },
+    {
+      "title": "Tackling Climate Change with Machine Learning",
+      "authors": "David Rolnick, Priya L. Donti, Lynn H. Kaack, Kelly Kochanski, Alexandre Lacoste",
+      "year": 2022,
+      "venue": "ACM Computing Surveys",
+      "doi": "https://doi.org/10.1145/3485128",
+      "type": "article"
+    },
+    {
+      "title": "Leveraging Digital Twin Technology in Model-Based Systems Engineering",
+      "authors": "Azad M. Madni, Carla C. Madni, Scott Lucero",
+      "year": 2019,
+      "venue": "Systems",
+      "doi": "https://doi.org/10.3390/systems7010007",
+      "type": "article"
+    },
+    {
+      "title": "A Smart Decision System for Digital Farming",
+      "authors": "Carlos Cambra, Sandra Sendra, Jaime Lloret, Jes\u00fas Tom\u00e1s",
+      "year": 2019,
+      "venue": "Agronomy",
+      "doi": "https://doi.org/10.3390/agronomy9050216",
+      "type": "article"
+    },
+    {
+      "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+      "authors": "Yogesh K. Dwivedi, Laurie Hughes, Elvira Ismagilova, Gert Aarts, Crispin Coombs",
+      "year": 2019,
+      "venue": "International Journal of Information Management",
+      "doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+      "type": "article"
+    },
+    {
+      "title": "How artificial intelligence will change the future of marketing",
+      "authors": "Thomas H. Davenport, Abhijit Guha, Dhruv Grewal, Timna Bre\u00dfgott",
+      "year": 2019,
+      "venue": "Journal of the Academy of Marketing Science",
+      "doi": "https://doi.org/10.1007/s11747-019-00696-0",
+      "type": "article"
+    },
+    {
+      "title": "Ethical and legal challenges of artificial intelligence-driven healthcare",
+      "authors": "Sara Gerke, Timo Minssen, Glenn Cohen",
+      "year": 2020,
+      "venue": "Elsevier eBooks",
+      "doi": "https://doi.org/10.1016/b978-0-12-818438-7.00012-5",
+      "type": "book-chapter"
+    },
+    {
+      "title": "Energetics Systems and artificial intelligence: Applications of industry 4.0",
+      "authors": "Tanveer Ahmad, Hongyu Zhu, Dongdong Zhang, Rasikh Tariq, A. Bassam",
+      "year": 2021,
+      "venue": "Energy Reports",
+      "doi": "https://doi.org/10.1016/j.egyr.2021.11.256",
+      "type": "article"
+    },
+    {
+      "title": "A historical perspective of explainable Artificial Intelligence",
+      "authors": "Roberto Confalonieri, Ludovik \u00c7oba, B.J. Wagner, Tarek R. Besold",
+      "year": 2020,
+      "venue": "Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery",
+      "doi": "https://doi.org/10.1002/widm.1391",
+      "type": "article"
+    },
+    {
+      "title": "Contributions and Risks of Artificial Intelligence (AI) in Building Smarter Cities: Insights from a Systematic Review of the Literature",
+      "authors": "Tan Yi\u011fitcanlar, Kevin C. Desouza, Luke Butler, Farnoosh Roozkhosh",
+      "year": 2020,
+      "venue": "Energies",
+      "doi": "https://doi.org/10.3390/en13061473",
+      "type": "review"
+    },
+    {
+      "title": "Teachers\u2019 readiness and intention to teach artificial intelligence in schools",
+      "authors": "Musa Adekunle Ayanwale, Ismaila Temitayo Sanusi, Owolabi Paul Adelana, Kehinde Aruleba, Solomon Sunday Oyelere",
+      "year": 2022,
+      "venue": "Computers and Education Artificial Intelligence",
+      "doi": "https://doi.org/10.1016/j.caeai.2022.100099",
+      "type": "article"
+    },
+    {
+      "title": "Harnessing Artificial Intelligence Capabilities to Improve Cybersecurity",
+      "authors": "Sherali Zeadally, Erwin Adi, Zubair Baig, Imran Ali Khan",
+      "year": 2020,
+      "venue": "IEEE Access",
+      "doi": "https://doi.org/10.1109/access.2020.2968045",
+      "type": "article"
+    },
+    {
+      "title": "Artificial Intelligence to Improve the Food and Agriculture Sector",
+      "authors": "Rayda Ben Ayed, Mohsen Hanana",
+      "year": 2021,
+      "venue": "Journal of Food Quality",
+      "doi": "https://doi.org/10.1155/2021/5584754",
+      "type": "article"
+    }
+  ]
+}
