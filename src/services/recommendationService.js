@@ -1,31 +1,34 @@
 import { MUMBAI_LOCALITIES } from '../data/mumbaiNeighborhoodData';
 
-export const PREFERENCE_SLIDERS = [
-  { id: 'school', label: 'School Quality', icon: 'GraduationCap', key: 'schoolScore', source: 'UDISE+ & OSM Data' },
-  { id: 'hospital', label: 'Hospital Access', icon: 'Stethoscope', key: 'hospitalScore', source: 'BMC/OpenCity & OSM' },
-  { id: 'market', label: 'Market Access', icon: 'ShoppingBag', key: 'marketScore', source: 'Overpass API POIs' },
-  { id: 'safety', label: 'Safety & Low Crime', icon: 'ShieldCheck', key: 'safetyScore', source: 'Mumbai Police & NCRB' },
-  { id: 'connectivity', label: 'City Transit Access', icon: 'Train', key: 'connectivityScore', source: 'OSM & MMRDA Metro' },
+export const FEATURE_OPTIONS = [
+  { id: 'school', label: 'Top Schools & Academics', icon: 'GraduationCap', key: 'schoolScore', source: 'UDISE+ & OSM Data' },
+  { id: 'hospital', label: 'Hospitals & Healthcare', icon: 'Stethoscope', key: 'hospitalScore', source: 'BMC/OpenCity & OSM' },
+  { id: 'market', label: 'Markets & Shopping', icon: 'ShoppingBag', key: 'marketScore', source: 'Overpass API POIs' },
+  { id: 'safety', label: 'Low Crime / Safety', icon: 'ShieldCheck', key: 'safetyScore', source: 'Mumbai Police & NCRB' },
+  { id: 'connectivity', label: 'City Connectivity', icon: 'Train', key: 'connectivityScore', source: 'OSM & MMRDA Metro' },
   { id: 'airQuality', label: 'Clean Air Quality', icon: 'Wind', key: 'airQualityScore', source: 'CPCB & MPCB Stations' },
   { id: 'floodSafety', label: 'Monsoon Flood Safety', icon: 'Umbrella', key: 'floodSafetyScore', source: 'ISRO Bhuvan GIS' },
-  { id: 'affordability', label: 'Budget Affordability', icon: 'IndianRupee', key: 'priceScore', source: '70K+ Housing Dataset' },
+  { id: 'affordability', label: 'Budget / Affordability', icon: 'IndianRupee', key: 'priceScore', source: '70K+ Housing Dataset' },
   { id: 'water', label: 'Water Reliability', icon: 'Droplets', key: 'waterScore', source: 'BMC Municipal Water' },
-  { id: 'power', label: 'Power Grid Stability', icon: 'Zap', key: 'powerScore', source: 'MSEDCL & Mahavitaran' },
+  { id: 'power', label: 'Power Reliability', icon: 'Zap', key: 'powerScore', source: 'MSEDCL & Mahavitaran' },
   { id: 'futureInfrastructure', label: 'Future Infrastructure', icon: 'Construction', key: 'futureInfrastructureScore', source: 'MMRDA GIS Projects' }
 ];
 
-export const PREFERENCE_OPTIONS = PREFERENCE_SLIDERS;
+export const PREFERENCE_SLIDERS = FEATURE_OPTIONS;
+export const PREFERENCE_OPTIONS = FEATURE_OPTIONS;
 
 /**
- * Calculates dynamic match score for a locality across 11 features using 1-10 user slider weights & budget ceiling.
+ * Calculates dynamic match score for a locality across 11 features.
+ * Selected feature cards get dominant weight; non-selected features act as background baselines.
  */
-export function calculateLocalityMatch(locality, preferences = {}, budgetMax = 3.5) {
-  // Extract 1-10 slider values (default to 5 for neutral priority)
+export function calculateLocalityMatch(locality, preferences = {}, budgetMax = 3.5, budgetMin = 1.0) {
+  // Determine feature importance values (1 to 10 scale)
   const getImportance = (key) => {
     const val = preferences[key];
-    if (val === undefined || val === null) return 5;
-    const num = parseFloat(val);
-    return isNaN(num) ? 5 : Math.max(1, Math.min(10, num));
+    if (val === true) return 10;          // Explicitly selected priority chip gets high importance
+    if (val === false) return 1;         // Unselected chip gets low baseline importance
+    if (typeof val === 'number') return Math.max(1, Math.min(10, val));
+    return 3;                            // Default neutral background value
   };
 
   const imp = {
@@ -42,15 +45,23 @@ export function calculateLocalityMatch(locality, preferences = {}, budgetMax = 3
     futureInfrastructureScore: getImportance('futureInfrastructure')
   };
 
+  // If no specific feature is selected, default to equal weights across all factors
+  const hasSelectedFeatures = Object.values(preferences).some(v => v === true || (typeof v === 'number' && v > 5));
+  if (!hasSelectedFeatures) {
+    for (const k in imp) {
+      imp[k] = 5;
+    }
+  }
+
   const totalImportance = Object.values(imp).reduce((a, b) => a + b, 0) || 55;
 
-  // Normalized MCDM Weights (sum up to 1.0)
+  // Normalized MCDM Weights (sum to 1.0)
   const weights = {};
   for (const key in imp) {
     weights[key] = imp[key] / totalImportance;
   }
 
-  // Extract raw locality scores
+  // Extract raw locality scores from dataset
   const price = locality.averagePriceCr || 3.5;
   const schoolVal = locality.schoolScore || 80;
   const hospitalVal = locality.hospitalScore || 80;
@@ -66,10 +77,10 @@ export function calculateLocalityMatch(locality, preferences = {}, budgetMax = 3
   // Calculate Price Affordability Score (0-100) relative to budgetMax
   let priceFitScore = 80;
   if (price <= budgetMax) {
-    const underPct = (budgetMax - price) / budgetMax;
+    const underPct = (budgetMax - price) / Math.max(1, budgetMax);
     priceFitScore = Math.min(99, Math.round(85 + underPct * 14));
   } else {
-    const excessPct = (price - budgetMax) / budgetMax;
+    const excessPct = (price - budgetMax) / Math.max(1, budgetMax);
     priceFitScore = Math.max(15, Math.round(80 - excessPct * 130));
   }
 
@@ -91,12 +102,12 @@ export function calculateLocalityMatch(locality, preferences = {}, budgetMax = 3
 
   // Hard Budget Penalty if price exceeds budget ceiling by over 25%
   if (price > budgetMax * 1.25) {
-    matchScore = Math.max(20, Math.round(matchScore * 0.75));
+    matchScore = Math.max(20, Math.round(matchScore * 0.70));
   }
 
-  // Synthesize justification strengths based on high user slider preferences (>= 7)
+  // Synthesize justification strengths based on user's selected priorities
   const topStrengths = [];
-  if (schoolVal >= 88 && imp.schoolScore >= 7) topStrengths.push("high school accessibility");
+  if (schoolVal >= 88 && imp.schoolScore >= 7) topStrengths.push("high school quality");
   if (hospitalVal >= 88 && imp.hospitalScore >= 7) topStrengths.push("top healthcare density");
   if (connectivityVal >= 90 && imp.connectivityScore >= 7) topStrengths.push("excellent transit connectivity");
   if (safetyVal >= 88 && imp.safetyScore >= 7) topStrengths.push("superior safety rating");
@@ -128,10 +139,10 @@ export function calculateLocalityMatch(locality, preferences = {}, budgetMax = 3
 }
 
 /**
- * Ranks all 40 Mumbai locations dynamically based on user 1-10 preferences and budget ceiling.
+ * Ranks all 40 Mumbai locations dynamically based on user preferences and budget ceiling.
  */
-export function getTopRecommendations(preferences = {}, budgetMax = 3.5) {
-  const scored = MUMBAI_LOCALITIES.map((loc) => calculateLocalityMatch(loc, preferences, budgetMax));
+export function getTopRecommendations(preferences = {}, budgetMax = 3.5, budgetMin = 1.0) {
+  const scored = MUMBAI_LOCALITIES.map((loc) => calculateLocalityMatch(loc, preferences, budgetMax, budgetMin));
   
   // Sort descending by budget eligibility first, then matchScore
   scored.sort((a, b) => {
@@ -143,5 +154,6 @@ export function getTopRecommendations(preferences = {}, budgetMax = 3.5) {
 
   return scored.slice(0, 5);
 }
+
 
 

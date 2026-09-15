@@ -4,8 +4,12 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
 from typing import Dict, Any, Optional, List
 
-from ..services.scoring_service import MODEL_STATUS_REGISTRY, calculate_personalized_match
-from ..services.recommendation_service import rank_localities_for_user
+try:
+    from ..services.scoring_service import MODEL_STATUS_REGISTRY, calculate_personalized_match
+    from ..services.recommendation_service import rank_localities_for_user
+except ImportError:
+    from services.scoring_service import MODEL_STATUS_REGISTRY, calculate_personalized_match
+    from services.recommendation_service import rank_localities_for_user
 
 router = APIRouter()
 

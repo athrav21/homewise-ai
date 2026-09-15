@@ -18,25 +18,26 @@ export default function App() {
   const [selectedLat, setSelectedLat] = useState(defaultLocality.latitude);
   const [selectedLng, setSelectedLng] = useState(defaultLocality.longitude);
 
-  // 1 to 10 Slider Preferences state for 11 factors
+  // 1 to 10 Slider / Priority Chip Preferences state for 11 factors
   const [preferences, setPreferences] = useState({
-    school: 5,
-    hospital: 5,
-    market: 5,
-    safety: 5,
-    connectivity: 5,
-    airQuality: 5,
-    floodSafety: 5,
-    affordability: 5,
-    water: 5,
-    power: 5,
-    futureInfrastructure: 5
+    school: false,
+    hospital: false,
+    market: false,
+    safety: false,
+    connectivity: false,
+    airQuality: false,
+    floodSafety: false,
+    affordability: false,
+    water: false,
+    power: false,
+    futureInfrastructure: false
   });
 
-  // Maximum Target Property Budget Ceiling (₹ Cr)
+  // Target Property Budget Range (₹ Cr)
+  const [budgetMin, setBudgetMin] = useState(1.0);
   const [budgetMax, setBudgetMax] = useState(3.5);
 
-  // Active View: 'selection' | 'analyzing' | 'detail' | 'comparison' | 'report' | 'model_status'
+  // Active View: 'selection' | 'dashboard' | 'detail' | 'comparison' | 'report' | 'model_status'
   const [currentView, setCurrentView] = useState('selection');
   const [isAnalyzingModalOpen, setIsAnalyzingModalOpen] = useState(false);
 
@@ -69,16 +70,28 @@ export default function App() {
     checkBackend();
   }, []);
 
-  // Compute Top 5 Recommendations dynamically based on 1-10 preferences & budget
+  // Compute Top 5 Recommendations dynamically based on preferences & budget
   const recommendations = useMemo(() => {
-    return getTopRecommendations(preferences, budgetMax);
-  }, [preferences, budgetMax]);
+    return getTopRecommendations(preferences, budgetMax, budgetMin);
+  }, [preferences, budgetMax, budgetMin]);
 
   const topRecommendedLocalityIds = useMemo(() => {
     return recommendations.map(r => r.locality.id);
   }, [recommendations]);
 
-  // 1-10 Preference Change Handler
+  // Toggle feature priority card (selected vs unselected)
+  const handleToggleFeature = (id) => {
+    setPreferences(prev => {
+      const currentVal = prev[id];
+      const newVal = currentVal === true || (typeof currentVal === 'number' && currentVal > 5) ? false : true;
+      return {
+        ...prev,
+        [id]: newVal
+      };
+    });
+  };
+
+  // Fine-tune 1-10 Slider Preference Change Handler
   const handleChangePreference = (id, val) => {
     setPreferences(prev => ({
       ...prev,
@@ -86,20 +99,20 @@ export default function App() {
     }));
   };
 
-  // Reset to equal 5/10 balanced preferences
+  // Reset to balanced overview
   const handleResetBalanced = () => {
     setPreferences({
-      school: 5,
-      hospital: 5,
-      market: 5,
-      safety: 5,
-      connectivity: 5,
-      airQuality: 5,
-      floodSafety: 5,
-      affordability: 5,
-      water: 5,
-      power: 5,
-      futureInfrastructure: 5
+      school: false,
+      hospital: false,
+      market: false,
+      safety: false,
+      connectivity: false,
+      airQuality: false,
+      floodSafety: false,
+      affordability: false,
+      water: false,
+      power: false,
+      futureInfrastructure: false
     });
   };
 
@@ -118,7 +131,7 @@ export default function App() {
   // When loading sequence completes
   const handleAnalysisComplete = () => {
     setIsAnalyzingModalOpen(false);
-    setCurrentView('detail');
+    setCurrentView('dashboard');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -173,13 +186,35 @@ export default function App() {
             selectedLocality={selectedLocality}
             topRecommendedLocalityIds={topRecommendedLocalityIds}
             preferences={preferences}
+            onToggleFeature={handleToggleFeature}
             onChangePreference={handleChangePreference}
             onResetBalanced={handleResetBalanced}
+            budgetMin={budgetMin}
+            onChangeBudgetMin={setBudgetMin}
             budgetMax={budgetMax}
             onChangeBudgetMax={setBudgetMax}
             onAnalyzeProperty={handleAnalyzeProperty}
             onSelectLocality={handleSelectLocality}
           />
+        )}
+
+        {currentView === 'dashboard' && (
+          <div className="detail-page-container">
+            <RecommendationDashboard
+              recommendations={recommendations}
+              preferences={preferences}
+              budgetMin={budgetMin}
+              budgetMax={budgetMax}
+              onSelectLocality={(locality) => {
+                setSelectedLocality(locality);
+                setSelectedLat(locality.latitude);
+                setSelectedLng(locality.longitude);
+                setCurrentView('detail');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              onBackToSearch={handleResetLocation}
+            />
+          </div>
         )}
 
         {currentView === 'detail' && selectedLocality && (

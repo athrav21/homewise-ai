@@ -1,4 +1,7 @@
-from .scoring_service import calculate_personalized_match
+try:
+    from .scoring_service import calculate_personalized_match
+except ImportError:
+    from scoring_service import calculate_personalized_match
 
 def rank_localities_for_user(localities, preferences, budget_max):
     """

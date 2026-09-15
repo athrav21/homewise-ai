@@ -12,9 +12,12 @@ export default function LocationSelector({
   selectedLocality,
   topRecommendedLocalityIds,
   preferences,
+  onToggleFeature,
   onChangePreference,
   onResetBalanced,
+  budgetMin,
   budgetMax,
+  onChangeBudgetMin,
   onChangeBudgetMax,
   onAnalyzeProperty,
   onSelectLocality,
@@ -167,11 +170,14 @@ export default function LocationSelector({
         <div className="preferences-column">
           <PreferenceSelector
             preferences={preferences}
+            onToggleFeature={onToggleFeature}
             onChangePreference={onChangePreference}
             onResetBalanced={onResetBalanced}
+            budgetMin={budgetMin}
             budgetMax={budgetMax}
+            onChangeBudgetMin={onChangeBudgetMin}
             onChangeBudgetMax={onChangeBudgetMax}
-            onAnalyzeProperty={onAnalyzeProperty}
+            onFindBestLocations={onAnalyzeProperty}
           />
         </div>
 

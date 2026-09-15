@@ -1,7 +1,10 @@
 import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .routes.neighborhood import router as neighborhood_router
+try:
+    from .routes.neighborhood import router as neighborhood_router
+except ImportError:
+    from routes.neighborhood import router as neighborhood_router
 
 app = FastAPI(
     title="HomeWise AI Backend",
