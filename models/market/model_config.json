@@ -1,0 +1,19 @@
+{
+  "folder": "market",
+  "model_name": "Market Accessibility Model",
+  "output_field": "marketScore",
+  "dataset": "OpenStreetMap POI Dataset",
+  "runtime_api": "Overpass API (OSM POIs)",
+  "expected_artifacts": [
+    "market_model.pkl",
+    "market_features.pkl",
+    "market_model_metadata.pkl"
+  ],
+  "input_features": [
+    "supermarkets_1km",
+    "local_bazaars_1km",
+    "malls_3km",
+    "dist_nearest_market_km",
+    "commercial_poi_density"
+  ]
+}

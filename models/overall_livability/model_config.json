@@ -1,0 +1,24 @@
+{
+  "folder": "overall_livability",
+  "model_name": "Overall Livability Composite Model",
+  "output_field": "livabilityScore",
+  "dataset": "Generated Composite Dataset from 11 Factor Models",
+  "runtime_api": "Recommendation API & Meta-Model Engine",
+  "expected_artifacts": [
+    "overall_livability_meta_model.pkl",
+    "mcdm_weights_config.json"
+  ],
+  "input_features": [
+    "schoolScore",
+    "hospitalScore",
+    "marketScore",
+    "safetyScore",
+    "connectivityScore",
+    "airQualityScore",
+    "floodSafetyScore",
+    "priceScore",
+    "waterScore",
+    "powerScore",
+    "futureInfrastructureScore"
+  ]
+}

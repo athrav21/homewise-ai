@@ -1,0 +1,19 @@
+{
+  "folder": "school",
+  "model_name": "School Quality Model",
+  "output_field": "schoolScore",
+  "dataset": "UDISE+ Mumbai School Dataset",
+  "runtime_api": "UDISE+ / data.gov.in + OpenStreetMap (OSM)",
+  "expected_artifacts": [
+    "school_quality_xgb.pkl",
+    "school_quality_imputer.pkl",
+    "school_quality_features.pkl"
+  ],
+  "input_features": [
+    "num_primary_schools_2km",
+    "num_secondary_schools_2km",
+    "avg_student_teacher_ratio",
+    "board_affiliation_score",
+    "dist_nearest_school_km"
+  ]
+}

@@ -12,12 +12,11 @@ export default function LocationSelector({
   selectedLocality,
   topRecommendedLocalityIds,
   preferences,
-  onTogglePreference,
-  budgetMin,
+  onChangePreference,
+  onResetBalanced,
   budgetMax,
-  onChangeBudgetMin,
   onChangeBudgetMax,
-  onFindBestLocations,
+  onAnalyzeProperty,
   onSelectLocality,
   onMapLocationChange
 }) {
@@ -105,9 +104,9 @@ export default function LocationSelector({
       {/* Hero Search & Title */}
       <div className="location-hero">
         <div className="hero-content">
-          <h2 className="hero-title">Find Your Ideal Neighborhood in Mumbai Metropolitan Region</h2>
+          <h2 className="hero-title">Property-Centric Neighborhood Intelligence System</h2>
           <p className="hero-desc">
-            Explore 40 Mumbai & MMR localities, evaluate schools, hospitals, markets, transit connectivity, safety, and price ranges.
+            Select a property on the map or search an address. HomeWise will evaluate the surrounding neighborhood across 12 dimensions and calculate your personalized HomeWise Match Score.
           </p>
         </div>
 
@@ -168,12 +167,11 @@ export default function LocationSelector({
         <div className="preferences-column">
           <PreferenceSelector
             preferences={preferences}
-            onTogglePreference={onTogglePreference}
-            budgetMin={budgetMin}
+            onChangePreference={onChangePreference}
+            onResetBalanced={onResetBalanced}
             budgetMax={budgetMax}
-            onChangeBudgetMin={onChangeBudgetMin}
             onChangeBudgetMax={onChangeBudgetMax}
-            onFindBestLocations={onFindBestLocations}
+            onAnalyzeProperty={onAnalyzeProperty}
           />
         </div>
 

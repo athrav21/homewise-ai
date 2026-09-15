@@ -1,14 +1,19 @@
 import React from 'react';
-import { Home, Sparkles, MapPin, ArrowLeft, AlertTriangle } from 'lucide-react';
+import { Home, Sparkles, MapPin, ArrowLeft, AlertTriangle, Cpu, Layers } from 'lucide-react';
 
-export default function Header({ currentView, onResetLocation, selectedLocalityName }) {
+export default function Header({
+  currentView,
+  onResetLocation,
+  onOpenModelStatus,
+  selectedLocalityName
+}) {
   return (
     <header className="app-header">
       {/* Mandatory Top Prototype Synthetic Data Disclaimer Banner */}
       <div className="synthetic-disclaimer-bar">
-        <AlertTriangle size={15} className="disclaimer-icon" />
+        <AlertTriangle size={15} className="disclaimer-icon shrink-0" />
         <span>
-          <strong>Prototype Synthetic Data — Not for Real Property Decisions:</strong> The neighborhood values shown in this academic prototype are simulated for demonstration. Real deployment would use verified government, municipal, environmental and infrastructure data.
+          <strong>Prototype Synthetic Data — Not for Real Property Decisions:</strong> Factor scores and indicators are generated using 12-factor architecture for academic demonstration. Connected python backend loads trained ML models with transparent GIS fallbacks.
         </span>
       </div>
 
@@ -21,29 +26,42 @@ export default function Header({ currentView, onResetLocation, selectedLocalityN
           <div>
             <div className="brand-title-row">
               <h1 className="brand-title">HomeWise AI</h1>
-              <span className="prototype-pill">Mumbai MMR Edition</span>
+              <span className="prototype-pill">12-Factor Architecture</span>
             </div>
             <p className="brand-subtitle">
-              AI-powered neighborhood intelligence & location recommendation system for Indian home-buyers
+              Don't just evaluate the house. Evaluate the neighborhood.
             </p>
           </div>
         </div>
 
-        {currentView === 'detail' && (
-          <div className="header-actions">
-            <button className="btn-secondary" onClick={onResetLocation}>
-              <ArrowLeft size={16} />
-              <span>Back to Map & Recommendations</span>
-            </button>
+        <div className="header-actions">
+          <button
+            className={`nav-link-btn ${currentView === 'selection' ? 'active' : ''}`}
+            onClick={onResetLocation}
+          >
+            <MapPin size={16} />
+            <span>Explore Map</span>
+          </button>
+
+          <button
+            className={`nav-link-btn ${currentView === 'model_status' ? 'active' : ''}`}
+            onClick={onOpenModelStatus}
+          >
+            <Cpu size={16} />
+            <span>Model Status</span>
+          </button>
+
+          {selectedLocalityName && (
             <div className="active-location-pill" title={selectedLocalityName}>
               <MapPin size={14} className="pin-icon" />
               <span className="location-text">
-                {selectedLocalityName || "Mumbai Locality"}
+                {selectedLocalityName}
               </span>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </header>
   );
 }
+

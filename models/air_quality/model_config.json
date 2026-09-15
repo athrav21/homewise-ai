@@ -1,0 +1,18 @@
+{
+  "folder": "air_quality",
+  "model_name": "Air Quality (AQI) Model",
+  "output_field": "airQualityScore",
+  "dataset": "Mumbai Hourly AQI 2017\u20132025",
+  "runtime_api": "CPCB / MPCB / OpenCity",
+  "expected_artifacts": [
+    "air_quality_model.pkl",
+    "aqi_time_series_lstm.pkl"
+  ],
+  "input_features": [
+    "pm25_annual_avg",
+    "pm10_annual_avg",
+    "no2_concentration",
+    "industrial_buffer_dist_km",
+    "green_cover_pct"
+  ]
+}

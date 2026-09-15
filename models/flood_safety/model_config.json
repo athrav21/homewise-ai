@@ -1,0 +1,18 @@
+{
+  "folder": "flood_safety",
+  "model_name": "Monsoon Flood Vulnerability Model",
+  "output_field": "floodSafetyScore",
+  "dataset": "Bhuvan National Flood Vulnerability Dataset",
+  "runtime_api": "ISRO Bhuvan GIS",
+  "expected_artifacts": [
+    "flood_vulnerability_model.pkl",
+    "elevation_raster_config.json"
+  ],
+  "input_features": [
+    "elevation_msl_meters",
+    "drainage_density_score",
+    "historical_waterlogging_frequency",
+    "coastal_high_tide_buffer_km",
+    "stormwater_drain_capacity"
+  ]
+}

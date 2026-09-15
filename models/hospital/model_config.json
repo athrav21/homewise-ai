@@ -1,0 +1,19 @@
+{
+  "folder": "hospital",
+  "model_name": "Hospital Accessibility Model",
+  "output_field": "hospitalScore",
+  "dataset": "Mumbai Public Health Centres / Hospitals Dataset",
+  "runtime_api": "BMC / OpenCity + OpenStreetMap (OSM)",
+  "expected_artifacts": [
+    "hospital_random_forest.pkl",
+    "hospital_xgboost.pkl",
+    "hospital_scaler.pkl"
+  ],
+  "input_features": [
+    "tertiary_hospitals_3km",
+    "clinics_1km",
+    "emergency_beds_5km",
+    "dist_nearest_hospital_km",
+    "trauma_center_access"
+  ]
+}

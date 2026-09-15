@@ -1,0 +1,19 @@
+{
+  "folder": "safety",
+  "model_name": "Safety & Crime Risk Model",
+  "output_field": "safetyScore",
+  "dataset": "Mumbai Crime Statistics 2018\u20132025",
+  "runtime_api": "Mumbai Police / NCRB / data.gov.in",
+  "expected_artifacts": [
+    "safety_model.pkl",
+    "crime_scaler.pkl",
+    "safety_feature_names.json"
+  ],
+  "input_features": [
+    "cognizable_crimes_per_10k",
+    "night_patrol_density",
+    "cctv_coverage_pct",
+    "street_lighting_score",
+    "police_station_dist_km"
+  ]
+}

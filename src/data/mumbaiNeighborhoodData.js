@@ -23,8 +23,12 @@ export const MUMBAI_LOCALITIES = [
     hospitalScore: 92,
     marketScore: 95,
     connectivityScore: 91,
-    crimeRiskScore: 88, // Higher = SAFER / lower crime risk
+    crimeRiskScore: 88,
+    safetyScore: 88, // Higher = SAFER / lower crime risk
     airQualityScore: 68,
+    waterScore: 88,
+    powerScore: 92,
+    priceScore: 57,
     floodSafetyScore: 72,
     noiseScore: 62,
     infrastructureScore: 90,
@@ -35,6 +39,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 88,
     roadConnectivityScore: 95,
     futureDevelopmentScore: 88,
+    futureInfrastructureScore: 88,
+    livabilityScore: 84,
     summary: "Premium coastal lifestyle hub featuring high-end retail, elite international schools, top-tier healthcare, and coastal sea-link connectivity."
   },
   {
@@ -49,7 +55,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 82,
     connectivityScore: 96,
     crimeRiskScore: 85,
+    safetyScore: 85,
     airQualityScore: 64,
+    waterScore: 89,
+    powerScore: 92,
+    priceScore: 72,
     floodSafetyScore: 68,
     noiseScore: 65,
     infrastructureScore: 94,
@@ -60,6 +70,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 94,
     roadConnectivityScore: 98,
     futureDevelopmentScore: 92,
+    futureInfrastructureScore: 92,
+    livabilityScore: 83,
     summary: "Major commercial hub adjacent to BKC (Bandra-Kurla Complex) with unmatched corporate connectivity and rapid infrastructure expansion."
   },
   {
@@ -74,7 +86,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 90,
     connectivityScore: 89,
     crimeRiskScore: 90,
+    safetyScore: 90,
     airQualityScore: 70,
+    waterScore: 85,
+    powerScore: 92,
+    priceScore: 62,
     floodSafetyScore: 75,
     noiseScore: 70,
     infrastructureScore: 86,
@@ -85,6 +101,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 85,
     roadConnectivityScore: 92,
     futureDevelopmentScore: 84,
+    futureInfrastructureScore: 84,
+    livabilityScore: 83,
     summary: "Upscale residential neighborhood known for peaceful tree-lined avenues, boutique cafes, and excellent school density."
   },
   {
@@ -99,7 +117,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 88,
     connectivityScore: 87,
     crimeRiskScore: 87,
+    safetyScore: 87,
     airQualityScore: 72,
+    waterScore: 84,
+    powerScore: 92,
+    priceScore: 68,
     floodSafetyScore: 65,
     noiseScore: 68,
     infrastructureScore: 84,
@@ -110,6 +132,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 82,
     roadConnectivityScore: 90,
     futureDevelopmentScore: 82,
+    futureInfrastructureScore: 82,
+    livabilityScore: 82,
     summary: "Charming western suburb with established family communities, famous shopping lanes, and quick access to Juhu Beach."
   },
   {
@@ -124,7 +148,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 78,
     connectivityScore: 93,
     crimeRiskScore: 80,
+    safetyScore: 80,
     airQualityScore: 60,
+    waterScore: 85,
+    powerScore: 92,
+    priceScore: 79,
     floodSafetyScore: 62,
     noiseScore: 55,
     infrastructureScore: 88,
@@ -135,6 +163,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 91,
     roadConnectivityScore: 96,
     futureDevelopmentScore: 86,
+    futureInfrastructureScore: 86,
+    livabilityScore: 80,
     summary: "Strategic transit corridor adjacent to Western Express Highway and Mumbai Domestic Airport with strong rental demand."
   },
   {
@@ -149,7 +179,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 89,
     connectivityScore: 88,
     crimeRiskScore: 92,
+    safetyScore: 92,
     airQualityScore: 74,
+    waterScore: 86,
+    powerScore: 92,
+    priceScore: 66,
     floodSafetyScore: 78,
     noiseScore: 72,
     infrastructureScore: 87,
@@ -160,6 +194,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 86,
     roadConnectivityScore: 89,
     futureDevelopmentScore: 83,
+    futureInfrastructureScore: 83,
+    livabilityScore: 85,
     summary: "Mumbai's premier educational precinct housing prestigious colleges, peaceful residential pockets, and top-tier community safety."
   },
   {
@@ -174,7 +210,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 84,
     connectivityScore: 94,
     crimeRiskScore: 86,
+    safetyScore: 86,
     airQualityScore: 65,
+    waterScore: 87,
+    powerScore: 92,
+    priceScore: 75,
     floodSafetyScore: 70,
     noiseScore: 60,
     infrastructureScore: 89,
@@ -185,6 +225,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 92,
     roadConnectivityScore: 95,
     futureDevelopmentScore: 85,
+    futureInfrastructureScore: 85,
+    livabilityScore: 83,
     summary: "Vibrant cultural suburb with superb railway connectivity, historic temples, and close airport proximity."
   },
   {
@@ -199,7 +241,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 94,
     connectivityScore: 92,
     crimeRiskScore: 82,
+    safetyScore: 82,
     airQualityScore: 66,
+    waterScore: 87,
+    powerScore: 92,
+    priceScore: 77,
     floodSafetyScore: 68,
     noiseScore: 58,
     infrastructureScore: 91,
@@ -210,6 +256,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 95,
     roadConnectivityScore: 90,
     futureDevelopmentScore: 89,
+    futureInfrastructureScore: 89,
+    livabilityScore: 84,
     summary: "Dynamic lifestyle center featuring Lokhandwala market, media studios, Metro Line 1 & 2A access, and bustling nightlife."
   },
   {
@@ -224,7 +272,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 81,
     connectivityScore: 97,
     crimeRiskScore: 78,
+    safetyScore: 78,
     airQualityScore: 58,
+    waterScore: 87,
+    powerScore: 92,
+    priceScore: 84,
     floodSafetyScore: 65,
     noiseScore: 52,
     infrastructureScore: 95,
@@ -235,6 +287,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 98,
     roadConnectivityScore: 97,
     futureDevelopmentScore: 94,
+    futureInfrastructureScore: 94,
+    livabilityScore: 82,
     summary: "Major commercial engine of Mumbai with MIDC business parks, International Airport access, and comprehensive metro interchanges."
   },
   {
@@ -249,7 +303,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 80,
     connectivityScore: 85,
     crimeRiskScore: 74,
+    safetyScore: 74,
     airQualityScore: 65,
+    waterScore: 80,
+    powerScore: 92,
+    priceScore: 88,
     floodSafetyScore: 64,
     noiseScore: 60,
     infrastructureScore: 80,
@@ -260,6 +318,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 86,
     roadConnectivityScore: 84,
     futureDevelopmentScore: 85,
+    futureInfrastructureScore: 85,
+    livabilityScore: 79,
     summary: "Affordable western suburb undergoing rapid urban redevelopment with SV Road connectivity and SVKM school access."
   },
   {
@@ -274,7 +334,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 75,
     connectivityScore: 88,
     crimeRiskScore: 72,
+    safetyScore: 72,
     airQualityScore: 62,
+    waterScore: 80,
+    powerScore: 92,
+    priceScore: 89,
     floodSafetyScore: 62,
     noiseScore: 58,
     infrastructureScore: 82,
@@ -285,6 +349,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 89,
     roadConnectivityScore: 90,
     futureDevelopmentScore: 86,
+    futureInfrastructureScore: 86,
+    livabilityScore: 78,
     summary: "Budget-friendly residential node providing quick WEH highway access and proximity to JVLR connecting east and west."
   },
   {
@@ -299,7 +365,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 89,
     connectivityScore: 88,
     crimeRiskScore: 83,
+    safetyScore: 83,
     airQualityScore: 68,
+    waterScore: 83,
+    powerScore: 92,
+    priceScore: 85,
     floodSafetyScore: 66,
     noiseScore: 62,
     infrastructureScore: 87,
@@ -310,6 +380,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 87,
     roadConnectivityScore: 88,
     futureDevelopmentScore: 87,
+    futureInfrastructureScore: 87,
+    livabilityScore: 83,
     summary: "Thriving western suburb with major malls (Inorbit), modern high-rises, and balanced family amenities."
   },
   {
@@ -324,7 +396,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 83,
     connectivityScore: 90,
     crimeRiskScore: 86,
+    safetyScore: 86,
     airQualityScore: 78, // Proximity to Aarey forest
+    waterScore: 85,
+    powerScore: 92,
+    priceScore: 83,
     floodSafetyScore: 76,
     noiseScore: 74,
     infrastructureScore: 92,
@@ -335,6 +411,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 91,
     roadConnectivityScore: 92,
     futureDevelopmentScore: 93,
+    futureInfrastructureScore: 93,
+    livabilityScore: 85,
     summary: "Premium IT & media hub home to NESCO, Film City, and Oberoi Garden City, enjoying green cover from Aarey Milk Colony."
   },
   {
@@ -349,7 +427,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 91,
     connectivityScore: 86,
     crimeRiskScore: 80,
+    safetyScore: 80,
     airQualityScore: 69,
+    waterScore: 82,
+    powerScore: 92,
+    priceScore: 87,
     floodSafetyScore: 60,
     noiseScore: 60,
     infrastructureScore: 85,
@@ -360,6 +442,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 85,
     roadConnectivityScore: 87,
     futureDevelopmentScore: 86,
+    futureInfrastructureScore: 86,
+    livabilityScore: 82,
     summary: "Popular commercial & retail district featuring Infiniti Mall, Mindspace IT hub, and vibrant local markets."
   },
   {
@@ -374,7 +458,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 77,
     connectivityScore: 87,
     crimeRiskScore: 79,
+    safetyScore: 79,
     airQualityScore: 74,
+    waterScore: 81,
+    powerScore: 92,
+    priceScore: 90,
     floodSafetyScore: 70,
     noiseScore: 68,
     infrastructureScore: 83,
@@ -385,6 +473,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 88,
     roadConnectivityScore: 89,
     futureDevelopmentScore: 85,
+    futureInfrastructureScore: 85,
+    livabilityScore: 81,
     summary: "Affordable residential neighborhood backed by Sanjay Gandhi National Park foothills with steady capital appreciation."
   },
   {
@@ -399,7 +489,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 87,
     connectivityScore: 85,
     crimeRiskScore: 84,
+    safetyScore: 84,
     airQualityScore: 72,
+    waterScore: 82,
+    powerScore: 92,
+    priceScore: 88,
     floodSafetyScore: 67,
     noiseScore: 65,
     infrastructureScore: 84,
@@ -410,6 +504,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 84,
     roadConnectivityScore: 86,
     futureDevelopmentScore: 85,
+    futureInfrastructureScore: 85,
+    livabilityScore: 83,
     summary: "Family-oriented residential locality with well-managed housing societies, sports complexes, and ICSE schools."
   },
   {
@@ -424,7 +520,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 82,
     connectivityScore: 89,
     crimeRiskScore: 87,
+    safetyScore: 87,
     airQualityScore: 80,
+    waterScore: 84,
+    powerScore: 92,
+    priceScore: 88,
     floodSafetyScore: 78,
     noiseScore: 72,
     infrastructureScore: 88,
@@ -435,6 +535,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 90,
     roadConnectivityScore: 90,
     futureDevelopmentScore: 88,
+    futureInfrastructureScore: 88,
+    livabilityScore: 86,
     summary: "Modern township locality (Lokhandwala Township, Thakur Village) offering clean green surroundings and top schools."
   },
   {
@@ -449,7 +551,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 92,
     connectivityScore: 88,
     crimeRiskScore: 86,
+    safetyScore: 86,
     airQualityScore: 75,
+    waterScore: 85,
+    powerScore: 92,
+    priceScore: 87,
     floodSafetyScore: 72,
     noiseScore: 66,
     infrastructureScore: 86,
@@ -460,6 +566,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 86,
     roadConnectivityScore: 88,
     futureDevelopmentScore: 84,
+    futureInfrastructureScore: 84,
+    livabilityScore: 85,
     summary: "Established residential powerhouse with famous shopping streets, Gorai beach jetty access, and top school options."
   },
   {
@@ -474,7 +582,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 79,
     connectivityScore: 91,
     crimeRiskScore: 88,
+    safetyScore: 88,
     airQualityScore: 86, // High AQI score due to National park
+    waterScore: 85,
+    powerScore: 92,
+    priceScore: 89,
     floodSafetyScore: 80,
     noiseScore: 78,
     infrastructureScore: 87,
@@ -485,6 +597,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 92,
     roadConnectivityScore: 92,
     futureDevelopmentScore: 87,
+    futureInfrastructureScore: 87,
+    livabilityScore: 86,
     summary: "Greenest suburb in Western Mumbai bordering Sanjay Gandhi National Park, boasting superior air quality and highway access."
   },
   {
@@ -499,7 +613,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 85,
     connectivityScore: 86,
     crimeRiskScore: 91,
+    safetyScore: 91,
     airQualityScore: 76,
+    waterScore: 84,
+    powerScore: 92,
+    priceScore: 83,
     floodSafetyScore: 82,
     noiseScore: 75,
     infrastructureScore: 93,
@@ -510,6 +628,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 88,
     roadConnectivityScore: 90,
     futureDevelopmentScore: 95,
+    futureInfrastructureScore: 95,
+    livabilityScore: 87,
     summary: "Lakeside tech & startup capital (IIT Bombay, Hiranandani Gardens) offering European-style urban planning and elite safety."
   },
   {
@@ -524,7 +644,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 93,
     connectivityScore: 93,
     crimeRiskScore: 82,
+    safetyScore: 82,
     airQualityScore: 64,
+    waterScore: 86,
+    powerScore: 92,
+    priceScore: 86,
     floodSafetyScore: 65,
     noiseScore: 56,
     infrastructureScore: 89,
@@ -535,6 +659,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 96,
     roadConnectivityScore: 90,
     futureDevelopmentScore: 88,
+    futureInfrastructureScore: 88,
+    livabilityScore: 84,
     summary: "Bustling central market suburb with Metro Line 1 terminus, R-City Mall proximity, and traditional food lanes."
   },
   {
@@ -549,7 +675,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 88,
     connectivityScore: 94,
     crimeRiskScore: 85,
+    safetyScore: 85,
     airQualityScore: 66,
+    waterScore: 87,
+    powerScore: 92,
+    priceScore: 85,
     floodSafetyScore: 68,
     noiseScore: 60,
     infrastructureScore: 90,
@@ -560,6 +690,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 93,
     roadConnectivityScore: 93,
     futureDevelopmentScore: 89,
+    futureInfrastructureScore: 89,
+    livabilityScore: 84,
     summary: "Well-connected central suburb enjoying Eastern Express Highway access and strong community residential housing."
   },
   {
@@ -574,7 +706,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 84,
     connectivityScore: 95,
     crimeRiskScore: 83,
+    safetyScore: 83,
     airQualityScore: 62,
+    waterScore: 87,
+    powerScore: 92,
+    priceScore: 85,
     floodSafetyScore: 72,
     noiseScore: 62,
     infrastructureScore: 92,
@@ -585,6 +721,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 90,
     roadConnectivityScore: 98, // Eastern Freeway, SCLR, Monorail
     futureDevelopmentScore: 91,
+    futureInfrastructureScore: 91,
+    livabilityScore: 84,
     summary: "Harbour transit powerhouse connected by Eastern Freeway, SCLR, and Monorail, placing South Mumbai 15 mins away."
   },
   {
@@ -599,7 +737,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 78,
     connectivityScore: 92,
     crimeRiskScore: 81,
+    safetyScore: 81,
     airQualityScore: 65,
+    waterScore: 85,
+    powerScore: 92,
+    priceScore: 81,
     floodSafetyScore: 70,
     noiseScore: 64,
     infrastructureScore: 95,
@@ -610,6 +752,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 92,
     roadConnectivityScore: 94,
     futureDevelopmentScore: 96,
+    futureInfrastructureScore: 96,
+    livabilityScore: 83,
     summary: "BKC-3 infrastructure expansion zone with massive upcoming residential skyscrapers and Monorail hub."
   },
   {
@@ -624,7 +768,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 81,
     connectivityScore: 94,
     crimeRiskScore: 80,
+    safetyScore: 80,
     airQualityScore: 60,
+    waterScore: 89,
+    powerScore: 92,
+    priceScore: 87,
     floodSafetyScore: 55, // Low flood safety during heavy monsoons
     noiseScore: 50,
     infrastructureScore: 88,
@@ -635,6 +783,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 88,
     roadConnectivityScore: 98,
     futureDevelopmentScore: 86,
+    futureInfrastructureScore: 86,
+    livabilityScore: 82,
     summary: "Central gateway connecting island city to suburbs, renowned for Sion Hospital and central railway intersection."
   },
   {
@@ -649,7 +799,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 90,
     connectivityScore: 92,
     crimeRiskScore: 93,
+    safetyScore: 93,
     airQualityScore: 72,
+    waterScore: 87,
+    powerScore: 92,
+    priceScore: 74,
     floodSafetyScore: 68,
     noiseScore: 66,
     infrastructureScore: 89,
@@ -660,6 +814,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 90,
     roadConnectivityScore: 92,
     futureDevelopmentScore: 85,
+    futureInfrastructureScore: 85,
+    livabilityScore: 85,
     summary: "Heritage institutional neighborhood housing VJTI & UDCT colleges, traditional South Indian dining, and pristine safety."
   },
   {
@@ -674,7 +830,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 96,
     connectivityScore: 98,
     crimeRiskScore: 86,
+    safetyScore: 86,
     airQualityScore: 62,
+    waterScore: 91,
+    powerScore: 92,
+    priceScore: 70,
     floodSafetyScore: 65,
     noiseScore: 48,
     infrastructureScore: 93,
@@ -685,6 +845,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 94,
     roadConnectivityScore: 99,
     futureDevelopmentScore: 88,
+    futureInfrastructureScore: 88,
+    livabilityScore: 85,
     summary: "The heart of Mumbai transit where Central and Western railways meet, featuring Shivaji Park and unbeatable market access."
   },
   {
@@ -699,7 +861,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 97,
     connectivityScore: 94,
     crimeRiskScore: 88,
+    safetyScore: 88,
     airQualityScore: 65,
+    waterScore: 88,
+    powerScore: 92,
+    priceScore: 64,
     floodSafetyScore: 60,
     noiseScore: 55,
     infrastructureScore: 95,
@@ -710,6 +876,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 93,
     roadConnectivityScore: 96,
     futureDevelopmentScore: 92,
+    futureInfrastructureScore: 92,
+    livabilityScore: 83,
     summary: "Commercial skyscraper & luxury shopping capital (Phoenix Palladium) transformed from historic mill lands."
   },
   {
@@ -724,7 +892,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 92,
     connectivityScore: 95,
     crimeRiskScore: 91,
+    safetyScore: 91,
     airQualityScore: 75, // Sea breeze benefit
+    waterScore: 90,
+    powerScore: 92,
+    priceScore: 53,
     floodSafetyScore: 78,
     noiseScore: 62,
     infrastructureScore: 97,
@@ -735,6 +907,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 95,
     roadConnectivityScore: 100, // Bandra-Worli Sea Link & Coastal Road
     futureDevelopmentScore: 98,
+    futureInfrastructureScore: 98,
+    livabilityScore: 86,
     summary: "Ultra-luxury seafront skyline corridor boasting Bandra-Worli Sea Link and the landmark Mumbai Coastal Road."
   },
   {
@@ -749,7 +923,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 86,
     connectivityScore: 86,
     crimeRiskScore: 92,
+    safetyScore: 92,
     airQualityScore: 82,
+    waterScore: 84,
+    powerScore: 92,
+    priceScore: 88,
     floodSafetyScore: 80,
     noiseScore: 76,
     infrastructureScore: 88,
@@ -760,6 +938,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 86,
     roadConnectivityScore: 85,
     futureDevelopmentScore: 87,
+    futureInfrastructureScore: 87,
+    livabilityScore: 87,
     summary: "'Prince of Suburbs' offering planned broad avenues, top ICSE schools, quiet green environment, and high safety."
   },
   {
@@ -774,7 +954,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 80,
     connectivityScore: 88,
     crimeRiskScore: 90,
+    safetyScore: 90,
     airQualityScore: 80,
+    waterScore: 83,
+    powerScore: 92,
+    priceScore: 90,
     floodSafetyScore: 76,
     noiseScore: 75,
     infrastructureScore: 85,
@@ -785,6 +969,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 84,
     roadConnectivityScore: 91,
     futureDevelopmentScore: 85,
+    futureInfrastructureScore: 85,
+    livabilityScore: 85,
     summary: "Peaceful residential neighborhood connected directly to Eastern Express Highway and Airoli Bridge to Navi Mumbai."
   },
   {
@@ -799,7 +985,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 81,
     connectivityScore: 84,
     crimeRiskScore: 76,
+    safetyScore: 76,
     airQualityScore: 70,
+    waterScore: 79,
+    powerScore: 92,
+    priceScore: 92,
     floodSafetyScore: 68,
     noiseScore: 64,
     infrastructureScore: 82,
@@ -810,6 +1000,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 83,
     roadConnectivityScore: 84,
     futureDevelopmentScore: 86,
+    futureInfrastructureScore: 86,
+    livabilityScore: 80,
     summary: "Rapidly transforming central suburb replacing industrial complexes with high-rise residential towers."
   },
   {
@@ -824,7 +1016,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 76,
     connectivityScore: 85,
     crimeRiskScore: 75,
+    safetyScore: 75,
     airQualityScore: 68,
+    waterScore: 79,
+    powerScore: 92,
+    priceScore: 92,
     floodSafetyScore: 65,
     noiseScore: 62,
     infrastructureScore: 81,
@@ -835,6 +1031,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 82,
     roadConnectivityScore: 88,
     futureDevelopmentScore: 84,
+    futureInfrastructureScore: 84,
+    livabilityScore: 79,
     summary: "Highly affordable central location offering quick access to Kanjurmarg railway station and Eastern Express Highway."
   },
   {
@@ -849,7 +1047,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 92,
     connectivityScore: 87,
     crimeRiskScore: 88,
+    safetyScore: 88,
     airQualityScore: 78,
+    waterScore: 85,
+    powerScore: 92,
+    priceScore: 90,
     floodSafetyScore: 82,
     noiseScore: 70,
     infrastructureScore: 93,
@@ -860,6 +1062,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 90,
     roadConnectivityScore: 88,
     futureDevelopmentScore: 95,
+    futureInfrastructureScore: 95,
+    livabilityScore: 88,
     summary: "Self-contained mega-city featuring Viviana Mall, Upvan Lake, top hospitals, and Metro Line 4 & 5 construction."
   },
   {
@@ -874,7 +1078,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 80,
     connectivityScore: 90,
     crimeRiskScore: 84,
+    safetyScore: 84,
     airQualityScore: 76,
+    waterScore: 83,
+    powerScore: 92,
+    priceScore: 92,
     floodSafetyScore: 75,
     noiseScore: 68,
     infrastructureScore: 86,
@@ -885,6 +1093,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 85,
     roadConnectivityScore: 93,
     futureDevelopmentScore: 87,
+    futureInfrastructureScore: 87,
+    livabilityScore: 84,
     summary: "Budget-friendly Eastern Thane node with immediate access to Thane Junction railway station and Kalwa bridge."
   },
   {
@@ -899,7 +1109,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 84,
     connectivityScore: 86,
     crimeRiskScore: 90,
+    safetyScore: 90,
     airQualityScore: 84,
+    waterScore: 83,
+    powerScore: 92,
+    priceScore: 91,
     floodSafetyScore: 86,
     noiseScore: 80,
     infrastructureScore: 90,
@@ -910,6 +1124,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 82,
     roadConnectivityScore: 88,
     futureDevelopmentScore: 91,
+    futureInfrastructureScore: 91,
+    livabilityScore: 87,
     summary: "Queen of Navi Mumbai featuring wide avenues, DY Patil Sports Stadium, sprawling parks, and clean air."
   },
   {
@@ -924,7 +1140,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 80,
     connectivityScore: 87,
     crimeRiskScore: 87,
+    safetyScore: 87,
     airQualityScore: 80,
+    waterScore: 82,
+    powerScore: 92,
+    priceScore: 92,
     floodSafetyScore: 84,
     noiseScore: 75,
     infrastructureScore: 89,
@@ -935,6 +1155,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 85,
     roadConnectivityScore: 90,
     futureDevelopmentScore: 90,
+    futureInfrastructureScore: 90,
+    livabilityScore: 85,
     summary: "Navi Mumbai's IT gateway directly connected to Mulund via Airoli Bridge, hosting Mindspace Tech Park."
   },
   {
@@ -949,7 +1171,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 94,
     connectivityScore: 91,
     crimeRiskScore: 89,
+    safetyScore: 89,
     airQualityScore: 82,
+    waterScore: 87,
+    powerScore: 92,
+    priceScore: 88,
     floodSafetyScore: 85,
     noiseScore: 72,
     infrastructureScore: 92,
@@ -960,6 +1186,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 86,
     roadConnectivityScore: 94,
     futureDevelopmentScore: 91,
+    futureInfrastructureScore: 91,
+    livabilityScore: 89,
     summary: "Premier commercial and residential node of Navi Mumbai with APMC market, Inorbit Vashi Mall, and top schools."
   },
   {
@@ -974,7 +1202,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 79,
     connectivityScore: 84,
     crimeRiskScore: 85,
+    safetyScore: 85,
     airQualityScore: 85,
+    waterScore: 80,
+    powerScore: 92,
+    priceScore: 94,
     floodSafetyScore: 82,
     noiseScore: 78,
     infrastructureScore: 96,
@@ -984,7 +1216,9 @@ export const MUMBAI_LOCALITIES = [
     railwayAccessScore: 85,
     metroAccessScore: 80,
     roadConnectivityScore: 88,
-    futureDevelopmentScore: 99, // Navi Mumbai International Airport
+    futureDevelopmentScore: 99,
+    futureInfrastructureScore: 99, // Navi Mumbai International Airport
+    livabilityScore: 85,
     summary: "Hottest future growth corridor adjoining the upcoming Navi Mumbai International Airport and MTHL Sea Bridge."
   },
   {
@@ -999,7 +1233,11 @@ export const MUMBAI_LOCALITIES = [
     marketScore: 83,
     connectivityScore: 83,
     crimeRiskScore: 78,
+    safetyScore: 78,
     airQualityScore: 76,
+    waterScore: 80,
+    powerScore: 92,
+    priceScore: 93,
     floodSafetyScore: 68,
     noiseScore: 66,
     infrastructureScore: 86,
@@ -1010,6 +1248,8 @@ export const MUMBAI_LOCALITIES = [
     metroAccessScore: 88, // Metro Line 9 extension
     roadConnectivityScore: 82,
     futureDevelopmentScore: 90,
+    futureInfrastructureScore: 90,
+    livabilityScore: 82,
     summary: "Highly affordable western suburb outside BMC limits undergoing rapid metro connectivity expansion."
   }
 ];

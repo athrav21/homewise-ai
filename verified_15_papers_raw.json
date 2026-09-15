@@ -1,0 +1,167 @@
+[
+  {
+    "category": "Residential Decision Making",
+    "title": "Residential preferences and neighborhood racial segregation: A test of the schelling segregation model",
+    "authors": "William A. V. Clark",
+    "year": 1991,
+    "journal": "Demography",
+    "doi": "https://doi.org/10.2307/2061333",
+    "url": "https://doi.org/10.2307/2061333",
+    "abstract": "The debate over the role of the forces that create the patterns of residential separation has identified neighborhood preferences as one of the explanatory variables, but although we possess some empirical data on the nature of neighborhood racial preferences, the theoretical contributions have received only limited empirical evaluation. Among the theoretical statements, Schelling's model of the effects of small differences in preferences on residential patterns has provided a basic building block in our understanding of preferences, choices, and patterns. Several recent surveys of residential preferences provide the data with which to evaluate the underpinnings of the Schelling model. The preference/tolerance schedules that are derived from the data have a different functional form from that suggested by Schelling, but confirm the view that stable integrated equilibria are unlikely.",
+    "cited_by_count": 574
+  },
+  {
+    "category": "Residential Decision Making",
+    "title": "Residential preferences and residential choices in a multiethnic context",
+    "authors": "William A. V. Clark",
+    "year": 1992,
+    "journal": "Demography",
+    "doi": "https://doi.org/10.2307/2061828",
+    "url": "https://doi.org/10.2307/2061828",
+    "abstract": "A study of the expressed preferences of four different ethnic groups in the Los Angeles metropolitan area shows strong desires for own-race combinations in the ethnicity of neighborhoods that individuals say they would choose when seeking a new residence. The results also show that Anglos are not the only group to practice \"avoidance\" of other racial/ethnic neighborhoods, although avoidance behavior by Anglos is the strongest. Because the issues of racial composition are socially sensitive, additional tests examined the relationship of preferences to behavior. Although many behaviors generally follow expressed preferences, members of households who expressed \"no preference\" also were found to largely choose own race neighborhoods. The results of this study suggest that the expressed preference for own race/own ethnicity, in combination with short-distance local moves, is likely to maintain present patterns of separation in U.S. metropolitan areas.",
+    "cited_by_count": 393
+  },
+  {
+    "category": "Residential Decision Making",
+    "title": "Latent lifestyle preferences and household location decisions",
+    "authors": "Joan L. Walker, Jieping Li",
+    "year": 2006,
+    "journal": "Journal of Geographical Systems",
+    "doi": "https://doi.org/10.1007/s10109-006-0030-0",
+    "url": "https://doi.org/10.1007/s10109-006-0030-0",
+    "abstract": "",
+    "cited_by_count": 335
+  },
+  {
+    "category": "Residential Decision Making",
+    "title": "Neighborhoods and health",
+    "authors": "Ana V. Diez Roux, Christina Mair",
+    "year": 2010,
+    "journal": "Annals of the New York Academy of Sciences",
+    "doi": "https://doi.org/10.1111/j.1749-6632.2009.05333.x",
+    "url": "https://doi.org/10.1111/j.1749-6632.2009.05333.x",
+    "abstract": "Features of neighborhoods or residential environments may affect health and contribute to social and race/ethnic inequalities in health. The study of neighborhood health effects has grown exponentially over the past 15 years. This chapter summarizes key work in this area with a particular focus on chronic disease outcomes (specifically obesity and related risk factors) and mental health (specifically depression and depressive symptoms). Empirical work is classified into two main eras: studies that use census proxies and studies that directly measure neighborhood attributes using a variety of approaches. Key conceptual and methodological challenges in studying neighborhood health effects are reviewed. Existing gaps in knowledge and promising new directions in the field are highlighted.",
+    "cited_by_count": 2791
+  },
+  {
+    "category": "GIS",
+    "title": "GIS‐based multicriteria decision analysis: a survey of the literature",
+    "authors": "Jacek Malczewski",
+    "year": 2006,
+    "journal": "International Journal of Geographical Information Systems",
+    "doi": "https://doi.org/10.1080/13658810600661508",
+    "url": "https://doi.org/10.1080/13658810600661508",
+    "abstract": "The integration of GIS and multicriteria decision analysis has attracted significant interest over the last 15 years or so. This paper surveys the GIS‐based multicriteria decision analysis (GIS‐MCDA) approaches using a literature review and classification of articles from 1990 to 2004. An electronic search indicated that over 300 articles appeared in refereed journals. The paper provides taxonomy of those articles and identifies trends and developments in GIS‐MCDA.",
+    "cited_by_count": 2234
+  },
+  {
+    "category": "GIS",
+    "title": "GIS-based site suitability analysis for wind farm development in Saudi Arabia",
+    "authors": "M.A. Baseer, Shafiqur Rehman, Josua P. Meyer, Md. Mahbub Alam",
+    "year": 2017,
+    "journal": "Energy",
+    "doi": "https://doi.org/10.1016/j.energy.2017.10.016",
+    "url": "https://doi.org/10.1016/j.energy.2017.10.016",
+    "abstract": "",
+    "cited_by_count": 226
+  },
+  {
+    "category": "MCDM",
+    "title": "State-of-the-art review on multi-criteria decision-making in the transport sector",
+    "authors": "George Yannis, Angeliki Kopsacheili, Anastasios Dragomanovits, Virginia Petraki",
+    "year": 2020,
+    "journal": "Journal of Traffic and Transportation Engineering (English Edition)",
+    "doi": "https://doi.org/10.1016/j.jtte.2020.05.005",
+    "url": "https://doi.org/10.1016/j.jtte.2020.05.005",
+    "abstract": "Consistent decision-making requires a structured and systematic evaluation of advantages and disadvantages of different choice possibilities. For transport projects, policies or policy measures, and transport options evaluation, various multi-criteria methods have been developed and effectively applied to complement conventional cost effectiveness and cost benefit analysis. The present paper aims to present a state-of-the-art review of pertinent literature regarding multi-criteria decision-making (MCDM) in the transport sector, focusing on the basic concepts and procedure for multi-criteria decision-making in the transport sector, along with its role and evaluation parameters. A large selection of over 50 papers and publications between 1982 and 2019 have been reviewed, in order to provide an insight into the uses of MCDM methods in transport applications. Most commonly used MCDM methods techniques are identified and discussed through a wide review of pertinent literature, research and case studies, leading to interesting conclusions that provide a valuable insight into the use of multi-criteria analysis techniques in transport sector related decision-making. Based on the wide range of reviewed literature, it is concluded that MCDM methods are being applied mostly to evaluate transport options rather than transport policies or projects and the most commonly used MCDM method in transport sector problems are analytic",
+    "cited_by_count": 260
+  },
+  {
+    "category": "MCDM",
+    "title": "A New Model for Determining Weight Coefficients of Criteria in MCDM Models: Full Consistency Method (FUCOM)",
+    "authors": "Dragan Pamučar, Željko Stević, Siniša Sremac",
+    "year": 2018,
+    "journal": "Symmetry",
+    "doi": "https://doi.org/10.3390/sym10090393",
+    "url": "https://doi.org/10.3390/sym10090393",
+    "abstract": "In this paper, a new multi-criteria problem solving method—the Full Consistency Method (FUCOM)—is proposed. The model implies the definition of two groups of constraints that need to satisfy the optimal values of weight coefficients. The first group of constraints is the condition that the relations of the weight coefficients of criteria should be equal to the comparative priorities of the criteria. The second group of constraints is defined on the basis of the conditions of mathematical transitivity. After defining the constraints and solving the model, in addition to optimal weight values, a deviation from full consistency (DFC) is obtained. The degree of DFC is the deviation value of the obtained weight coefficients from the estimated comparative priorities of the criteria. In addition, DFC is also the reliability confirmation of the obtained weights of criteria. In order to illustrate the proposed model and evaluate its performance, FUCOM was tested on several numerical examples from the literature. The model validation was performed by comparing it with the other subjective models (the Best Worst Method (BWM) and Analytic Hierarchy Process (AHP)), based on the pairwise comparisons of the criteria and the validation of the results by using DFC. The results show that FUCOM",
+    "cited_by_count": 838
+  },
+  {
+    "category": "Recommendation",
+    "title": "Recommender systems: from algorithms to user experience",
+    "authors": "Joseph A. Konstan, John Riedl",
+    "year": 2012,
+    "journal": "User Modeling and User-Adapted Interaction",
+    "doi": "https://doi.org/10.1007/s11257-011-9112-x",
+    "url": "https://doi.org/10.1007/s11257-011-9112-x",
+    "abstract": "",
+    "cited_by_count": 751
+  },
+  {
+    "category": "Recommendation",
+    "title": "Collaborative care for depression and anxiety problems",
+    "authors": "Janine Archer, Peter Bower, Simon Gilbody, Karina Lovell, David Richards",
+    "year": 2012,
+    "journal": "Cochrane Database of Systematic Reviews",
+    "doi": "https://doi.org/10.1002/14651858.cd006525.pub2",
+    "url": "https://doi.org/10.1002/14651858.cd006525.pub2",
+    "abstract": "BACKGROUND: Common mental health problems, such as depression and anxiety, are estimated to affect up to 15% of the UK population at any one time, and health care systems worldwide need to implement interventions to reduce the impact and burden of these conditions. Collaborative care is a complex intervention based on chronic disease management models that may be effective in the management of these common mental health problems. OBJECTIVES: To assess the effectiveness of collaborative care for patients with depression or anxiety. SEARCH METHODS: We searched the following databases to February 2012: The Cochrane Collaboration Depression, Anxiety and Neurosis Group (CCDAN) trials registers (CCDANCTR-References and CCDANCTR-Studies) which include relevant randomised controlled trials (RCTs) from MEDLINE (1950 to present), EMBASE (1974 to present), PsycINFO (1967 to present) and the Cochrane Central Register of Controlled Trials (CENTRAL, all years); the World Health Organization (WHO) trials portal (ICTRP); ClinicalTrials.gov; and CINAHL (to November 2010 only). We screened the reference lists of reports of all included studies and published systematic reviews for reports of additional studies. SELECTION CRITERIA: Randomised controlled trials (RCTs) of collaborative care for participants of all ages with depression or anxiety. DATA COLLECTION AND ANALYSIS: Two independent researchers extracted data using",
+    "cited_by_count": 1075
+  },
+  {
+    "category": "Property/Housing",
+    "title": "Impacts of Street-Visible Greenery on Housing Prices: Evidence from a Hedonic Price Model and a Massive Street View Image Dataset in Beijing",
+    "authors": "Yonglin Zhang, Rencai Dong",
+    "year": 2018,
+    "journal": "ISPRS International Journal of Geo-Information",
+    "doi": "https://doi.org/10.3390/ijgi7030104",
+    "url": "https://doi.org/10.3390/ijgi7030104",
+    "abstract": "Street greenery is a component of urban green infrastructure. By forming foundational green corridors in urban ecological systems, street greenery provides vital ecological, social, and cultural functions, and benefits the wellbeing of citizens. However, because of the difficulty of quantifying people’s visual perceptions, the impact of street-visible greenery on housing prices has not been fully studied. Using Beijing, which has a mature real estate market, as an example, this study evaluated 22,331 transactions in 2014 in 2370 private housing estates. We selected 25 variables that were classified into three categories—location, housing, and neighbourhood characteristics—and introduced an index called the horizontal green view index (HGVI) into a hedonic pricing model to measure the value of the visual perception of street greenery in neighbouring residential developments. The results show that (1) Beijing’s homebuyers would like to reside in residential units with a higher HGVI; (2) Beijing’s homebuyers favour larger lakes; and (3) Beijing’s housing prices were impacted by the spatial development patterns of the city centre and multiple business centres. We used computer vision to quantify the street-visible greenery and estimated the economic benefits that the neighbouring visible greenery would have on residential developments in Beijing. This study provides a scientific basis",
+    "cited_by_count": 183
+  },
+  {
+    "category": "Infrastructure",
+    "title": "Towards equitable transit: examining transit accessibility and social need in Toronto, Canada, 1996–2006",
+    "authors": "Nicole Foth, Kevin Manaugh, Ahmed El-Geneidy",
+    "year": 2013,
+    "journal": "Journal of Transport Geography",
+    "doi": "https://doi.org/10.1016/j.jtrangeo.2012.12.008",
+    "url": "https://doi.org/10.1016/j.jtrangeo.2012.12.008",
+    "abstract": "",
+    "cited_by_count": 409
+  },
+  {
+    "category": "Environment",
+    "title": "Urban liveability: Emerging lessons from Australia for exploring the potential for indicators to measure the social determinants of health",
+    "authors": "Hannah Badland, Carolyn Whitzman, Melanie Lowe, Melanie Davern, Lu Aye",
+    "year": 2014,
+    "journal": "Social Science & Medicine",
+    "doi": "https://doi.org/10.1016/j.socscimed.2014.04.003",
+    "url": "https://doi.org/10.1016/j.socscimed.2014.04.003",
+    "abstract": "",
+    "cited_by_count": 321
+  },
+  {
+    "category": "AI/ML",
+    "title": "Tackling Climate Change with Machine Learning",
+    "authors": "Lynn H. Kaack, David Rolnick, Priya L. Donti, Kelly Kochanski, Alexandre Lacoste",
+    "year": 2022,
+    "journal": "OPUS 4 (Zuse Institute Berlin)",
+    "doi": "https://doi.org/10.1145/3485128",
+    "url": "https://doi.org/10.1145/3485128",
+    "abstract": "Climate change is one of the greatest challenges facing humanity, and we, as machine learning experts, may wonder how we can help. Here we describe how machine learning can be a powerful tool in reducing greenhouse gas emissions and helping society adapt to a changing climate. From smart grids to disaster management, we identify high impact problems where existing gaps can be filled by machine learning, in collaboration with other fields. Our recommendations encompass exciting research questions as well as promising business opportunities. We call on the machine learning community to join the global effort against climate change.",
+    "cited_by_count": 930
+  },
+  {
+    "category": "AI/ML",
+    "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+    "authors": "Yogesh K. Dwivedi, Laurie Hughes, Elvira Ismagilova, Gert Aarts, Crispin Coombs",
+    "year": 2019,
+    "journal": "International Journal of Information Management",
+    "doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+    "url": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+    "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and autonomous decision-making, engendering new opportunities for continued innovation. The impact of AI could be significant, with industries ranging from: finance , healthcare, manufacturing, retail, supply chain , logistics and utilities, all potentially disrupted by the onset of AI technologies. The study brings together the collective insight from a number of leading expert contributors to highlight the significant opportunities, realistic assessment of impact, challenges and potential research agenda posed by the rapid emergence of AI within a number of domains: business and management, government, public sector, and science and technology . This research offers significant and timely insight to AI technology and its impact on the future of industry and society in general, whilst recognising",
+    "cited_by_count": 4222
+  }
+]

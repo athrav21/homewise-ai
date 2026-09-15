@@ -94,28 +94,48 @@ export default function RecommendationDashboard({
               {/* Key Factor Scores Grid */}
               <div className="rec-metrics-grid">
                 <div className="metric-cell">
-                  <span className="cell-label">Schools</span>
+                  <span className="cell-label">School</span>
                   <span className="cell-val">{locality.schoolScore}</span>
                 </div>
                 <div className="metric-cell">
-                  <span className="cell-label">Hospitals</span>
+                  <span className="cell-label">Hospital</span>
                   <span className="cell-val">{locality.hospitalScore}</span>
                 </div>
                 <div className="metric-cell">
-                  <span className="cell-label">Markets</span>
+                  <span className="cell-label">Market</span>
                   <span className="cell-val">{locality.marketScore}</span>
+                </div>
+                <div className="metric-cell">
+                  <span className="cell-label">Safety</span>
+                  <span className="cell-val text-emerald">{locality.safetyScore || locality.crimeRiskScore}</span>
                 </div>
                 <div className="metric-cell">
                   <span className="cell-label">Transit</span>
                   <span className="cell-val">{locality.connectivityScore}</span>
                 </div>
                 <div className="metric-cell">
-                  <span className="cell-label">Safety</span>
-                  <span className="cell-val text-emerald">{locality.crimeRiskScore}</span>
+                  <span className="cell-label">Clean Air</span>
+                  <span className="cell-val">{locality.airQualityScore}</span>
                 </div>
                 <div className="metric-cell">
-                  <span className="cell-label">Air Quality</span>
-                  <span className="cell-val">{locality.airQualityScore}</span>
+                  <span className="cell-label">Flood Safe</span>
+                  <span className="cell-val">{locality.floodSafetyScore}</span>
+                </div>
+                <div className="metric-cell">
+                  <span className="cell-label">Water</span>
+                  <span className="cell-val">{locality.waterScore || 85}</span>
+                </div>
+                <div className="metric-cell">
+                  <span className="cell-label">Power</span>
+                  <span className="cell-val">{locality.powerScore || 90}</span>
+                </div>
+                <div className="metric-cell">
+                  <span className="cell-label">Future Infra</span>
+                  <span className="cell-val">{locality.futureInfrastructureScore || locality.futureDevelopmentScore}</span>
+                </div>
+                <div className="metric-cell highlight-cell">
+                  <span className="cell-label fw-bold">Livability</span>
+                  <span className="cell-val text-primary fw-bold">{locality.livabilityScore || 85}</span>
                 </div>
               </div>
 

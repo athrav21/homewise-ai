@@ -1,0 +1,89 @@
+1. [Residential Decision Making] (1991) Residential preferences and neighborhood racial segregation: A test of the schelling segregation model
+   Authors: William A. V. Clark
+   Journal: Demography
+   DOI: https://doi.org/10.2307/2061333
+   Abstract: The debate over the role of the forces that create the patterns of residential separation has identified neighborhood preferences as one of the explanatory variables, but although we possess some empi...
+
+2. [Residential Decision Making] (1992) Residential preferences and residential choices in a multiethnic context
+   Authors: William A. V. Clark
+   Journal: Demography
+   DOI: https://doi.org/10.2307/2061828
+   Abstract: A study of the expressed preferences of four different ethnic groups in the Los Angeles metropolitan area shows strong desires for own-race combinations in the ethnicity of neighborhoods that individu...
+
+3. [Residential Decision Making] (2006) Latent lifestyle preferences and household location decisions
+   Authors: Joan L. Walker, Jieping Li
+   Journal: Journal of Geographical Systems
+   DOI: https://doi.org/10.1007/s10109-006-0030-0
+   Abstract: ...
+
+4. [Residential Decision Making] (2010) Neighborhoods and health
+   Authors: Ana V. Diez Roux, Christina Mair
+   Journal: Annals of the New York Academy of Sciences
+   DOI: https://doi.org/10.1111/j.1749-6632.2009.05333.x
+   Abstract: Features of neighborhoods or residential environments may affect health and contribute to social and race/ethnic inequalities in health. The study of neighborhood health effects has grown exponentiall...
+
+5. [GIS] (2006) GIS‐based multicriteria decision analysis: a survey of the literature
+   Authors: Jacek Malczewski
+   Journal: International Journal of Geographical Information Systems
+   DOI: https://doi.org/10.1080/13658810600661508
+   Abstract: The integration of GIS and multicriteria decision analysis has attracted significant interest over the last 15 years or so. This paper surveys the GIS‐based multicriteria decision analysis (GIS‐MCDA) ...
+
+6. [GIS] (2017) GIS-based site suitability analysis for wind farm development in Saudi Arabia
+   Authors: M.A. Baseer, Shafiqur Rehman, Josua P. Meyer, Md. Mahbub Alam
+   Journal: Energy
+   DOI: https://doi.org/10.1016/j.energy.2017.10.016
+   Abstract: ...
+
+7. [MCDM] (2020) State-of-the-art review on multi-criteria decision-making in the transport sector
+   Authors: George Yannis, Angeliki Kopsacheili, Anastasios Dragomanovits, Virginia Petraki
+   Journal: Journal of Traffic and Transportation Engineering (English Edition)
+   DOI: https://doi.org/10.1016/j.jtte.2020.05.005
+   Abstract: Consistent decision-making requires a structured and systematic evaluation of advantages and disadvantages of different choice possibilities. For transport projects, policies or policy measures, and t...
+
+8. [MCDM] (2018) A New Model for Determining Weight Coefficients of Criteria in MCDM Models: Full Consistency Method (FUCOM)
+   Authors: Dragan Pamučar, Željko Stević, Siniša Sremac
+   Journal: Symmetry
+   DOI: https://doi.org/10.3390/sym10090393
+   Abstract: In this paper, a new multi-criteria problem solving method—the Full Consistency Method (FUCOM)—is proposed. The model implies the definition of two groups of constraints that need to satisfy the optim...
+
+9. [Recommendation] (2012) Recommender systems: from algorithms to user experience
+   Authors: Joseph A. Konstan, John Riedl
+   Journal: User Modeling and User-Adapted Interaction
+   DOI: https://doi.org/10.1007/s11257-011-9112-x
+   Abstract: ...
+
+10. [Recommendation] (2012) Collaborative care for depression and anxiety problems
+   Authors: Janine Archer, Peter Bower, Simon Gilbody, Karina Lovell, David Richards
+   Journal: Cochrane Database of Systematic Reviews
+   DOI: https://doi.org/10.1002/14651858.cd006525.pub2
+   Abstract: BACKGROUND: Common mental health problems, such as depression and anxiety, are estimated to affect up to 15% of the UK population at any one time, and health care systems worldwide need to implement i...
+
+11. [Property/Housing] (2018) Impacts of Street-Visible Greenery on Housing Prices: Evidence from a Hedonic Price Model and a Massive Street View Image Dataset in Beijing
+   Authors: Yonglin Zhang, Rencai Dong
+   Journal: ISPRS International Journal of Geo-Information
+   DOI: https://doi.org/10.3390/ijgi7030104
+   Abstract: Street greenery is a component of urban green infrastructure. By forming foundational green corridors in urban ecological systems, street greenery provides vital ecological, social, and cultural funct...
+
+12. [Infrastructure] (2013) Towards equitable transit: examining transit accessibility and social need in Toronto, Canada, 1996–2006
+   Authors: Nicole Foth, Kevin Manaugh, Ahmed El-Geneidy
+   Journal: Journal of Transport Geography
+   DOI: https://doi.org/10.1016/j.jtrangeo.2012.12.008
+   Abstract: ...
+
+13. [Environment] (2014) Urban liveability: Emerging lessons from Australia for exploring the potential for indicators to measure the social determinants of health
+   Authors: Hannah Badland, Carolyn Whitzman, Melanie Lowe, Melanie Davern, Lu Aye
+   Journal: Social Science & Medicine
+   DOI: https://doi.org/10.1016/j.socscimed.2014.04.003
+   Abstract: ...
+
+14. [AI/ML] (2022) Tackling Climate Change with Machine Learning
+   Authors: Lynn H. Kaack, David Rolnick, Priya L. Donti, Kelly Kochanski, Alexandre Lacoste
+   Journal: OPUS 4 (Zuse Institute Berlin)
+   DOI: https://doi.org/10.1145/3485128
+   Abstract: Climate change is one of the greatest challenges facing humanity, and we, as machine learning experts, may wonder how we can help. Here we describe how machine learning can be a powerful tool in reduc...
+
+15. [AI/ML] (2019) Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy
+   Authors: Yogesh K. Dwivedi, Laurie Hughes, Elvira Ismagilova, Gert Aarts, Crispin Coombs
+   Journal: International Journal of Information Management
+   DOI: https://doi.org/10.1016/j.ijinfomgt.2019.08.002
+   Abstract: As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where...

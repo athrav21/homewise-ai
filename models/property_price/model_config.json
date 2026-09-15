@@ -1,0 +1,22 @@
+{
+  "folder": "property_price",
+  "model_name": "Property Valuation & Price Prediction Model",
+  "output_field": "priceScore / predictedPrice",
+  "dataset": "Mumbai House Price Dataset (70K+ Listings)",
+  "runtime_api": "Property Dataset & Valuation Inference Model",
+  "expected_artifacts": [
+    "property_price_xgb.pkl",
+    "price_ridge_regression.pkl",
+    "feature_encoder.pkl"
+  ],
+  "input_features": [
+    "latitude",
+    "longitude",
+    "carpet_area_sqft",
+    "bhk_count",
+    "locality_id",
+    "floor_number",
+    "building_age_years",
+    "amenities_score"
+  ]
+}

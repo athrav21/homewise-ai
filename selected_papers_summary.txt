@@ -1,0 +1,955 @@
+=== CATEGORY: Residential Decision Making ===
+1. [2004] What affects commute mode choice: neighborhood physical structure or preferences toward neighborhoods?
+   Authors: Tim Schwanen, Patricia L. Mokhtarian
+   Venue: Journal of Transport Geography
+   DOI: https://doi.org/10.1016/j.jtrangeo.2004.11.001
+   Abstract snippet: ...
+
+2. [1991] Residential preferences and neighborhood racial segregation: A test of the schelling segregation model
+   Authors: William A. V. Clark
+   Venue: Demography
+   DOI: https://doi.org/10.2307/2061333
+   Abstract snippet: The debate over the role of the forces that create the patterns of residential separation has identified neighborhood preferences as one of the explanatory variables, but although we possess some empi...
+
+3. [1992] Residential preferences and residential choices in a multiethnic context
+   Authors: William A. V. Clark
+   Venue: Demography
+   DOI: https://doi.org/10.2307/2061828
+   Abstract snippet: A study of the expressed preferences of four different ethnic groups in the Los Angeles metropolitan area shows strong desires for own-race combinations in the ethnicity of neighborhoods that individu...
+
+4. [2005] What if you live in the wrong neighborhood? The impact of residential neighborhood type dissonance on distance traveled
+   Authors: Tim Schwanen, Patricia L. Mokhtarian
+   Venue: Transportation Research Part D Transport and Environment
+   DOI: https://doi.org/10.1016/j.trd.2004.11.002
+   Abstract snippet: ...
+
+5. [2012] Methodological Issues in the Analysis of Residential Preferences, Residential Mobility, and Neighborhood Change
+   Authors: Elizabeth Bruch, Robert D. Mare
+   Venue: Sociological Methodology
+   DOI: https://doi.org/10.1177/0081175012444105
+   Abstract snippet: This paper reviews methods for analyzing both individual preferences and choices about where to live, and the implications of these choices for residential patterns. Although these methods are discuss...
+
+6. [2016] The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment
+   Authors: Raj Chetty, Nathaniel Hendren, Lawrence F. Katz
+   Venue: American Economic Review
+   DOI: https://doi.org/10.1257/aer.20150572
+   Abstract snippet: The Moving to Opportunity (MTO) experiment offered randomly selected families housing vouchers to move from high-poverty housing projects to lower-poverty neighborhoods. We analyze MTO's impacts on ch...
+
+7. [2018] Residential Location Choice in the Era of Shared Autonomous Vehicles
+   Authors: Wenwen Zhang, Subhrajit Guhathakurta
+   Venue: Journal of Planning Education and Research
+   DOI: https://doi.org/10.1177/0739456x18776062
+   Abstract snippet: This study examines the potential changes in residential location choice in a scenario where shared autonomous vehicles (SAVs) are a popular mode of travel in the Atlanta metropolitan area. This hypot...
+
+8. [2007] A Unified Framework for Measuring Preferences for Schools and Neighborhoods
+   Authors: Patrick Bayer, Fernando Ferreira, R. S. McMillan
+   Venue: National Bureau of Economic Research
+   DOI: https://doi.org/10.3386/w13236
+   Abstract snippet: This paper develops a comprehensive framework for estimating household preferences for school and neighborhood attributes in the presence of sorting. It embeds a boundary discontinuity design in a het...
+
+9. [2006] Latent lifestyle preferences and household location decisions
+   Authors: Joan L. Walker, Jieping Li
+   Venue: Journal of Geographical Systems
+   DOI: https://doi.org/10.1007/s10109-006-0030-0
+   Abstract snippet: ...
+
+10. [2014] The role of location in residential location choice models: a review of literature
+   Authors: Patrick Schirmer, Michael A.B. van Eggermond, Kay W. Axhausen
+   Venue: Journal of Transport and Land Use
+   DOI: https://doi.org/10.5198/jtlu.v7i2.740
+   Abstract snippet: Geospatial data available to researchers has increased tremendously over the last several decades, opening up opportunities to define residential location in multiple ways. This has led to a myriad of...
+
+11. [2007] Conflict monitoring and decision making: Reconciling two perspectives on anterior cingulate function
+   Authors: Matthew Botvinick
+   Venue: Cognitive Affective & Behavioral Neuroscience
+   DOI: https://doi.org/10.3758/cabn.7.4.356
+   Abstract snippet: ...
+
+12. [2006] GIS‐based multicriteria decision analysis: a survey of the literature
+   Authors: Jacek Malczewski
+   Venue: International Journal of Geographical Information Systems
+   DOI: https://doi.org/10.1080/13658810600661508
+   Abstract snippet: The integration of GIS and multicriteria decision analysis has attracted significant interest over the last 15 years or so. This paper surveys the GIS‐based multicriteria decision analysis (GIS‐MCDA) ...
+
+13. [1989] Jobs-Housing Balancing and Regional Mobility
+   Authors: Robert Cervero
+   Venue: Journal of the American Planning Association
+   DOI: https://doi.org/10.1080/01944368908976014
+   Abstract snippet: Despite the steady migration of jobs to the suburbs over the past decade, many suburban residents commute farther than ever. In this article I attribute the widening separation of suburban workplaces ...
+
+14. [2005] Why Is Manhattan So Expensive? Regulation and the Rise in Housing Prices
+   Authors: Edward L. Glaeser, Joseph Gyourko, Raven E. Saks
+   Venue: The Journal of Law and Economics
+   DOI: https://doi.org/10.1086/429979
+   Abstract snippet: In Manhattan, housing prices have soared since the 1990s. Although rising incomes, lower interest rates, and other factors can explain the demand side of this increase, some sluggishness in the supply...
+
+15. [2009] Multiple criteria facility location problems: A survey
+   Authors: Reza Zanjirani Farahani, Maryam SteadieSeifi, Nasrin Asgari
+   Venue: Applied Mathematical Modelling
+   DOI: https://doi.org/10.1016/j.apm.2009.10.005
+   Abstract snippet: ...
+
+16. [2016] A Comparative Study of Multiple-Criteria Decision-Making Methods under Stochastic Inputs
+   Authors: Athanasios Kolios, Varvara Mytilinou, Estívaliz Lozano‐Mínguez, Konstantinos Salonitis
+   Venue: Energies
+   DOI: https://doi.org/10.3390/en9070566
+   Abstract snippet: This paper presents an application and extension of multiple-criteria decision-making (MCDM) methods to account for stochastic input variables. More in particular, a comparative study is carried out a...
+
+17. [2020] The Housing Boom and Bust: Model Meets Evidence
+   Authors: Greg Kaplan, Kurt Mitman, Giovanni L. Violante
+   Venue: Journal of Political Economy
+   DOI: https://doi.org/10.1086/708816
+   Abstract snippet: We build a model of the US economy with multiple aggregate shocks that generate fluctuations in equilibrium house prices. Through counterfactual experiments, we study the housing boom-bust around the ...
+
+18. [2007] Identifying the drivers behind housing preferences of first‐time owners
+   Authors: Richard Reed, Anthony Mills
+   Venue: Property Management
+   DOI: https://doi.org/10.1108/02637470710753611
+   Abstract snippet: Purpose The purpose of this paper is to provide a rare insight into the motivation behind first‐time buyers when looking to purchase their first home. The factors driving demand preferences for detach...
+
+19. [2011] The Social Determinants of Health: Coming of Age
+   Authors: Paula Braveman, Susan Egerter, David R. Williams
+   Venue: Annual Review of Public Health
+   DOI: https://doi.org/10.1146/annurev-publhealth-031210-101218
+   Abstract snippet: In the United States, awareness is increasing that medical care alone cannot adequately improve health overall or reduce health disparities without also addressing where and how people live. A critica...
+
+20. [2006] The Development of a Standardized Neighborhood Deprivation Index
+   Authors: Lynne C. Messer, Barbara Laraia, Jay S. Kaufman, Janet Eyster, Claudia Holzman
+   Venue: Journal of Urban Health
+   DOI: https://doi.org/10.1007/s11524-006-9094-x
+   Abstract snippet: ...
+
+21. [2009] Residential self-selection effects in an activity time-use behavior model
+   Authors: Abdul Rawoof Pinjari, Chandra R. Bhat, David A. Hensher
+   Venue: Transportation Research Part B Methodological
+   DOI: https://doi.org/10.1016/j.trb.2009.02.002
+   Abstract snippet: ...
+
+22. [2003] Residential Environments and Cardiovascular Risk
+   Authors: Ana V. Diez Roux
+   Venue: Journal of Heredity
+   DOI: https://doi.org/10.1093/jurban/jtg065
+   Abstract snippet: ...
+
+23. [1997] Neighborhood Environments and Coronary Heart Disease: A Multilevel Analysis
+   Authors: Ana V. Diez–Roux, F. Javier Nieto, Carles Muntañer, H. A. Tyroler, G W Comstock
+   Venue: American Journal of Epidemiology
+   DOI: https://doi.org/10.1093/oxfordjournals.aje.a009191
+   Abstract snippet: The authors investigated whether neighborhood socioeconomic characteristics are associated with coronary heart disease prevalence and risk factors, whether these associations persist after adjustment ...
+
+24. [2018] The Impacts of Neighborhoods on Intergenerational Mobility II: County-Level Estimates*
+   Authors: Raj Chetty, Nathaniel Hendren
+   Venue: The Quarterly Journal of Economics
+   DOI: https://doi.org/10.1093/qje/qjy006
+   Abstract snippet: We estimate the causal effect of each county in the United States on children's incomes in adulthood. We first estimate a fixed effects model that is identified by analyzing families who move across c...
+
+25. [2004] Is Income Inequality a Determinant of Population Health? Part 1. A Systematic Review
+   Authors: John Lynch, George Davey Smith, Sam Harper, Marianne M. Hillemeier, Nancy A. Ross
+   Venue: Milbank Quarterly
+   DOI: https://doi.org/10.1111/j.0887-378x.2004.00302.x
+   Abstract snippet: This article reviews 98 aggregate and multilevel studies examining the associations between income inequality and health. Overall, there seems to be little support for the idea that income inequality ...
+
+26. [2018] Fixed and random effects models: making an informed choice
+   Authors: Andrew Bell, Malcolm Fairbrother, Kelvyn Jones
+   Venue: Quality & Quantity
+   DOI: https://doi.org/10.1007/s11135-018-0802-x
+   Abstract snippet: This paper assesses the options available to researchers analysing multilevel (including longitudinal) data, with the aim of supporting good methodological decision-making. Given the confusion in the ...
+
+27. [2017] Residential self-selection and travel behaviour: What are the effects of attitudes, reasons for location choice and the built environment?
+   Authors: Dick Ettema, R. Nieuwenhuis
+   Venue: Journal of Transport Geography
+   DOI: https://doi.org/10.1016/j.jtrangeo.2017.01.009
+   Abstract snippet: ...
+
+=== CATEGORY: GIS ===
+1. [2006] GIS‐based multicriteria decision analysis: a survey of the literature
+   Authors: Jacek Malczewski
+   Venue: International Journal of Geographical Information Systems
+   DOI: https://doi.org/10.1080/13658810600661508
+   Abstract snippet: The integration of GIS and multicriteria decision analysis has attracted significant interest over the last 15 years or so. This paper surveys the GIS‐based multicriteria decision analysis (GIS‐MCDA) ...
+
+2. [2022] A framework for GIS-based site selection and technical potential evaluation of PV solar farm using Fuzzy-Boolean logic and AHP multi-criteria decision-making approach
+   Authors: Younes Noorollahi, Ali Ghenaatpisheh Senani, Ahmad Fadaei, Mobina Simaee, Rahim Moltames
+   Venue: Renewable Energy
+   DOI: https://doi.org/10.1016/j.renene.2021.12.124
+   Abstract snippet: ...
+
+3. [2017] GIS-based site suitability analysis for wind farm development in Saudi Arabia
+   Authors: M.A. Baseer, Shafiqur Rehman, Josua P. Meyer, Md. Mahbub Alam
+   Venue: Energy
+   DOI: https://doi.org/10.1016/j.energy.2017.10.016
+   Abstract snippet: ...
+
+4. [2016] Land Suitability Analysis for Solar Farms Exploitation Using GIS and Fuzzy Analytic Hierarchy Process (FAHP)—A Case Study of Iran
+   Authors: Ehsan Noorollahi, Dawud Fadai, Mohsen Akbarpour Shirazi, Seyed Hassan Ghodsipour
+   Venue: Energies
+   DOI: https://doi.org/10.3390/en9080643
+   Abstract snippet: Considering the geographical location and climatic conditions of Iran, solar energy can provide a considerable portion of the energy demand for the country. This study develops a two-step framework. I...
+
+5. [2000] Modelling sustainable urban development by the integration of constrained cellular automata and GIS
+   Authors: Xia Li, Anthony Gar‐On Yeh
+   Venue: International Journal of Geographical Information Systems
+   DOI: https://doi.org/10.1080/136588100240886
+   Abstract snippet: Cellular Automata (CA) have attracted growing attention in urban simulation because their capability in spatial modelling is not fully developed in GIS. This paper discusses how cellular automata (CA)...
+
+6. [2017] Land Suitability Analysis of Urban Growth in Seremban Malaysia, Using GIS Based Analytical Hierarchy Process
+   Authors: Maher Milad Aburas, Sabrina H.O. Abdullah, Mohammad Firuz Ramli, Zulfa Hanan Ash’aari
+   Venue: Procedia Engineering
+   DOI: https://doi.org/10.1016/j.proeng.2017.07.155
+   Abstract snippet: One of the critical issues in urban planning is the determination of appropriate locations for urban growth in marginal areas adjacent to large-scale development. This study aims to use a Geographic I...
+
+7. [2021] A suitability mapping for the PV solar farms in Egypt based on GIS-AHP to optimize multi-criteria feasibility
+   Authors: Bahaa Elboshy, Mamdooh Alwetaishi, Reda M. H. Aly, Amr S. Zalhaf
+   Venue: Ain Shams Engineering Journal
+   DOI: https://doi.org/10.1016/j.asej.2021.10.013
+   Abstract snippet: Nowadays, photovoltaic (PV) are considered a promising alternative solution as a clean energy source. The power output from the solar PV module is proportional to the amount of solar radiation receive...
+
+8. [2016] Critical analysis of Big Data challenges and analytical methods
+   Authors: Uthayasankar Sivarajah, Muhammad Mustafa Kamal, Zahir Irani, Vishanth Weerakkody
+   Venue: Journal of Business Research
+   DOI: https://doi.org/10.1016/j.jbusres.2016.08.001
+   Abstract snippet: Big Data (BD), with their potential to ascertain valued insights for enhanced decision-making process, have recently attracted substantial interest from both academics and practitioners. Big Data Anal...
+
+9. [2018] GIS based land suitability analysis using AHP model for urban services planning in Srinagar and Jammu urban centers of J&amp;K, India
+   Authors: Jahangeer A. Parry, Showkat A. Ganaie, M. Sultan Bhat
+   Venue: Journal of Urban Management
+   DOI: https://doi.org/10.1016/j.jum.2018.05.002
+   Abstract snippet: Rapid urbanization and consequent haphazard growth of cities result in deterioration of infrastructure facilities, loss of agricultural land, water bodies, open spaces, and many micro-climatic changes...
+
+10. [2011] Flood management and a GIS modelling method to assess flood-hazard areas—a case study
+   Authors: Nektarios N. Kourgialas, George P. Karatzas
+   Venue: Hydrological Sciences Journal
+   DOI: https://doi.org/10.1080/02626667.2011.555836
+   Abstract snippet: This paper presents a viable approach for flood management strategy in a river basin based on the European Floods Directive. A reliable flood management plan has two components: (a) a proper flood man...
+
+11. [2016] Land suitability analysis for agriculture in the Abbay basin using remote sensing, GIS and AHP techniques
+   Authors: Seleshi Yalew, Ann van Griensven, Marloes Mul, Pieter van der Zaag
+   Venue: Modeling Earth Systems and Environment
+   DOI: https://doi.org/10.1007/s40808-016-0167-x
+   Abstract snippet: ...
+
+12. [2020] A geospatial analysis of multi-hazard risk in Dharan, Nepal
+   Authors: Sanam K. Aksha, Lynn M. Resler, Luke Juran, Laurence W. Carstensen
+   Venue: Geomatics Natural Hazards and Risk
+   DOI: https://doi.org/10.1080/19475705.2019.1710580
+   Abstract snippet: Natural hazard risk assessment generally focuses on a single hazard type, such as earthquakes, landslides, or floods. This emphasis tends to consider physical processes in isolation. However, most loc...
+
+13. [2021] Geospatial Analysis of Solar Energy in Riyadh Using a GIS-AHP-Based Technique
+   Authors: Lamya Albraheem, Leena Alabdulkarim
+   Venue: ISPRS International Journal of Geo-Information
+   DOI: https://doi.org/10.3390/ijgi10050291
+   Abstract snippet: In recent years, spatial multi-criteria decision analysis (MCDA) has been applied to different types of spatial problems, such as solar power site suitability. MCDA can be used to support the process ...
+
+14. [2020] Applications of GIS and geospatial analyses in COVID-19 research: A systematic review
+   Authors: Rakibul Ahasan, Md. Shaharier Alam, Torit Chakraborty, Md Mahbub Hossain
+   Venue: F1000Research
+   DOI: https://doi.org/10.12688/f1000research.27544.1
+   Abstract snippet: <ns3:p> <ns3:bold>Background:</ns3:bold> Geographic information science (GIS) has established itself as a distinct domain and incredibly useful whenever the research is related to geography, space, an...
+
+15. [2016] Utilizing Cloud Computing to address big geospatial data challenges
+   Authors: Chaowei Yang, Manzhu Yu, Fei Hu, Yongyao Jiang, Yun Li
+   Venue: Computers Environment and Urban Systems
+   DOI: https://doi.org/10.1016/j.compenvurbsys.2016.10.010
+   Abstract snippet: Big Data has emerged with new opportunities for research, development, innovation and business. It is characterized by the so-called four Vs: volume, velocity, veracity and variety and may bring signi...
+
+16. [2014] GIS-Based Planning and Modeling for Renewable Energy: Challenges and Future Research Avenues
+   Authors: Bernd Resch, Günther Sagl, Tobias Törnros, Andreas Bachmaier, Jan-Bleicke Eggers
+   Venue: ISPRS International Journal of Geo-Information
+   DOI: https://doi.org/10.3390/ijgi3020662
+   Abstract snippet: In the face of the broad political call for an “energy turnaround”, we are currently witnessing three essential trends with regard to energy infrastructure planning, energy generation and storage: fro...
+
+17. [2020] A Hybrid Approach Integrating Entropy-AHP and GIS for Suitability Assessment of Urban Emergency Facilities
+   Authors: Penjani Hopkins Nyimbili, Turan Erden
+   Venue: ISPRS International Journal of Geo-Information
+   DOI: https://doi.org/10.3390/ijgi9070419
+   Abstract snippet: Globalization has become a major issue of focus as rapid urban populations and urbanization effects are on the rise. A critical need arises for effective urban planning for Istanbul in relation to the...
+
+=== CATEGORY: MCDM ===
+1. [2018] A New Model for Determining Weight Coefficients of Criteria in MCDM Models: Full Consistency Method (FUCOM)
+   Authors: Dragan Pamučar, Željko Stević, Siniša Sremac
+   Venue: Symmetry
+   DOI: https://doi.org/10.3390/sym10090393
+   Abstract snippet: In this paper, a new multi-criteria problem solving method—the Full Consistency Method (FUCOM)—is proposed. The model implies the definition of two groups of constraints that need to satisfy the optim...
+
+2. [2022] MCDM and Various Prioritization Methods in AHP for CSS: A Comprehensive Review
+   Authors: Jayadev Gyani, Ahsan Uddin Ahmed, Mohd Anul Haq
+   Venue: IEEE Access
+   DOI: https://doi.org/10.1109/access.2022.3161742
+   Abstract snippet: Availability and diversity of cloud service providers (CSPs) had put the users into confusion for its selection of the appropriate service providers. Some cloud service providers are good at some serv...
+
+3. [2012] MAINTENANCE STRATEGY SELECTION USING AHP AND COPRAS UNDER FUZZY ENVIRONMENT / PRIEŽIŪROS STRATEGIJOS PARINKIMAS TAIKANT AHP IR COPRAS METODUS NEAPIBRĖŽTOSE SITUACIJOSE
+   Authors: Mohammad Majid Fouladgar, Abdolreza Yazdani–Chamzini, Ali Lashgari, Edmundas Kazimieras Zavadskas, Zenonas Turskis
+   Venue: International Journal of Strategic Property Management
+   DOI: https://doi.org/10.3846/1648715x.2012.666657
+   Abstract snippet: Asset management, as a systematic process of operating, maintaining, and upgrading physical assets, is an important element of decision-making in heavy equipment management and operation. Maintenance ...
+
+4. [2018] A Comparative Study of the AHP and TOPSIS Techniques for Dam Site Selection Using GIS: A Case Study of Sistan and Baluchestan Province, Iran
+   Authors: Ali Jozaghi, Babak Alizadeh, Mohsen Hatami, Ian Flood, Mohammad Khorrami
+   Venue: Geosciences
+   DOI: https://doi.org/10.3390/geosciences8120494
+   Abstract snippet: The application of multiple criteria decision-making (MCDM) techniques in real-life problems has increased in recent years. The need to build advanced decision models with higher capabilities that can...
+
+5. [2009] Multiple criteria facility location problems: A survey
+   Authors: Reza Zanjirani Farahani, Maryam SteadieSeifi, Nasrin Asgari
+   Venue: Applied Mathematical Modelling
+   DOI: https://doi.org/10.1016/j.apm.2009.10.005
+   Abstract snippet: ...
+
+6. [2021] Analysis of a Robot Selection Problem Using Two Newly Developed Hybrid MCDM Models of TOPSIS-ARAS and COPRAS-ARAS
+   Authors: Shankha Shubhra Goswami, Dhiren Kumar Behera, Asif Afzal, Abdul Razak Kaladgi, Sher Afghan Khan
+   Venue: Symmetry
+   DOI: https://doi.org/10.3390/sym13081331
+   Abstract snippet: Traditional Multi-Criteria Decision Making (MCDM) methods have now become outdated; therefore, most researchers are focusing on more robust hybrid MCDM models that combine two or more MCDM techniques ...
+
+7. [2020] A comprehensive analysis of weighting and multicriteria methods in the context of sustainable energy
+   Authors: Mehmet Şahin
+   Venue: International Journal of Environmental Science and Technology
+   DOI: https://doi.org/10.1007/s13762-020-02922-7
+   Abstract snippet: ...
+
+8. [2017] Evaluating construction projects of hotels based on environmental sustainability with MCDM framework
+   Authors: Sarfaraz Hashemkhani Zolfani, Morteza Pourhossein, Morteza Yazdani, Edmundas Kazimieras Zavadskas
+   Venue: Alexandria Engineering Journal
+   DOI: https://doi.org/10.1016/j.aej.2016.11.002
+   Abstract snippet: Environmental issues have got incredible attention among daily life activities. Sustainability penetrated in all society practices specially construction industry due to its substantial impact on the ...
+
+9. [2018] A fuzzy AHP-TOPSIS approach to supply partner selection in continuous aid humanitarian supply chains
+   Authors: V. G. Venkatesh, Abraham Zhang, Eric Deakins, Sunil Luthra, Sachin Kumar Mangla
+   Venue: Annals of Operations Research
+   DOI: https://doi.org/10.1007/s10479-018-2981-1
+   Abstract snippet: ...
+
+10. [2019] Bioethanol facility location selection using best-worst method
+   Authors: Siamak Kheybari, Mostafa Kazemi, Jafar Rezaei
+   Venue: Applied Energy
+   DOI: https://doi.org/10.1016/j.apenergy.2019.03.054
+   Abstract snippet: ...
+
+11. [2010] Heuristic Decision Making
+   Authors: Gerd Gigerenzer, Wolfgang Gaissmaier
+   Venue: Annual Review of Psychology
+   DOI: https://doi.org/10.1146/annurev-psych-120709-145346
+   Abstract snippet: As reflected in the amount of controversy, few areas in psychology have undergone such dramatic conceptual changes in the past decade as the emerging science of heuristics. Heuristics are efficient co...
+
+12. [2006] GIS‐based multicriteria decision analysis: a survey of the literature
+   Authors: Jacek Malczewski
+   Venue: International Journal of Geographical Information Systems
+   DOI: https://doi.org/10.1080/13658810600661508
+   Abstract snippet: The integration of GIS and multicriteria decision analysis has attracted significant interest over the last 15 years or so. This paper surveys the GIS‐based multicriteria decision analysis (GIS‐MCDA) ...
+
+13. [2021] PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews
+   Authors: Matthew J. Page, David Moher, Patrick M. Bossuyt, Isabelle Boutron, Tammy Hoffmann
+   Venue: BMJ
+   DOI: https://doi.org/10.1136/bmj.n160
+   Abstract snippet: The PRISMA 2020 statement includes a checklist of 27 items to guide reporting of systematic reviews In this article we explain why reporting of each item is recommended, present bullet points that det...
+
+14. [2020] Multi-Criteria Decision-Making (MCDM) for the Assessment of Renewable Energy Technologies in a Household: A Review
+   Authors: Indrė Šikšnelytė-Butkienė, Edmundas Kazimieras Zavadskas, Dalia Štreimikienė
+   Venue: Energies
+   DOI: https://doi.org/10.3390/en13051164
+   Abstract snippet: Different power generation technologies have different advantages and disadvantages. However, if compared to traditional energy sources, renewable energy sources provide a possibility to solve the cli...
+
+15. [2012] A review of multi-criteria decision-making methods for bioenergy systems
+   Authors: James A. Scott, William Ho, Prasanta Kumar Dey
+   Venue: Energy
+   DOI: https://doi.org/10.1016/j.energy.2012.03.074
+   Abstract snippet: ...
+
+16. [2022] A framework for GIS-based site selection and technical potential evaluation of PV solar farm using Fuzzy-Boolean logic and AHP multi-criteria decision-making approach
+   Authors: Younes Noorollahi, Ali Ghenaatpisheh Senani, Ahmad Fadaei, Mobina Simaee, Rahim Moltames
+   Venue: Renewable Energy
+   DOI: https://doi.org/10.1016/j.renene.2021.12.124
+   Abstract snippet: ...
+
+17. [2020] Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019
+   Authors: Christopher J L Murray, Aleksandr Y. Aravkin, Peng Zheng, Cristiana Abbafati, Kaja Abbas
+   Venue: The Lancet
+   DOI: https://doi.org/10.1016/s0140-6736(20)30752-2
+   Abstract snippet: BACKGROUND: Rigorous analysis of levels and trends in exposure to leading risk factors and quantification of their effect on human health are important to identify where public health is making progre...
+
+18. [2011] Hospital site selection using two-stage fuzzy multi-criteria decision making process
+   Authors: Alì Soltani, Ibrahim Zargari Marandi
+   Venue: Journal of Urban and Environmental Engineering
+   DOI: https://doi.org/10.4090/juee.2011.v5n1.032043
+   Abstract snippet: Abstract: Site selection for sitting of urban activities/facilities is one of the crucial policy-related decisions taken by urban planners and policy makers. The process of site selection is inherentl...
+
+19. [2024] Optimal landfill site selection using ArcGIS Multi-Criteria Decision-Making (MCDM) and Analytic Hierarchy Process (AHP) for Kinshasa City
+   Authors: Yllah Okin Kang, Helmut Yabar, Takeshi Mizunoya, Yoshiro Higano
+   Venue: Environmental Challenges
+   DOI: https://doi.org/10.1016/j.envc.2023.100826
+   Abstract snippet: Rapid urbanization and population growth present pressing challenges for effective solid waste management in burgeoning cities. This study addresses the critical issue of landfill site selection in Ki...
+
+20. [2020] Combining multi-criteria decision making (MCDM) methods with building information modelling (BIM): A review
+   Authors: Tan Tan, Grant Mills, Eleni Papadonikolaki, Zhening Liu
+   Venue: Automation in Construction
+   DOI: https://doi.org/10.1016/j.autcon.2020.103451
+   Abstract snippet: ...
+
+=== CATEGORY: Recommendation ===
+1. [2020] Millennials Housing Preferences Model in Jakarta
+   Authors: Yunilson Mulyano, Raden Aswin Rahadi, Urfi Amaliah
+   Venue: European Journal of Business Management and Research
+   DOI: https://doi.org/10.24018/ejbmr.2020.5.1.240
+   Abstract snippet: This paper will discuss the housing preferences among Millennials in Jakarta. The approach used is by analyzing twenty papers related to housing preferences, making synthesis from collected paper, and...
+
+2. [2021] It’s all about perceptions: A DEMATEL approach to exploring user perceptions of real estate online platforms
+   Authors: Fahim Ullah, Samad M. E. Sepasgozar, Muhammad Jamaluddin Thaheem, Cynthia Wang, Muhammad Imran
+   Venue: Ain Shams Engineering Journal
+   DOI: https://doi.org/10.1016/j.asej.2021.04.023
+   Abstract snippet: Real Estate Online Platforms (REOPs) are used for conveying real estate and property-related information to potential users (buyers, renters, or sellers). The information leveraged through REOPs suppo...
+
+3. [2023] Smart ‘Tourist Cities’ Revisited: Culture-Led Urban Sustainability and the Global Real Estate Market
+   Authors: Ioannis Vardopoulos, Maria Papoui-Evangelou, Богдана Носова, Luca Salvati
+   Venue: Sustainability
+   DOI: https://doi.org/10.3390/su15054313
+   Abstract snippet: Smart tourism destinations have received increasing attention during the last few years. Digital technologies have reshaped the smart city paradigm in terms of both resilience and sustainability, capi...
+
+4. [2022] Fairness in Information Access Systems
+   Authors: Michael D. Ekstrand, Anubrata Das, Robin Burke, Fernando Díaz
+   Venue: Foundations and Trends® in Information Retrieval
+   DOI: https://doi.org/10.1561/1500000079
+   Abstract snippet: Recommendation, information retrieval, and other information access systems pose unique challenges for investigating and applying the fairness and non-discrimination concepts that have been developed ...
+
+5. [2022] An Intelligent Recommendation System for Real Estate Commodity
+   Authors: Tsung-Yin Ou, Guanyu Lin, Hsin‐Pin Fu, Shih-Chia Wei, Wen-Lung Tsai
+   Venue: Computer Systems Science and Engineering
+   DOI: https://doi.org/10.32604/csse.2022.022637
+   Abstract snippet: Most real estate agents develop new objects by visiting unfamiliar clients, distributing leaflets, or browsing other real estate trading website platforms, whereas consumers often rely on websites to ...
+
+6. [2011] Steps Forward: Review and Recommendations for Research on Walkability, Physical Activity and Cardiovascular Health
+   Authors: Gina S. Lovasi, Stephanie T. Grady, Andrew Rundle
+   Venue: Public health reviews
+   DOI: https://doi.org/10.1007/bf03391647
+   Abstract snippet: Built environments that support walking and other physical activities have the potential to reduce cardiovascular disease (CVD). Walkable neighborhoods-characterized by density, land use diversity, an...
+
+7. [2020] Factors Affecting Residential Satisfaction in Slum Rehabilitation Housing in Mumbai
+   Authors: Bangkim Kshetrimayum, Ronita Bardhan, Tetsu Kubota
+   Venue: Sustainability
+   DOI: https://doi.org/10.3390/su12062344
+   Abstract snippet: Affordable housing for the low-income population, who mostly live in slums, is an endemic challenge for cities in developing countries. As a remedy for the slum-free city, most of the major metropolis...
+
+8. [2012] Access-Based Consumption: The Case of Car Sharing: Table 1.
+   Authors: Fleura Bardhi, Giana M. Eckhardt
+   Venue: Journal of Consumer Research
+   DOI: https://doi.org/10.1086/666376
+   Abstract snippet: Access-based consumption, defined as transactions that can be market mediated but where no transfer of ownership takes place, is becoming increasingly popular, yet it is not well theorized. This study...
+
+9. [2007] Citizen Science as a Tool for Conservation in Residential Ecosystems
+   Authors: Caren B. Cooper, Janis L. Dickinson, Tina Phillips, Rick Bonney
+   Venue: Ecology and Society
+   DOI: https://doi.org/10.5751/es-02197-120211
+   Abstract snippet: Cooper, C. B., J. Dickinson, T. Phillips, and R. Bonney. 2007. Citizen science as a tool for conservation in residential ecosystems. Ecology and Society 12(2): 11. https://doi.org/10.5751/ES-02197-120...
+
+10. [2021] PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews
+   Authors: Matthew J. Page, David Moher, Patrick M. Bossuyt, Isabelle Boutron, Tammy Hoffmann
+   Venue: BMJ
+   DOI: https://doi.org/10.1136/bmj.n160
+   Abstract snippet: The PRISMA 2020 statement includes a checklist of 27 items to guide reporting of systematic reviews In this article we explain why reporting of each item is recommended, present bullet points that det...
+
+11. [1997] Price elasticity of residential demand for water: A meta‐analysis
+   Authors: Molly Espey, James A. Espey, W. Shaw
+   Venue: Water Resources Research
+   DOI: https://doi.org/10.1029/97wr00571
+   Abstract snippet: Meta‐analysis is used to determine if there are factors that systematically affect price elasticity estimates in studies of residential water demand in the United States. An econometric model is estim...
+
+12. [2007] Measuring residential satisfaction: a residential environmental satisfaction scale (RESS)
+   Authors: C. C. M. Adriaanse
+   Venue: Journal of Housing and the Built Environment
+   DOI: https://doi.org/10.1007/s10901-007-9082-9
+   Abstract snippet: The aim of this article is to introduce an integrative and more comprehensive approach to measurement of residential environmental satisfaction. Domains of residential environmental satisfaction were ...
+
+13. [2001] Eliciting public preferences for healthcare: a systematic review of techniques
+   Authors: Mandy Ryan, David A. Scott, Catherine Reeves, Angela Bate, Edwin van Teijlingen
+   Venue: Health Technology Assessment
+   DOI: https://doi.org/10.3310/hta5050
+   Abstract snippet: BACKGROUND: Limited resources coupled with unlimited demand for healthcare mean that decisions have to be made regarding the allocation of scarce resources across competing interventions. Policy docum...
+
+14. [2019] Autonomous driving and residential location preferences: Evidence from a stated choice survey
+   Authors: Rico Krueger, Taha Hossein Rashidi, Vinayak Dixit
+   Venue: Transportation Research Part C Emerging Technologies
+   DOI: https://doi.org/10.1016/j.trc.2019.09.018
+   Abstract snippet: ...
+
+15. [2007] Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): Explanation and Elaboration
+   Authors: Jan P. Vandenbroucke, Erik von Elm, Douglas G. Altman, Peter C Gøtzsche, Cynthia D. Mulrow
+   Venue: PLoS Medicine
+   DOI: https://doi.org/10.1371/journal.pmed.0040297
+   Abstract snippet: Much medical research is observational. The reporting of observational studies is often of insufficient quality. Poor reporting hampers the assessment of the strengths and weaknesses of a study and th...
+
+16. [2015] The Socio-Demographic and Psychological Predictors of Residential Energy Consumption: A Comprehensive Review
+   Authors: Elisha R. Frederiks, Karen Stenner, Elizabeth V. Hobman
+   Venue: Energies
+   DOI: https://doi.org/10.3390/en8010573
+   Abstract snippet: This article provides a comprehensive review of theory and research on the individual-level predictors of household energy usage. Drawing on literature from across the social sciences, we examine two ...
+
+17. [2018] A Survey of Location Prediction on Twitter
+   Authors: Xin Zheng, Jialong Han, Aixin Sun
+   Venue: IEEE Transactions on Knowledge and Data Engineering
+   DOI: https://doi.org/10.1109/tkde.2018.2807840
+   Abstract snippet: Locations, e.g., countries, states, cities, and point-of-interests, are central to news, emergency events, and people's daily lives. Automatic identification of locations associated with or mentioned ...
+
+18. [2016] A Survey on Wireless Body Area Networks for eHealthcare Systems in Residential Environments
+   Authors: Mohammad Ghamari, Balazs Janko, R. Simon Sherratt, William Harwin, Robert J. Piechocki
+   Venue: Sensors
+   DOI: https://doi.org/10.3390/s16060831
+   Abstract snippet: Current progress in wearable and implanted health monitoring technologies has strong potential to alter the future of healthcare services by enabling ubiquitous monitoring of patients. A typical healt...
+
+=== CATEGORY: Property/Housing ===
+1. [2018] Analyzing housing prices in Shanghai with open data: Amenity, accessibility and urban structure
+   Authors: Han Li, Yehua Dennis Wei, Yangyi Wu, Guang Tian
+   Venue: Cities
+   DOI: https://doi.org/10.1016/j.cities.2018.11.016
+   Abstract snippet: ...
+
+2. [2018] Impacts of Street-Visible Greenery on Housing Prices: Evidence from a Hedonic Price Model and a Massive Street View Image Dataset in Beijing
+   Authors: Yonglin Zhang, Rencai Dong
+   Venue: ISPRS International Journal of Geo-Information
+   DOI: https://doi.org/10.3390/ijgi7030104
+   Abstract snippet: Street greenery is a component of urban green infrastructure. By forming foundational green corridors in urban ecological systems, street greenery provides vital ecological, social, and cultural funct...
+
+3. [2017] Exploring Determinants of Housing Prices in Beijing: An Enhanced Hedonic Regression with Open Access POI Data
+   Authors: Yixiong Xiao, Xiang Chen, Qiang Li, Yu Xi, Jin Chen
+   Venue: ISPRS International Journal of Geo-Information
+   DOI: https://doi.org/10.3390/ijgi6110358
+   Abstract snippet: The housing market in Chinese metropolises have become inflated significantly over the last decade. In addition to an economic upturn and housing policies that have potentially fueled the real estate ...
+
+4. [2016] Spatial and Social Media Data Analytics of Housing Prices in Shenzhen, China
+   Authors: Chao Wu, Xinyue Ye, Fu Ren, You Wan, Pengfei Ning
+   Venue: PLoS ONE
+   DOI: https://doi.org/10.1371/journal.pone.0164553
+   Abstract snippet: Housing is among the most pressing issues in urban China and has received considerable scholarly attention. Researchers have primarily concentrated on identifying the factors that influence residentia...
+
+5. [2020] The impact of neighborhood services on land values: an estimation through the hedonic pricing model
+   Authors: Asad Aziz, Muhammad Mushahid Anwar, Muhammad Dawood
+   Venue: GeoJournal
+   DOI: https://doi.org/10.1007/s10708-019-10127-w
+   Abstract snippet: Abstract A strong need exists to increase the knowledge and recognize the values of neighborhood services. This paper makes an attempt to examine the impact of neighborhood services on land values, th...
+
+6. [2018] Spatial Effects of Public Service Facilities Accessibility on Housing Prices: A Case Study of Xi’an, China
+   Authors: Lan Feng, Qi Wu, Tao Zhou, Huili Da
+   Venue: Sustainability
+   DOI: https://doi.org/10.3390/su10124503
+   Abstract snippet: The premium effect of public service facilities on the housing market is a critical determinant of housing prices, leading to the competition of different social groups in the housing market and fueli...
+
+7. [2012] Valuing school quality using boundary discontinuities
+   Authors: Stephen Gibbons, Stephen Machin, Olmo Silva
+   Venue: Journal of Urban Economics
+   DOI: https://doi.org/10.1016/j.jue.2012.11.001
+   Abstract snippet: ...
+
+8. [2018] Influence Factors and Regression Model of Urban Housing Prices Based on Internet Open Access Data
+   Authors: Hao Wu, Hongzan Jiao, Yang Yu, Zhigang Li, Zhenghong Peng
+   Venue: Sustainability
+   DOI: https://doi.org/10.3390/su10051676
+   Abstract snippet: With the commercialization of housing and the deepening of urbanization in China, housing prices are having increasing influence on the land market, and thus indirectly affecting urban development. As...
+
+9. [2019] Urban Green Spaces and Housing Prices: An Alternative Perspective
+   Authors: Veronika Liebelt, Stephan Bartke, Nina Schwarz
+   Venue: Sustainability
+   DOI: https://doi.org/10.3390/su11133707
+   Abstract snippet: Urban green spaces (UGS) are essential components of sustainable cities that provide many benefits to urban residents, such as recreation or aesthetics. Urban residents may be willing to pay for some ...
+
+10. [2022] The Research Development of Hedonic Price Model-Based Real Estate Appraisal in the Era of Big Data
+   Authors: Cankun Wei, Meichen Fu, Li Wang, Hanbing Yang, Feng Tang
+   Venue: Land
+   DOI: https://doi.org/10.3390/land11030334
+   Abstract snippet: In the era of big data, advances in relevant technologies are profoundly impacting the field of real estate appraisal. Many scholars regard the integration of big data technology as an inevitable futu...
+
+11. [2000] Valuing Urban Wetlands: A Property Price Approach
+   Authors: Brent L. Mahan, Stephen Polasky, Richard M. Adams
+   Venue: Land Economics
+   DOI: https://doi.org/10.2307/3147260
+   Abstract snippet: This study estimates the value of wetland amenities in the Portland, Oregon, metropolitan area using the hedonic property price model. Residential housing and wetland data are used to relate the sales...
+
+12. [2005] Why Is Manhattan So Expensive? Regulation and the Rise in Housing Prices
+   Authors: Edward L. Glaeser, Joseph Gyourko, Raven E. Saks
+   Venue: The Journal of Law and Economics
+   DOI: https://doi.org/10.1086/429979
+   Abstract snippet: In Manhattan, housing prices have soared since the 1990s. Although rising incomes, lower interest rates, and other factors can explain the demand side of this increase, some sluggishness in the supply...
+
+13. [2006] Influence of School Accessibility on Housing Values
+   Authors: Hoong Chor Chin, Kok Wai Foong
+   Venue: Journal of Urban Planning and Development
+   DOI: https://doi.org/10.1061/(asce)0733-9488(2006)132:3(120)
+   Abstract snippet: Accessibility to schools, especially prestigious ones, is often recognized as an important attribute that determines housing prices. It is usually cited as a major selling point for new housing develo...
+
+14. [2000] The Impact of Public School Attributes on Home Sale Prices in California
+   Authors: David Clark, William E. Herrin
+   Venue: Growth and Change
+   DOI: https://doi.org/10.1111/0017-4815.00134
+   Abstract snippet: The quality of public schools is often cited as an important attribute which distinguishes a community. Indeed, a recent public opinion poll conducted by the California Public Education Partnership in...
+
+15. [2006] Incorporating spatial variation in housing attribute prices: a comparison of geographically weighted regression and the spatial expansion method
+   Authors: Christopher Bitter, Gordon F. Mulligan, Sandy Dall’erba
+   Venue: Journal of Geographical Systems
+   DOI: https://doi.org/10.1007/s10109-006-0028-7
+   Abstract snippet: ...
+
+16. [2000] Effects of Transportation Infrastructure and Location on Residential Real Estate Values: Application of Spatial Autoregressive Techniques
+   Authors: Murtaza Haider, Eric J. Miller
+   Venue: Transportation Research Record Journal of the Transportation Research Board
+   DOI: https://doi.org/10.3141/1722-01
+   Abstract snippet: Proximity to transportation infrastructure (highways and public transit) influences residential real estate values. Housing values also are influenced by propinquity to a shopping facility or a recrea...
+
+17. [2015] The Housing Market Impacts of Shale Gas Development
+   Authors: Lucija Muehlenbachs, Elisheba Spiller, Christopher Timmins
+   Venue: American Economic Review
+   DOI: https://doi.org/10.1257/aer.20140079
+   Abstract snippet: Using data from Pennsylvania and an array of empirical techniques to control for confounding factors, we recover hedonic estimates of property value impacts from nearby shale gas development that vary...
+
+18. [2011] Hedonic Price Indexes for Housing
+   Authors: Robert Hill
+   Venue: OECD statistics working papers
+   DOI: https://doi.org/10.1787/5kghzxpt6g6f-en
+   Abstract snippet: Every house is different. It is important that house price indexes take account of these quality differences. Hedonic methods which express house prices as a function of a vector of characteristics (s...
+
+19. [2008] Do Seller Disclosures Affect Property Values? Buyer Information and the Hedonic Model
+   Authors: John C. Pope
+   Venue: Land Economics
+   DOI: https://doi.org/10.3368/le.84.4.551
+   Abstract snippet: The hedonic method is widely used to infer the value of environmental amenities that are bundled with real property. The interpretation of hedonic prices as marginal values requires that households ar...
+
+=== CATEGORY: Infrastructure ===
+1. [2018] Is Uber a substitute or complement for public transit?
+   Authors: Jonathan D. Hall, Craig Palsson, Joseph Price
+   Venue: Journal of Urban Economics
+   DOI: https://doi.org/10.1016/j.jue.2018.09.003
+   Abstract snippet: ...
+
+2. [2018] Public Transport Accessibility: A Literature Review
+   Authors: Muhammad Atiullah Saif, Mohammad Maghrour Zefreh, Ádám Török
+   Venue: Periodica Polytechnica Transportation Engineering
+   DOI: https://doi.org/10.3311/pptr.12072
+   Abstract snippet: Accessibility is one of the most important outcomes of the transportation system. Public transport can be more attractive by providing "Door to door mobility" and development of transportation service...
+
+3. [2013] Towards equitable transit: examining transit accessibility and social need in Toronto, Canada, 1996–2006
+   Authors: Nicole Foth, Kevin Manaugh, Ahmed El-Geneidy
+   Venue: Journal of Transport Geography
+   DOI: https://doi.org/10.1016/j.jtrangeo.2012.12.008
+   Abstract snippet: ...
+
+4. [2013] Explaining walking distance to public transport: The dominance of public transport supply
+   Authors: Rhonda Daniels, Corinne Mulley
+   Venue: Journal of Transport and Land Use
+   DOI: https://doi.org/10.5198/jtlu.v6i2.308
+   Abstract snippet: Potential influences on explaining walking distance from home to access public transport are investigated, including trip and demographic characteristics and public transport supply. In Sydney, Austra...
+
+5. [2014] The role of location in residential location choice models: a review of literature
+   Authors: Patrick Schirmer, Michael A.B. van Eggermond, Kay W. Axhausen
+   Venue: Journal of Transport and Land Use
+   DOI: https://doi.org/10.5198/jtlu.v7i2.740
+   Abstract snippet: Geospatial data available to researchers has increased tremendously over the last several decades, opening up opportunities to define residential location in multiple ways. This has led to a myriad of...
+
+6. [2015] Accessibility and Transit-Oriented Development in European metropolitan areas
+   Authors: Enrica Papa, Luca Bertolini
+   Venue: Journal of Transport Geography
+   DOI: https://doi.org/10.1016/j.jtrangeo.2015.07.003
+   Abstract snippet: This study investigates how urban form is related to accessibility. In particular, it explores the relationship between Transit-Oriented Development (TOD) and rail-based accessibility in a metropolita...
+
+7. [2010] Residential mobility and location choice: a nested logit model with sampling of alternatives
+   Authors: Brian H. Y. Lee, Paul Waddell
+   Venue: Transportation
+   DOI: https://doi.org/10.1007/s11116-010-9270-4
+   Abstract snippet: Residential mobility and relocation choice are essential parts of integrated transportation and land use models. These decision processes have been examined and modeled individually to a great extent ...
+
+8. [2013] Advance transit oriented development typology: case study in Brisbane, Australia
+   Authors: Md. Kamruzzaman, Douglas Baker, Simon Washington, Gavin Turrell
+   Venue: Journal of Transport Geography
+   DOI: https://doi.org/10.1016/j.jtrangeo.2013.11.002
+   Abstract snippet: ...
+
+9. [2015] Modeling the commute mode share of transit using continuous accessibility to jobs
+   Authors: Andrew Owen, David Levinson
+   Venue: Transportation Research Part A Policy and Practice
+   DOI: https://doi.org/10.1016/j.tra.2015.02.002
+   Abstract snippet: ...
+
+10. [2020] Micromobility and public transport integration: The current state of knowledge
+   Authors: Giulia Oeschger, Páraic Carroll, Brian Caulfield
+   Venue: Transportation Research Part D Transport and Environment
+   DOI: https://doi.org/10.1016/j.trd.2020.102628
+   Abstract snippet: Cities globally are grappling with the negative externalities of car travel and are therefore striving to move towards a more sustainable urban transportation system. The introduction and popularity o...
+
+11. [2007] Promoting ecosystem and human health in urban areas using Green Infrastructure: A literature review
+   Authors: Konstantinos Tzoulas, Kalevi Korpela, Stephen Venn, Vesa Yli‐Pelkonen, Aleksandra Kaźmierczak
+   Venue: Landscape and Urban Planning
+   DOI: https://doi.org/10.1016/j.landurbplan.2007.02.001
+   Abstract snippet: ...
+
+12. [2017] Effects of ocean sprawl on ecological connectivity: impacts and solutions
+   Authors: Melanie J. Bishop, Mariana Mayer‐Pinto, Laura Airoldi, Louise B. Firth, Rebecca L. Morris
+   Venue: Journal of Experimental Marine Biology and Ecology
+   DOI: https://doi.org/10.1016/j.jembe.2017.01.021
+   Abstract snippet: The growing number of artificial structures in estuarine, coastal and marine environments is causing “ocean sprawl”. Artificial structures do not only modify marine and coastal ecosystems at the sites...
+
+13. [2012] Smart cities of the future
+   Authors: Michael Batty, Kay W. Axhausen, Fosca Giannotti, Alexei Pozdnoukhov, Armando Bazzani
+   Venue: The European Physical Journal Special Topics
+   DOI: https://doi.org/10.1140/epjst/e2012-01703-3
+   Abstract snippet: Here we sketch the rudiments of what constitutes a smart city which we define as a city in which ICT is merged with traditional infrastructures, coordinated and integrated using new digital technologi...
+
+14. [2008] ‘Cold spots’ of Urban Infrastructure: ‘Shrinking’ Processes in Eastern Germany and the Modern Infrastructural Ideal
+   Authors: Timothy Moss
+   Venue: International Journal of Urban and Regional Research
+   DOI: https://doi.org/10.1111/j.1468-2427.2008.00790.x
+   Abstract snippet: Abstract This article explores the unfamiliar, but increasingly prevalent problem of overcapacity in urban infrastructure systems in regions subject to dramatic socio‐economic restructuring. Taking th...
+
+15. [2016] Factors influencing the choice of shared bicycles and shared electric bikes in Beijing
+   Authors: Andrew Campbell, Christopher Cherry, Megan S. Ryerson, Xinmiao Yang
+   Venue: Transportation Research Part C Emerging Technologies
+   DOI: https://doi.org/10.1016/j.trc.2016.03.004
+   Abstract snippet: China leads the world in both public bikeshare and private electric bike (e-bike) growth. Current trajectories indicate the viability of deploying large-scale shared e-bike (e-bikeshare) systems in Ch...
+
+16. [2020] Green Infrastructure Planning Principles: An Integrated Literature Review
+   Authors: Renato Pereira Monteiro, José Carlos Ferreira, Paula Antunes
+   Venue: Land
+   DOI: https://doi.org/10.3390/land9120525
+   Abstract snippet: Green infrastructure is a strategically planned network of natural and semi-natural areas, including green and blue spaces and other ecosystems, designed and managed to deliver a wide range of ecosyst...
+
+17. [2016] Infrastructuring Environments
+   Authors: Anders Blok, Moe Nakazora, Brit Ross Winthereik
+   Venue: Science as Culture
+   DOI: https://doi.org/10.1080/09505431.2015.1081500
+   Abstract snippet: Since the 1960s, the notion of a singular global environmental crisis has been popularized through the efforts of scientists, environmental activists, and the global news media. A succession of env......
+
+18. [2018] Housing Estates in Europe
+   Authors: Daniel Baldwin Hess, Tiit Tammaru, Maarten van Ham
+   Venue: The urban book series
+   DOI: https://doi.org/10.1007/978-3-319-92813-5
+   Abstract snippet: This open access book focuses on the formation and later socio-spatial trajectories of large housing estates in Europe. It highlights people-based and placed-based complex challenges of housing estate...
+
+19. [2012] Geographies of energy transition: Space, place and the low-carbon economy
+   Authors: Gavin Bridge, Stefan Bouzarovski, Michael Bradshaw, Nick Eyre
+   Venue: Energy Policy
+   DOI: https://doi.org/10.1016/j.enpol.2012.10.066
+   Abstract snippet: This paper makes a case for examining energy transition as a geographical process, involving the reconfiguration of current patterns and scales of economic and social activity. The paper draws on a se...
+
+=== CATEGORY: Environment ===
+1. [2014] Urban liveability: Emerging lessons from Australia for exploring the potential for indicators to measure the social determinants of health
+   Authors: Hannah Badland, Carolyn Whitzman, Melanie Lowe, Melanie Davern, Lu Aye
+   Venue: Social Science & Medicine
+   DOI: https://doi.org/10.1016/j.socscimed.2014.04.003
+   Abstract snippet: ...
+
+2. [2021] New urban models for more sustainable, liveable and healthier cities post covid19; reducing air pollution, noise and heat island effects and increasing green space and physical activity
+   Authors: Mark Nieuwenhuijsen
+   Venue: Environment International
+   DOI: https://doi.org/10.1016/j.envint.2021.106850
+   Abstract snippet: Cities are centres of innovation and wealth creation, but also hotspots of air pollution and noise, heat island effects and lack of green space, which are all detrimental to human health. They are als...
+
+3. [2009] Impact of the jobs-housing balance on urban commuting in Beijing in the transformation era
+   Authors: Pengjun Zhao, Bin Lü, Gert de Roo
+   Venue: Journal of Transport Geography
+   DOI: https://doi.org/10.1016/j.jtrangeo.2009.09.008
+   Abstract snippet: ...
+
+4. [2021] Urban planning and quality of life: A review of pathways linking the built environment to subjective well-being
+   Authors: Kostas Mouratidis
+   Venue: Cities
+   DOI: https://doi.org/10.1016/j.cities.2021.103229
+   Abstract snippet: In light of the rapid global urbanization, providing a better quality of life in cities is becoming an increasingly critical issue for urban planning. However, the links between the built environment ...
+
+5. [2016] Balanced Urban Development: Options and Strategies for Liveable Cities
+   Authors: Basant Maheshwari, Vijay P. 1946- Singh, Bhadranie Thoradeniya
+   Venue: Water science and technology library
+   DOI: https://doi.org/10.1007/978-3-319-28112-4
+   Abstract snippet: This book provides a unique synthesis of concepts and tools to examine natural resource, socio-economic, legal, policy and institutional issues that are important for managing urban growth into the fu...
+
+6. [2023] Sustainalism: An Integrated Socio-Economic-Environmental Model to Address Sustainable Development and Sustainability
+   Authors: N. P. Hariram, K.B. Mekha, Vipinraj Suganthan, K. Sudhakar
+   Venue: Sustainability
+   DOI: https://doi.org/10.3390/su151310682
+   Abstract snippet: This paper delves into the multifaceted concept of sustainability, covering its evolution, laws, principles, as well as the different domains and challenges related to achieving it in the modern world...
+
+7. [2024] The Superblock model: A review of an innovative urban model for sustainability, liveability, health and well-being
+   Authors: Mark Nieuwenhuijsen, Audrey de Nazelle, Marta Cirach Pradas, Carolyn Daher, Angel M. Dzhambov
+   Venue: Environmental Research
+   DOI: https://doi.org/10.1016/j.envres.2024.118550
+   Abstract snippet: INTRODUCTION: Current urban and transport planning practices have significant negative health, environmental, social and economic impacts in most cities. New urban development models and policies are ...
+
+8. [2024] Creating liveable cities in Australia: Mapping urban policy implementation and evidence-based national liveability indicators
+   Authors: Jonathan Arundel, Melanie Lowe, Paula Hooper, Rebecca Roberts, Julianna Rozek
+   Venue: UWA Profiles and Research Repository (University of Western Australia)
+   DOI: https://doi.org/10.25439/rmt.27373932
+   Abstract snippet: The co-benefits of urban liveability for the economy, social inclusion, environmental and social sustainability, and public health are now well recognised by all levels of government in Australia and ...
+
+9. [2016] Does higher density housing enhance liveability? Case studies of housing intensification in Auckland
+   Authors: Errol Haarhoff, Lee Beattie, Ann Dupuis
+   Venue: Cogent Social Sciences
+   DOI: https://doi.org/10.1080/23311886.2016.1243289
+   Abstract snippet: Larger cities in Australia and New Zealand have urban consolidation policies promoting higher-density development, justified on the grounds of enhancing urban sustainability. Despite evidence for pers...
+
+10. [2007] Sustainable Housing in the Urban Context: International Sustainable Development Indicator Sets and Housing
+   Authors: Nessa Winston, Montserrat Pareja‐Eastaway
+   Venue: Social Indicators Research
+   DOI: https://doi.org/10.1007/s11205-007-9165-8
+   Abstract snippet: ...
+
+11. [2006] Health Effects of Fine Particulate Air Pollution: Lines that Connect
+   Authors: C. Arden Pope, Douglas W. Dockery
+   Venue: Journal of the Air & Waste Management Association
+   DOI: https://doi.org/10.1080/10473289.2006.10464485
+   Abstract snippet: Efforts to understand and mitigate thehealth effects of particulate matter (PM) air pollutionhave a rich and interesting history. This review focuseson six substantial lines of research that have been...
+
+12. [2015] Socioeconomic Disparities and Air Pollution Exposure: a Global Review
+   Authors: Anjum Hajat, Charlene Hsia, Marie S. O’Neill
+   Venue: Current Environmental Health Reports
+   DOI: https://doi.org/10.1007/s40572-015-0069-5
+   Abstract snippet: ...
+
+13. [2009] Healthy Neighborhoods: Walkability and Air Pollution
+   Authors: Julian Marshall, Michael Bräuer, Lawrence D. Frank
+   Venue: Environmental Health Perspectives
+   DOI: https://doi.org/10.1289/ehp.0900595
+   Abstract snippet: BACKGROUND: The built environment may influence health in part through the promotion of physical activity and exposure to pollution. To date, no studies have explored interactions between neighborhood...
+
+14. [2016] The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment
+   Authors: Raj Chetty, Nathaniel Hendren, Lawrence F. Katz
+   Venue: American Economic Review
+   DOI: https://doi.org/10.1257/aer.20150572
+   Abstract snippet: The Moving to Opportunity (MTO) experiment offered randomly selected families housing vouchers to move from high-poverty housing projects to lower-poverty neighborhoods. We analyze MTO's impacts on ch...
+
+15. [2014] Where, When, Why, and For Whom Do Residential Contexts Matter? Moving Away from the Dichotomous Understanding of Neighborhood Effects
+   Authors: Patrick Sharkey, Jacob Faber
+   Venue: Annual Review of Sociology
+   DOI: https://doi.org/10.1146/annurev-soc-071913-043350
+   Abstract snippet: The literature on neighborhood effects frequently is evaluated or interpreted in relation to the question, “Do neighborhoods matter?” We argue that this question has had a disproportionate influence o...
+
+16. [2003] Residential Environments and Cardiovascular Risk
+   Authors: Ana V. Diez Roux
+   Venue: Journal of Heredity
+   DOI: https://doi.org/10.1093/jurban/jtg065
+   Abstract snippet: ...
+
+17. [2006] The Development of a Standardized Neighborhood Deprivation Index
+   Authors: Lynne C. Messer, Barbara Laraia, Jay S. Kaufman, Janet Eyster, Claudia Holzman
+   Venue: Journal of Urban Health
+   DOI: https://doi.org/10.1007/s11524-006-9094-x
+   Abstract snippet: ...
+
+18. [2020] Air pollution, physical activity and health: A mapping review of the evidence
+   Authors: Marko Tainio, Zorana Jovanovic Andersen, Mark Nieuwenhuijsen, Liang Hu, Audrey de Nazelle
+   Venue: Environment International
+   DOI: https://doi.org/10.1016/j.envint.2020.105954
+   Abstract snippet: BACKGROUND: Exposure to air pollution and physical inactivity are both significant risk factors for non-communicable diseases (NCDs). These risk factors are also linked so that the change in exposure ...
+
+19. [2003] The Built Environment and Mental Health
+   Authors: Gary W. Evans
+   Venue: Journal of Heredity
+   DOI: https://doi.org/10.1093/jurban/jtg063
+   Abstract snippet: ...
+
+20. [2016] Exposure to traffic-related air pollution and risk of development of childhood asthma: A systematic review and meta-analysis
+   Authors: Haneen Khreis, Charlotte Kelly, James Tate, Roger Parslow, Karen Lucas
+   Venue: Environment International
+   DOI: https://doi.org/10.1016/j.envint.2016.11.012
+   Abstract snippet: ...
+
+=== CATEGORY: AI/ML ===
+1. [2022] Tackling Climate Change with Machine Learning
+   Authors: Lynn H. Kaack, David Rolnick, Priya L. Donti, Kelly Kochanski, Alexandre Lacoste
+   Venue: OPUS 4 (Zuse Institute Berlin)
+   DOI: https://doi.org/10.1145/3485128
+   Abstract snippet: Climate change is one of the greatest challenges facing humanity, and we, as machine learning experts, may wonder how we can help. Here we describe how machine learning can be a powerful tool in reduc...
+
+2. [2013] Identity and Language Learning
+   Authors: Bonny Norton
+   Venue: Multilingual Matters eBooks
+   DOI: https://doi.org/10.21832/9781783090563
+   Abstract snippet: This second edition of Norton’s classic text on language learning and identity will bring her ground-breaking ideas to a new generation of students, teachers and researchers. Featuring a comprehensive...
+
+3. [2019] PREDICTION OF CROP YIELD AND FERTILIZER RECOMMENDATION USING MACHINE LEARNING ALGORITHMS
+   Authors: Devdatta A Bondre, Santosh Mahagaonkar
+   Venue: International Journal of Engineering Applied Sciences and Technology
+   DOI: https://doi.org/10.33564/ijeast.2019.v04i05.055
+   Abstract snippet: Machine learning is an emerging research field in crop yield analysis. Yield prediction is a very important issue in agriculture. Any farmer is interested in knowing how much yield he is about to expe...
+
+4. [2021] The Role of AI, Machine Learning, and Big Data in Digital Twinning: A Systematic Literature Review, Challenges, and Opportunities
+   Authors: M. Mazhar Rathore, Syed Attique Shah, Dhirendra Shukla, Elmahdi Bentafat, Spiridon Bakiras
+   Venue: IEEE Access
+   DOI: https://doi.org/10.1109/access.2021.3060863
+   Abstract snippet: Digital twinning is one of the top ten technology trends in the last couple of years, due to its high applicability in the industrial sector. The integration of big data analytics and artificial intel...
+
+5. [2023] Machine Learning Methods in Weather and Climate Applications: A Survey
+   Authors: Liuyi Chen, Bocheng Han, Xuesong Wang, Jiazhen Zhao, Wenke Yang
+   Venue: Applied Sciences
+   DOI: https://doi.org/10.3390/app132112019
+   Abstract snippet: With the rapid development of artificial intelligence, machine learning is gradually becoming popular for predictions in all walks of life. In meteorology, it is gradually competing with traditional c...
+
+6. [2021] A Comprehensive Review of Crop Yield Prediction Using Machine Learning Approaches With Special Emphasis on Palm Oil Yield Prediction
+   Authors: Mamunur Rashid, Bifta Sama Bari, Yusri Yusup, Mohamad Anuar Kamaruddin, Nuzhat Khan
+   Venue: IEEE Access
+   DOI: https://doi.org/10.1109/access.2021.3075159
+   Abstract snippet: An early and reliable estimation of crop yield is essential in quantitative and financial evaluation at the field level for determining strategic plans in agricultural commodities for import-export po...
+
+7. [2021] A machine learning approach to cluster destination image on Instagram
+   Authors: Veronika Arefieva, Roman Egger, Joanne Yu
+   Venue: Tourism Management
+   DOI: https://doi.org/10.1016/j.tourman.2021.104318
+   Abstract snippet: Symbols are powerful in branding and marketing to represent tourist attractions. By bridging semiotics, marketing, and data science in the tourism context, this study uncovers the destination image ba...
+
+8. [2018] A Systematic Review of Smart Real Estate Technology: Drivers of, and Barriers to, the Use of Digital Disruptive Technologies and Online Platforms
+   Authors: Fahim Ullah, Samad M. E. Sepasgozar, Cynthia Wang
+   Venue: Sustainability
+   DOI: https://doi.org/10.3390/su10093142
+   Abstract snippet: Real estate needs to improve its adoption of disruptive technologies to move from traditional to smart real estate (SRE). This study reviews the adoption of disruptive technologies in real estate. It ...
+
+9. [2019] Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy
+   Authors: Yogesh K. Dwivedi, Laurie Hughes, Elvira Ismagilova, Gert Aarts, Crispin Coombs
+   Venue: International Journal of Information Management
+   DOI: https://doi.org/10.1016/j.ijinfomgt.2019.08.002
+   Abstract snippet: As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where...
+
+10. [2019] How artificial intelligence will change the future of marketing
+   Authors: Thomas H. Davenport, Abhijit Guha, Dhruv Grewal, Timna Breßgott
+   Venue: Journal of the Academy of Marketing Science
+   DOI: https://doi.org/10.1007/s11747-019-00696-0
+   Abstract snippet: Abstract In the future, artificial intelligence (AI) is likely to substantially change both marketing strategies and customer behaviors. Building from not only extant research but also extensive inter...
+
+11. [2020] Ethical and legal challenges of artificial intelligence-driven healthcare
+   Authors: Sara Gerke, Timo Minssen, Glenn Cohen
+   Venue: Elsevier eBooks
+   DOI: https://doi.org/10.1016/b978-0-12-818438-7.00012-5
+   Abstract snippet: ...
+
+12. [2020] A historical perspective of explainable Artificial Intelligence
+   Authors: Roberto Confalonieri, Ludovik Çoba, B.J. Wagner, Tarek R. Besold
+   Venue: Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery
+   DOI: https://doi.org/10.1002/widm.1391
+   Abstract snippet: Abstract Explainability in Artificial Intelligence (AI) has been revived as a topic of active research by the need of conveying safety and trust to users in the “how” and “why” of automated decision‐m...
+
+13. [2020] Contributions and Risks of Artificial Intelligence (AI) in Building Smarter Cities: Insights from a Systematic Review of the Literature
+   Authors: Tan Yiğitcanlar, Kevin C. Desouza, Luke Butler, Farnoosh Roozkhosh
+   Venue: Energies
+   DOI: https://doi.org/10.3390/en13061473
+   Abstract snippet: Artificial intelligence (AI) is one of the most disruptive technologies of our time. Interest in the use of AI for urban innovation continues to grow. Particularly, the rise of smart cities—urban loca...
+
+14. [2022] Teachers’ readiness and intention to teach artificial intelligence in schools
+   Authors: Musa Adekunle Ayanwale, Ismaila Temitayo Sanusi, Owolabi Paul Adelana, Kehinde Aruleba, Solomon Sunday Oyelere
+   Venue: Computers and Education Artificial Intelligence
+   DOI: https://doi.org/10.1016/j.caeai.2022.100099
+   Abstract snippet: The emergence of artificial intelligence (AI) as a subject to be incorporated into K-12 educational levels places new demand on relevant stakeholders, especially teachers that drive the teaching and l...
+
+15. [2020] Harnessing Artificial Intelligence Capabilities to Improve Cybersecurity
+   Authors: Sherali Zeadally, Erwin Adi, Zubair Baig, Imran Ali Khan
+   Venue: IEEE Access
+   DOI: https://doi.org/10.1109/access.2020.2968045
+   Abstract snippet: Cybersecurity is a fast-evolving discipline that is always in the news over the last decade, as the number of threats rises and cybercriminals constantly endeavor to stay a step ahead of law enforceme...
+
+16. [2021] Energetics Systems and artificial intelligence: Applications of industry 4.0
+   Authors: Tanveer Ahmad, Hongyu Zhu, Dongdong Zhang, Rasikh Tariq, A. Bassam
+   Venue: Energy Reports
+   DOI: https://doi.org/10.1016/j.egyr.2021.11.256
+   Abstract snippet: Industrial development with the growth, strengthening, stability, technical advancement, reliability, selection, and dynamic response of the power system is essential. Governments and companies invest...
+
+17. [2021] Artificial Intelligence to Improve the Food and Agriculture Sector
+   Authors: Rayda Ben Ayed, Mohsen Hanana
+   Venue: Journal of Food Quality
+   DOI: https://doi.org/10.1155/2021/5584754
+   Abstract snippet: The world population is expected to reach over 9 billion by 2050, which will require an increase in agricultural and food production by 70% to fit the need, a serious challenge for the agri-food indus...
+
+18. [2021] Alexa, <i>she's</i> not human but… Unveiling the drivers of consumers' trust in voice‐based artificial intelligence
+   Authors: Valentina Pitardi, Hannah R. Marriott
+   Venue: Psychology and Marketing
+   DOI: https://doi.org/10.1002/mar.21457
+   Abstract snippet: Abstract With the development of deep connections between humans and Artificial Intelligence voice‐based assistants (VAs), human and machine relationships have transformed. For relationships to work i...

@@ -1,0 +1,18 @@
+{
+  "folder": "water_reliability",
+  "model_name": "Municipal Water Supply Reliability Model",
+  "output_field": "waterScore",
+  "dataset": "BMC Mumbai Water Connections & Supply Dataset",
+  "runtime_api": "BMC / OpenCity",
+  "expected_artifacts": [
+    "water_reliability_model.pkl",
+    "bmc_zone_encoders.pkl"
+  ],
+  "input_features": [
+    "daily_supply_hours",
+    "water_pressure_psi",
+    "pipeline_leakage_frequency",
+    "reservoir_source_distance",
+    "tanker_dependency_pct"
+  ]
+}

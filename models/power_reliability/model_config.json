@@ -1,0 +1,18 @@
+{
+  "folder": "power_reliability",
+  "model_name": "Power Grid Reliability Model",
+  "output_field": "powerScore",
+  "dataset": "Maharashtra Electricity Outage & Feeder Dataset",
+  "runtime_api": "MSEDCL / Mahavitaran + Government Data",
+  "expected_artifacts": [
+    "power_reliability_model.pkl",
+    "feeder_stability_classifier.pkl"
+  ],
+  "input_features": [
+    "annual_outage_hours",
+    "feeder_automation_level",
+    "substation_capacity_mva",
+    "saidi_saifi_index",
+    "underground_cabling_pct"
+  ]
+}

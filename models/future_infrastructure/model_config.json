@@ -1,0 +1,18 @@
+{
+  "folder": "future_infrastructure",
+  "model_name": "Future Infrastructure Growth Model",
+  "output_field": "futureInfrastructureScore",
+  "dataset": "MMRDA Metro / Trans-Harbour / Infrastructure Project Data",
+  "runtime_api": "MMRDA GIS / Project Master Plan",
+  "expected_artifacts": [
+    "future_infrastructure_model.pkl",
+    "project_impact_weights.json"
+  ],
+  "input_features": [
+    "under_construction_metro_dist_km",
+    "coastal_road_interchange_dist_km",
+    "mthl_sea_link_access_km",
+    "completion_timeline_months",
+    "capex_investment_crores"
+  ]
+}
