@@ -21,23 +21,29 @@ import {
   FileText,
   Layers,
   Check,
-  X
+  X,
+  ThumbsUp,
+  ThumbsDown
 } from 'lucide-react';
 import AiInsightCard from './AiInsightCard';
 import DataPipelineStatusPanel from './DataPipelineStatusPanel';
 import { generateMumbaiAiInsight } from '../services/scoringService';
 import { calculateLocalityMatch } from '../services/recommendationService';
+import { submitFeedback, getLocalityFeedback } from '../services/feedbackService';
 
 export default function NeighborhoodDetail({
   locality,
   preferences,
   budgetMax,
+  currentUser,
   backendHealthy,
   onBackToMap,
   onChangePreference,
   onAddToComparison,
   onOpenReport
 }) {
+  const [feedback, setFeedback] = React.useState(getLocalityFeedback(locality.id));
+  const [feedbackToast, setFeedbackToast] = React.useState('');
   const matchResult = calculateLocalityMatch(locality, preferences, budgetMax);
   const { matchScore, isWithinBudget, priceFitScore } = matchResult;
 
@@ -118,6 +124,50 @@ export default function NeighborhoodDetail({
         </div>
 
         <div className="flex items-center gap-2">
+          {/* Recommendation Feedback Buttons */}
+          <div className="detail-feedback-group flex items-center gap-1 bg-slate-100 p-1 rounded-lg">
+            <button
+              className={`btn-feedback-sm ${feedback === 'like' ? 'active-like' : ''}`}
+              title="Helpful recommendation"
+              onClick={async () => {
+                setFeedback('like');
+                setFeedbackToast('Feedback recorded: Helpful match!');
+                setTimeout(() => setFeedbackToast(''), 2500);
+                await submitFeedback({
+                  userId: currentUser?.id,
+                  localityId: locality.id,
+                  localityName: locality.name,
+                  matchScore,
+                  preferences,
+                  feedback: 'like',
+                  budgetMax
+                });
+              }}
+            >
+              <ThumbsUp size={14} />
+            </button>
+            <button
+              className={`btn-feedback-sm ${feedback === 'dislike' ? 'active-dislike' : ''}`}
+              title="Not for me"
+              onClick={async () => {
+                setFeedback('dislike');
+                setFeedbackToast('Feedback recorded: Not relevant.');
+                setTimeout(() => setFeedbackToast(''), 2500);
+                await submitFeedback({
+                  userId: currentUser?.id,
+                  localityId: locality.id,
+                  localityName: locality.name,
+                  matchScore,
+                  preferences,
+                  feedback: 'dislike',
+                  budgetMax
+                });
+              }}
+            >
+              <ThumbsDown size={14} />
+            </button>
+          </div>
+
           <button className="btn-secondary-sm flex items-center gap-1" onClick={() => onAddToComparison(locality)}>
             <Layers size={16} />
             <span>Compare Locality</span>
@@ -129,6 +179,14 @@ export default function NeighborhoodDetail({
           </button>
         </div>
       </div>
+
+      {/* Feedback Toast Notification */}
+      {feedbackToast && (
+        <div className="feedback-toast">
+          <Check size={16} className="text-emerald" />
+          <span>{feedbackToast}</span>
+        </div>
+      )}
 
       {/* Hero Overview & Match Score Banner */}
       <div className="detail-hero-card">

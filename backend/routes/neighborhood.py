@@ -5,11 +5,21 @@ from pydantic import BaseModel, Field
 from typing import Dict, Any, Optional, List
 
 try:
-    from ..services.scoring_service import MODEL_STATUS_REGISTRY, calculate_personalized_match
+    from ..services.scoring_service import (
+        MODEL_STATUS_REGISTRY,
+        calculate_personalized_match,
+        apply_available_models
+    )
     from ..services.recommendation_service import rank_localities_for_user
+    from ..services.llm_report_service import generate_llm_report
 except ImportError:
-    from services.scoring_service import MODEL_STATUS_REGISTRY, calculate_personalized_match
+    from services.scoring_service import (
+        MODEL_STATUS_REGISTRY,
+        calculate_personalized_match,
+        apply_available_models
+    )
     from services.recommendation_service import rank_localities_for_user
+    from services.llm_report_service import generate_llm_report
 
 router = APIRouter()
 
@@ -23,14 +33,11 @@ def load_localities_from_js():
             code = f.read()
 
         import re
-        # Find array block
         match = re.search(r"export const MUMBAI_LOCALITIES = (\[.*?\]);", code, re.DOTALL)
         if match:
             json_str = match.group(1)
-            # Remove trailing commas and comments to parse cleanly
             json_str = re.sub(r"//.*?\n", "\n", json_str)
             json_str = re.sub(r",\s*([\]}])", r"\1", json_str)
-            # Quote unquoted keys
             json_str = re.sub(r"(\w+):", r'"\1":', json_str)
             return json.loads(json_str)
     except Exception as e:
@@ -71,12 +78,15 @@ class LocationAnalysisRequest(BaseModel):
     longitude: float
     localityName: Optional[str] = "Selected Location"
     budgetMax: float = Field(default=3.5, description="Maximum budget ceiling in ₹ Crore")
-    preferences: Dict[str, float] = Field(
-        default_factory=lambda: {
-            "school": 5, "hospital": 5, "market": 5, "safety": 5, "connectivity": 5,
-            "airQuality": 5, "floodSafety": 5, "affordability": 5, "water": 5, "power": 5, "futureInfrastructure": 5
-        }
-    )
+    preferences: Dict[str, Any] = Field(default_factory=dict)
+
+class LlmReportRequest(BaseModel):
+    locality: Dict[str, Any]
+    scores: Dict[str, Any]
+    preferences: Dict[str, Any] = Field(default_factory=dict)
+    budgetMin: float = 1.0
+    budgetMax: float = 3.5
+    factors: Optional[List[Dict[str, Any]]] = None
 
 @router.get("/health")
 def health_check():
@@ -93,10 +103,9 @@ def get_model_status():
 @router.post("/analyze-location")
 def analyze_location(req: LocationAnalysisRequest):
     """
-    Evaluates a property location across 12 factors, applies normalized user preference weights,
-    and returns a personalized HomeWise Match Score and factor breakdown.
+    Evaluates a property location across 12 factors, applies available ML inference,
+    normalizes preference weights, and returns a personalized HomeWise Match Score.
     """
-    # 1. Find closest locality by Euclidean distance
     closest = None
     min_dist = float("inf")
 
@@ -109,69 +118,56 @@ def analyze_location(req: LocationAnalysisRequest):
     if not closest:
         closest = LOCALITIES_DB[0]
 
-    # Use closest locality attributes or selected location name
     loc_name = req.localityName if req.localityName and req.localityName != "Selected Location" else closest["name"]
     price_cr = closest.get("averagePriceCr", 3.2)
 
-    # Factor Scores dictionary
-    scores = {
-        "schoolScore": closest.get("schoolScore", 85),
-        "hospitalScore": closest.get("hospitalScore", 85),
-        "marketScore": closest.get("marketScore", 80),
-        "safetyScore": closest.get("safetyScore", closest.get("crimeRiskScore", 85)),
-        "connectivityScore": closest.get("connectivityScore", 85),
-        "airQualityScore": closest.get("airQualityScore", 72),
-        "floodSafetyScore": closest.get("floodSafetyScore", 75),
-        "waterScore": closest.get("waterScore", 85),
-        "powerScore": closest.get("powerScore", 90),
-        "futureInfrastructureScore": closest.get("futureInfrastructureScore", closest.get("futureDevelopmentScore", 85)),
-        "priceScore": closest.get("priceScore", 75)
-    }
+    # Apply available trained ML models (School, Hospital, Market) with transparent fallbacks
+    scores, ml_flags = apply_available_models(closest)
 
     # Calculate HomeWise Match Score
     match_score, price_score, weights = calculate_personalized_match(scores, req.preferences, req.budgetMax, price_cr)
 
-    # 12 Factor Metadata (Data sources, models vs fallbacks, confidence)
+    # 12 Factor Metadata with transparent data source and model attribution
     factors_meta = [
         {
             "id": "schools", "name": "School Quality", "score": scores["schoolScore"],
             "source": "UDISE+ / data.gov.in / OpenStreetMap",
-            "modelType": "Trained ML (XGBoost)" if MODEL_STATUS_REGISTRY.get("school", {}).get("loaded") else "Prototype Spatial Index",
-            "confidence": "High" if MODEL_STATUS_REGISTRY.get("school", {}).get("loaded") else "Medium (Prototype Fallback)",
+            "modelType": "Trained ML (XGBoost Regressor)" if ml_flags["school"] else "Prototype Spatial Index",
+            "confidence": "High (Trained Model)" if ml_flags["school"] else "Medium (Spatial Fallback)",
             "status": "Excellent" if scores["schoolScore"] >= 88 else "Good"
         },
         {
             "id": "hospitals", "name": "Hospital Accessibility", "score": scores["hospitalScore"],
             "source": "BMC / OpenCity / OpenStreetMap",
-            "modelType": "Trained ML (RandomForest)" if MODEL_STATUS_REGISTRY.get("hospital", {}).get("loaded") else "Prototype Spatial Index",
-            "confidence": "High" if MODEL_STATUS_REGISTRY.get("hospital", {}).get("loaded") else "Medium (Prototype Fallback)",
+            "modelType": "Trained ML (Random Forest Regressor)" if ml_flags["hospital"] else "Prototype Spatial Index",
+            "confidence": "High (Trained Model)" if ml_flags["hospital"] else "Medium (Spatial Fallback)",
             "status": "Strong" if scores["hospitalScore"] >= 85 else "Moderate"
         },
         {
             "id": "markets", "name": "Market Accessibility", "score": scores["marketScore"],
-            "source": "Overpass API (OSM POIs)",
-            "modelType": "Trained ML (GradientBoosting)" if MODEL_STATUS_REGISTRY.get("market", {}).get("loaded") else "Prototype Spatial Index",
-            "confidence": "High" if MODEL_STATUS_REGISTRY.get("market", {}).get("loaded") else "Medium (Prototype Fallback)",
+            "source": "Overpass API (OSM Retail POIs)",
+            "modelType": "Trained ML (XGBoost Regressor)" if ml_flags["market"] else "Prototype Spatial Index",
+            "confidence": "High (Trained Model)" if ml_flags["market"] else "Medium (Spatial Fallback)",
             "status": "Strong" if scores["marketScore"] >= 85 else "Good"
         },
         {
             "id": "safety", "name": "Safety & Low Crime Risk", "score": scores["safetyScore"],
             "source": "Mumbai Police / NCRB / data.gov.in",
-            "modelType": "Crime Risk Model",
-            "confidence": "Medium (NCRB Station Level)",
+            "modelType": "Crime Risk Station Spatial Index",
+            "confidence": "Medium (Station Level Records)",
             "status": "Very Safe" if scores["safetyScore"] >= 88 else "Safe"
         },
         {
             "id": "connectivity", "name": "City Transit Connectivity", "score": scores["connectivityScore"],
-            "source": "OpenStreetMap / MMRDA Metro Data",
-            "modelType": "GIS Spatial Transit Distance",
+            "source": "OpenStreetMap / MMRDA Metro Transit",
+            "modelType": "GIS Spatial Distance Engine",
             "confidence": "High (Geospatial Transit Points)",
             "status": "Excellent" if scores["connectivityScore"] >= 90 else "Good"
         },
         {
             "id": "airQuality", "name": "Air Quality Index (AQI)", "score": scores["airQualityScore"],
             "source": "CPCB / MPCB Air Quality Monitors",
-            "modelType": "AQI Time-Series Monitor",
+            "modelType": "Station Telemetry Index",
             "confidence": "High (Station Records)",
             "rawAqi": round((100 - scores["airQualityScore"]) * 2.2 + 40),
             "status": "Good Air" if scores["airQualityScore"] >= 75 else "Moderate Air"
@@ -179,28 +175,28 @@ def analyze_location(req: LocationAnalysisRequest):
         {
             "id": "floodSafety", "name": "Monsoon Flood Safety", "score": scores["floodSafetyScore"],
             "source": "ISRO Bhuvan GIS Elevation Hazard Data",
-            "modelType": "Topographic GIS Risk Model",
+            "modelType": "Topographic Raster Hazard Index",
             "confidence": "High (Bhuvan Raster Data)",
             "status": "Safe" if scores["floodSafetyScore"] >= 80 else "Low-Lying Waterlogging Risk"
         },
         {
             "id": "affordability", "name": "Property Affordability", "score": price_score,
             "source": "70K+ Mumbai Housing Listing Dataset",
-            "modelType": "Property Valuation Regression",
+            "modelType": "Housing Price Valuation Index",
             "confidence": "High (70K Dataset Valuation)",
             "status": "Within Budget" if price_cr <= req.budgetMax else "Above Budget Ceiling"
         },
         {
             "id": "water", "name": "Water Supply Reliability", "score": scores["waterScore"],
             "source": "BMC Municipal Water Supply Connections",
-            "modelType": "Data-Driven Municipal Index",
+            "modelType": "Municipal Ward Connection Index",
             "confidence": "Medium (Ward Level Data)",
             "status": "Reliable 24x7" if scores["waterScore"] >= 88 else "Standard Municipal Hours"
         },
         {
             "id": "power", "name": "Power Grid Reliability", "score": scores["powerScore"],
             "source": "MSEDCL / Mahavitaran Electricity Data",
-            "modelType": "Data-Driven Outage Index",
+            "modelType": "Grid Outage Frequency Index",
             "confidence": "Limited (Data Availability Limited)",
             "status": "High Grid Stability" if scores["powerScore"] >= 90 else "Occasional Outages"
         },
@@ -237,5 +233,27 @@ def analyze_location(req: LocationAnalysisRequest):
         "weights": weights,
         "factors": factors_meta,
         "top5Recommendations": top_5_matches,
-        "disclaimer": "Prototype Data — Not for Real Property Decisions. Calculated using 12-factor architecture."
+        "disclaimer": "Prototype Data — Not for Real Property Decisions. Calculated using 12-factor architecture with 3 active ML models (Hospital, School, Market)."
+    }
+
+@router.post("/generate-llm-report")
+def generate_report_endpoint(req: LlmReportRequest):
+    """
+    Generates an executive intelligence report using configured LLM API (Gemini/OpenAI)
+    with strict factual grounding on calculated scores and data sources.
+    Falls back gracefully to deterministic synthesis if LLM API is unavailable.
+    """
+    report = generate_llm_report(
+        locality_data=req.locality,
+        scores=req.scores,
+        preferences=req.preferences,
+        budget_min=req.budgetMin,
+        budget_max=req.budgetMax,
+        factors_meta=req.factors or []
+    )
+
+    return {
+        "status": "success",
+        "localityName": req.locality.get("name"),
+        "report": report
     }

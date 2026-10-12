@@ -1,21 +1,55 @@
-import React from 'react';
-import { Award, MapPin, IndianRupee, Sparkles, CheckCircle2, ArrowRight, ShieldCheck, GraduationCap, Stethoscope, ShoppingBag, Train, Wind, Umbrella, TrendingUp } from 'lucide-react';
+import React, { useState } from 'react';
+import { Award, IndianRupee, Sparkles, ArrowRight, ThumbsUp, ThumbsDown, Check } from 'lucide-react';
 import { PREFERENCE_OPTIONS } from '../services/recommendationService';
+import { submitFeedback, getLocalityFeedback } from '../services/feedbackService';
 
 export default function RecommendationDashboard({
   recommendations,
   preferences,
   budgetMin,
   budgetMax,
+  currentUser,
   onSelectLocality,
   onBackToSearch
 }) {
+  const [feedbackStatus, setFeedbackStatus] = useState({});
+  const [toastMessage, setToastMessage] = useState('');
+
   const activePrefLabels = PREFERENCE_OPTIONS
     .filter(opt => preferences[opt.id])
     .map(opt => opt.label);
 
+  const handleFeedback = async (locality, matchScore, feedbackType) => {
+    // Optimistic UI update
+    setFeedbackStatus(prev => ({
+      ...prev,
+      [locality.id]: feedbackType
+    }));
+
+    setToastMessage(`Feedback recorded for ${locality.name}!`);
+    setTimeout(() => setToastMessage(''), 2500);
+
+    await submitFeedback({
+      userId: currentUser?.id,
+      localityId: locality.id,
+      localityName: locality.name,
+      matchScore,
+      preferences,
+      feedback: feedbackType,
+      budgetMax
+    });
+  };
+
   return (
     <div className="recommendations-container">
+      {/* Toast Notification */}
+      {toastMessage && (
+        <div className="feedback-toast">
+          <Check size={16} className="text-emerald" />
+          <span>{toastMessage}</span>
+        </div>
+      )}
+
       {/* Top Banner / Summary Header */}
       <div className="rec-summary-banner">
         <div className="rec-banner-left">
@@ -63,6 +97,7 @@ export default function RecommendationDashboard({
         {recommendations.map((rec, index) => {
           const { locality, matchScore, whyText, isWithinBudget } = rec;
           const rank = index + 1;
+          const currentFeedback = feedbackStatus[locality.id] || getLocalityFeedback(locality.id);
 
           return (
             <div key={locality.id} className={`recommendation-card rank-${rank}`}>
@@ -147,13 +182,35 @@ export default function RecommendationDashboard({
                 </p>
               </div>
 
-              {/* Action Buttons */}
+              {/* Action Buttons & Feedback Controls */}
               <div className="card-footer-actions">
+                <div className="feedback-buttons-group">
+                  <span className="feedback-prompt">Helpful match?</span>
+                  <button
+                    className={`btn-feedback ${currentFeedback === 'like' ? 'active-like' : ''}`}
+                    onClick={() => handleFeedback(locality, matchScore, 'like')}
+                    title="Helpful recommendation"
+                    aria-label="Like recommendation"
+                  >
+                    <ThumbsUp size={15} />
+                    <span>Helpful</span>
+                  </button>
+                  <button
+                    className={`btn-feedback ${currentFeedback === 'dislike' ? 'active-dislike' : ''}`}
+                    onClick={() => handleFeedback(locality, matchScore, 'dislike')}
+                    title="Not relevant to my needs"
+                    aria-label="Dislike recommendation"
+                  >
+                    <ThumbsDown size={15} />
+                    <span>Not for me</span>
+                  </button>
+                </div>
+
                 <button
                   className="btn-primary-sm"
                   onClick={() => onSelectLocality(locality)}
                 >
-                  <span>View Full Neighborhood Details</span>
+                  <span>View Full Details</span>
                   <ArrowRight size={16} />
                 </button>
               </div>

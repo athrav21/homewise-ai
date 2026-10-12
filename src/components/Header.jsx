@@ -1,11 +1,15 @@
 import React from 'react';
-import { Home, Sparkles, MapPin, ArrowLeft, AlertTriangle, Cpu, Layers } from 'lucide-react';
+import { Home, Sparkles, MapPin, AlertTriangle, Cpu, User, LogIn, LogOut, CheckCircle2 } from 'lucide-react';
 
 export default function Header({
   currentView,
   onResetLocation,
   onOpenModelStatus,
-  selectedLocalityName
+  selectedLocalityName,
+  currentUser,
+  onOpenAuthModal,
+  onSignOut,
+  prefSyncStatus
 }) {
   return (
     <header className="app-header">
@@ -51,6 +55,39 @@ export default function Header({
             <span>Model Status</span>
           </button>
 
+          {/* Authentication & User Session Indicator */}
+          {currentUser ? (
+            <div className="user-session-group flex items-center gap-2">
+              <div className="user-profile-badge" title={currentUser.email}>
+                <User size={14} className="text-primary" />
+                <span className="user-email-text">
+                  {currentUser.email.length > 18 ? currentUser.email.substring(0, 16) + '...' : currentUser.email}
+                </span>
+                {prefSyncStatus === 'saved' && (
+                  <span className="sync-badge" title="Preferences synced to Supabase">
+                    <CheckCircle2 size={12} className="text-emerald" />
+                  </span>
+                )}
+              </div>
+              <button
+                className="btn-secondary-sm auth-btn-signout flex items-center gap-1"
+                onClick={onSignOut}
+                title="Sign out of account"
+              >
+                <LogOut size={13} />
+                <span>Sign Out</span>
+              </button>
+            </div>
+          ) : (
+            <button
+              className="btn-primary-sm auth-btn-signin flex items-center gap-1"
+              onClick={onOpenAuthModal}
+            >
+              <LogIn size={15} />
+              <span>Sign In / Sign Up</span>
+            </button>
+          )}
+
           {selectedLocalityName && (
             <div className="active-location-pill" title={selectedLocalityName}>
               <MapPin size={14} className="pin-icon" />
@@ -64,4 +101,3 @@ export default function Header({
     </header>
   );
 }
-

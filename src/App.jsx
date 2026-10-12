@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import Header from './components/Header';
 import LocationSelector from './components/LocationSelector';
 import RecommendationDashboard from './components/RecommendationDashboard';
@@ -7,8 +7,11 @@ import AnalysisLoadingModal from './components/AnalysisLoadingModal';
 import LocalityComparisonMatrix from './components/LocalityComparisonMatrix';
 import DetailedReportView from './components/DetailedReportView';
 import ModelStatusPanel from './components/ModelStatusPanel';
+import AuthModal from './components/AuthModal';
 import { MUMBAI_LOCALITIES } from './data/mumbaiNeighborhoodData';
 import { getTopRecommendations } from './services/recommendationService';
+import { getCurrentUser, signOutUser, onAuthStateChange } from './services/supabaseClient';
+import { savePreferences, loadPreferences } from './services/userPreferenceService';
 
 export default function App() {
   // Default to Powai locality
@@ -36,6 +39,11 @@ export default function App() {
   // Target Property Budget Range (₹ Cr)
   const [budgetMin, setBudgetMin] = useState(1.0);
   const [budgetMax, setBudgetMax] = useState(3.5);
+
+  // Authentication State
+  const [currentUser, setCurrentUser] = useState(null);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [prefSyncStatus, setPrefSyncStatus] = useState('idle');
 
   // Active View: 'selection' | 'dashboard' | 'detail' | 'comparison' | 'report' | 'model_status'
   const [currentView, setCurrentView] = useState('selection');
@@ -69,6 +77,68 @@ export default function App() {
     }
     checkBackend();
   }, []);
+
+  // Initialize and listen to Supabase Authentication
+  useEffect(() => {
+    // Check existing session
+    getCurrentUser().then(user => {
+      setCurrentUser(user);
+      if (user) {
+        // Load saved preferences for this user
+        loadPreferences(user.id).then(saved => {
+          if (saved) {
+            if (saved.preferences) setPreferences(saved.preferences);
+            if (saved.budgetMin !== null && saved.budgetMin !== undefined) setBudgetMin(saved.budgetMin);
+            if (saved.budgetMax !== null && saved.budgetMax !== undefined) setBudgetMax(saved.budgetMax);
+            setPrefSyncStatus('saved');
+          }
+        });
+      }
+    });
+
+    const unsubscribe = onAuthStateChange(user => {
+      setCurrentUser(user);
+      if (user) {
+        loadPreferences(user.id).then(saved => {
+          if (saved) {
+            if (saved.preferences) setPreferences(saved.preferences);
+            if (saved.budgetMin !== null && saved.budgetMin !== undefined) setBudgetMin(saved.budgetMin);
+            if (saved.budgetMax !== null && saved.budgetMax !== undefined) setBudgetMax(saved.budgetMax);
+            setPrefSyncStatus('saved');
+          }
+        });
+      }
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  // Save user preferences when preferences, budgetMin, or budgetMax change
+  const saveTimeoutRef = useRef(null);
+  const isInitialMount = useRef(true);
+
+  useEffect(() => {
+    if (isInitialMount.current) {
+      isInitialMount.current = false;
+      return;
+    }
+
+    if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current);
+
+    saveTimeoutRef.current = setTimeout(async () => {
+      setPrefSyncStatus('saving');
+      const res = await savePreferences(currentUser?.id, { preferences, budgetMin, budgetMax });
+      if (res.success) {
+        setPrefSyncStatus('saved');
+      } else {
+        setPrefSyncStatus('error');
+      }
+    }, 800);
+
+    return () => {
+      if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current);
+    };
+  }, [preferences, budgetMin, budgetMax, currentUser]);
 
   // Compute Top 5 Recommendations dynamically based on preferences & budget
   const recommendations = useMemo(() => {
@@ -169,6 +239,12 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const handleSignOut = async () => {
+    await signOutUser();
+    setCurrentUser(null);
+    setPrefSyncStatus('idle');
+  };
+
   return (
     <div className="app-root">
       <Header
@@ -176,6 +252,10 @@ export default function App() {
         onResetLocation={handleResetLocation}
         onOpenModelStatus={handleOpenModelStatus}
         selectedLocalityName={selectedLocality?.name}
+        currentUser={currentUser}
+        onOpenAuthModal={() => setIsAuthModalOpen(true)}
+        onSignOut={handleSignOut}
+        prefSyncStatus={prefSyncStatus}
       />
 
       <main className="app-main-content">
@@ -205,6 +285,7 @@ export default function App() {
               preferences={preferences}
               budgetMin={budgetMin}
               budgetMax={budgetMax}
+              currentUser={currentUser}
               onSelectLocality={(locality) => {
                 setSelectedLocality(locality);
                 setSelectedLat(locality.latitude);
@@ -222,6 +303,7 @@ export default function App() {
             locality={selectedLocality}
             preferences={preferences}
             budgetMax={budgetMax}
+            currentUser={currentUser}
             backendHealthy={backendHealthy}
             onBackToMap={handleResetLocation}
             onChangePreference={handleChangePreference}
@@ -246,6 +328,7 @@ export default function App() {
           <DetailedReportView
             locality={reportLocality}
             preferences={preferences}
+            budgetMin={budgetMin}
             budgetMax={budgetMax}
             onBackToResults={() => setCurrentView('detail')}
           />
@@ -265,6 +348,16 @@ export default function App() {
         onComplete={handleAnalysisComplete}
       />
 
+      {/* Supabase Authentication Modal */}
+      <AuthModal
+        isOpen={isAuthModalOpen}
+        onClose={() => setIsAuthModalOpen(false)}
+        onAuthSuccess={(user) => {
+          setCurrentUser(user);
+          setIsAuthModalOpen(false);
+        }}
+      />
+
       <footer className="app-footer">
         <div className="footer-container">
           <p>© {new Date().getFullYear()} HomeWise AI — 12-Factor Neighborhood Intelligence Architecture</p>
@@ -274,4 +367,3 @@ export default function App() {
     </div>
   );
 }
-

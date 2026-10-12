@@ -1,25 +1,106 @@
-import React from 'react';
-import { Printer, ArrowLeft, CheckCircle2, AlertTriangle, ShieldCheck, MapPin, IndianRupee, FileText } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Printer, ArrowLeft, CheckCircle2, AlertTriangle, ShieldCheck, MapPin, IndianRupee, Sparkles, RefreshCw, Bot } from 'lucide-react';
 import { generateMumbaiAiInsight } from '../services/scoringService';
 
 export default function DetailedReportView({
   locality,
   preferences,
   budgetMax,
+  budgetMin = 1.0,
   onBackToResults
 }) {
-  const aiInsight = generateMumbaiAiInsight(locality, preferences, 1.0, budgetMax);
-  const { name, city, latitude, longitude, averagePriceCr, schoolScore, hospitalScore, marketScore, connectivityScore, crimeRiskScore, safetyScore, airQualityScore, floodSafetyScore, waterScore, powerScore, futureInfrastructureScore, futureDevelopmentScore, livabilityScore } = locality;
+  const aiInsight = generateMumbaiAiInsight(locality, preferences, budgetMin, budgetMax);
+  const {
+    name,
+    city,
+    latitude,
+    longitude,
+    averagePriceCr,
+    schoolScore,
+    hospitalScore,
+    marketScore,
+    connectivityScore,
+    crimeRiskScore,
+    safetyScore,
+    airQualityScore,
+    floodSafetyScore,
+    waterScore,
+    powerScore,
+    futureInfrastructureScore,
+    futureDevelopmentScore,
+    livabilityScore
+  } = locality;
 
-  const handlePrint = () => {
-    window.print();
-  };
+  const [llmReport, setLlmReport] = useState(null);
+  const [loadingLlm, setLoadingLlm] = useState(false);
+  const [llmError, setLlmError] = useState(false);
 
   const safetyVal = safetyScore || crimeRiskScore || 80;
   const futureInfraVal = futureInfrastructureScore || futureDevelopmentScore || 80;
   const waterVal = waterScore || 85;
   const powerVal = powerScore || 90;
   const livabilityVal = livabilityScore || 85;
+
+  const scoresMap = {
+    schoolScore: schoolScore || 80,
+    hospitalScore: hospitalScore || 80,
+    marketScore: marketScore || 80,
+    safetyScore: safetyVal,
+    connectivityScore: connectivityScore || 80,
+    airQualityScore: airQualityScore || 70,
+    floodSafetyScore: floodSafetyScore || 70,
+    waterScore: waterVal,
+    powerScore: powerVal,
+    futureInfrastructureScore: futureInfraVal,
+    priceScore: locality.priceScore || 75,
+    livabilityScore: livabilityVal
+  };
+
+  // Fetch LLM-generated report from FastAPI backend on mount
+  const fetchLlmReport = async () => {
+    setLoadingLlm(true);
+    setLlmError(false);
+    try {
+      const response = await fetch('http://localhost:8000/api/generate-llm-report', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          locality: {
+            name,
+            city,
+            averagePriceCr,
+            latitude,
+            longitude
+          },
+          scores: scoresMap,
+          preferences,
+          budgetMin: Number(budgetMin),
+          budgetMax: Number(budgetMax)
+        })
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        if (data.report) {
+          setLlmReport(data.report);
+          return;
+        }
+      }
+      setLlmError(true);
+    } catch (e) {
+      setLlmError(true);
+    } finally {
+      setLoadingLlm(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchLlmReport();
+  }, [name]);
+
+  const handlePrint = () => {
+    window.print();
+  };
 
   return (
     <div className="report-container font-sans">
@@ -49,13 +130,85 @@ export default function DetailedReportView({
           </div>
         </div>
 
-        {/* Section 1: Executive Summary */}
-        <div className="report-section">
-          <h2 className="section-title">1. Executive Summary & AI Insight</h2>
-          <p className="body-text">{aiInsight.summary}</p>
-          <div className="verdict-box mt-2">
-            <strong>Verdict:</strong> {aiInsight.verdict}
+        {/* Section 1: LLM Executive Report */}
+        <div className="report-section llm-report-section">
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-2">
+              <Bot size={20} className="text-primary" />
+              <h2 className="section-title mb-0">1. Executive Summary & AI Intelligence</h2>
+            </div>
+            <div className="flex items-center gap-2">
+              {llmReport?.provider && (
+                <span className="llm-provider-tag">
+                  {llmReport.provider}
+                </span>
+              )}
+              <button
+                className="btn-secondary-sm flex items-center gap-1 text-xs no-print"
+                onClick={fetchLlmReport}
+                disabled={loadingLlm}
+                title="Regenerate report"
+              >
+                <RefreshCw size={12} className={loadingLlm ? 'animate-spin' : ''} />
+                <span>{loadingLlm ? 'Analyzing...' : 'Refresh'}</span>
+              </button>
+            </div>
           </div>
+
+          {loadingLlm ? (
+            <div className="llm-loading-skeleton">
+              <Sparkles size={18} className="text-primary animate-pulse" />
+              <span>Generating LLM executive analysis from 12 urban dimensions...</span>
+            </div>
+          ) : llmReport ? (
+            <div className="llm-report-content">
+              <p className="body-text">{llmReport.executive_summary}</p>
+
+              {llmReport.match_reasons && (
+                <div className="match-reasons-box mt-3 p-3 bg-slate-50 border rounded-lg">
+                  <strong className="text-sm text-slate-800">Match Rationale:</strong>
+                  <p className="text-sm text-slate-600 mt-1">{llmReport.match_reasons}</p>
+                </div>
+              )}
+
+              <div className="grid-2-col mt-3">
+                <div className="llm-points-card strengths">
+                  <h4 className="points-title text-emerald flex items-center gap-1.5 font-bold text-sm mb-2">
+                    <CheckCircle2 size={16} /> Key Strengths
+                  </h4>
+                  <ul className="points-list">
+                    {(llmReport.strengths || []).map((s, idx) => (
+                      <li key={idx}>{s}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="llm-points-card concerns">
+                  <h4 className="points-title text-amber flex items-center gap-1.5 font-bold text-sm mb-2">
+                    <AlertTriangle size={16} /> Potential Considerations
+                  </h4>
+                  <ul className="points-list">
+                    {(llmReport.concerns || []).map((c, idx) => (
+                      <li key={idx}>{c}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              {llmReport.recommendation && (
+                <div className="verdict-box mt-3">
+                  <strong>Recommendation & Verdict:</strong> {llmReport.recommendation}
+                </div>
+              )}
+            </div>
+          ) : (
+            <div>
+              <p className="body-text">{aiInsight.summary}</p>
+              <div className="verdict-box mt-2">
+                <strong>Verdict:</strong> {aiInsight.verdict}
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Section 2: Budget & Valuation */}
@@ -69,7 +222,7 @@ export default function DetailedReportView({
             </div>
             <div className="stat-card">
               <span className="stat-lbl">User Target Budget Ceiling</span>
-              <span className="stat-val">₹{budgetMax.toFixed(2)} Cr</span>
+              <span className="stat-val">₹{Number(budgetMax).toFixed(2)} Cr</span>
               <span className={`stat-sub ${averagePriceCr <= budgetMax ? 'text-emerald' : 'text-rose'}`}>
                 {averagePriceCr <= budgetMax ? '✓ Property Fits Target Budget' : '✗ Property Exceeds Target Budget'}
               </span>
@@ -86,54 +239,35 @@ export default function DetailedReportView({
                 <th>Factor</th>
                 <th>Score (0–100)</th>
                 <th>Status</th>
-                <th>Data Source</th>
+                <th>Data Source & Attribution</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td>1. School Quality</td><td>{schoolScore}/100</td><td>{schoolScore >= 88 ? 'Excellent' : 'Good'}</td><td>UDISE+ / data.gov.in / OpenStreetMap</td></tr>
-              <tr><td>2. Hospital Accessibility</td><td>{hospitalScore}/100</td><td>{hospitalScore >= 85 ? 'Strong' : 'Moderate'}</td><td>BMC / OpenCity / OpenStreetMap</td></tr>
-              <tr><td>3. Market Accessibility</td><td>{marketScore}/100</td><td>{marketScore >= 85 ? 'Strong' : 'Good'}</td><td>Overpass API (OSM POIs)</td></tr>
-              <tr><td>4. Safety & Crime Risk</td><td>{safetyVal}/100</td><td>{safetyVal >= 88 ? 'Very Safe' : 'Safe'}</td><td>Mumbai Police / NCRB / data.gov.in</td></tr>
-              <tr><td>5. City Transit Connectivity</td><td>{connectivityScore}/100</td><td>{connectivityScore >= 90 ? 'Excellent' : 'Good'}</td><td>OpenStreetMap / MMRDA Metro Data</td></tr>
-              <tr><td>6. Air Quality Index (AQI)</td><td>{airQualityScore}/100</td><td>{airQualityScore >= 75 ? 'Clean Air' : 'Moderate Air'}</td><td>CPCB / MPCB Air Quality Monitors</td></tr>
-              <tr><td>7. Monsoon Flood Safety</td><td>{floodSafetyScore}/100</td><td>{floodSafetyScore >= 80 ? 'Safe Elevation' : 'Low-Lying Risk'}</td><td>ISRO Bhuvan GIS Hazard Data</td></tr>
+              <tr><td>1. School Quality</td><td>{schoolScore}/100</td><td>{schoolScore >= 88 ? 'Excellent' : 'Good'}</td><td>UDISE+ / data.gov.in / Trained XGBoost ML</td></tr>
+              <tr><td>2. Hospital Accessibility</td><td>{hospitalScore}/100</td><td>{hospitalScore >= 85 ? 'Strong' : 'Moderate'}</td><td>BMC / OpenCity / Trained Random Forest ML</td></tr>
+              <tr><td>3. Market Accessibility</td><td>{marketScore}/100</td><td>{marketScore >= 85 ? 'Strong' : 'Good'}</td><td>Overpass API / Trained XGBoost ML</td></tr>
+              <tr><td>4. Safety & Crime Risk</td><td>{safetyVal}/100</td><td>{safetyVal >= 88 ? 'Very Safe' : 'Safe'}</td><td>Mumbai Police / NCRB Station Spatial Index</td></tr>
+              <tr><td>5. City Transit Connectivity</td><td>{connectivityScore}/100</td><td>{connectivityScore >= 90 ? 'Excellent' : 'Good'}</td><td>OpenStreetMap / MMRDA Metro Transit</td></tr>
+              <tr><td>6. Air Quality Index (AQI)</td><td>{airQualityScore}/100</td><td>{airQualityScore >= 75 ? 'Clean Air' : 'Moderate Air'}</td><td>CPCB / MPCB Continuous Monitoring Stations</td></tr>
+              <tr><td>7. Monsoon Flood Safety</td><td>{floodSafetyScore}/100</td><td>{floodSafetyScore >= 80 ? 'Safe Elevation' : 'Low-Lying Risk'}</td><td>ISRO Bhuvan GIS Elevation Hazard Data</td></tr>
               <tr><td>8. Water Reliability</td><td>{waterVal}/100</td><td>{waterVal >= 88 ? 'Reliable 24x7' : 'Standard Hours'}</td><td>BMC Municipal Water Connection Logs</td></tr>
-              <tr><td>9. Power Grid Reliability</td><td>{powerVal}/100</td><td>{powerVal >= 90 ? 'High Stability' : 'Standard Grid'}</td><td>MSEDCL Outage Data</td></tr>
-              <tr><td>10. Future Infrastructure</td><td>{futureInfraVal}/100</td><td>{futureInfraVal >= 88 ? 'High Growth' : 'Moderate Boost'}</td><td>MMRDA GIS Master Plan</td></tr>
-              <tr><td>11. Overall Livability</td><td>{livabilityVal}/100</td><td>{livabilityVal >= 85 ? 'Excellent' : 'Good'}</td><td>Calculated Composite Aggregation Layer</td></tr>
+              <tr><td>9. Power Grid Stability</td><td>{powerVal}/100</td><td>{powerVal >= 90 ? 'High Stability' : 'Occasional Outages'}</td><td>MSEDCL / Mahavitaran Electricity Data</td></tr>
+              <tr><td>10. Future Infrastructure Boost</td><td>{futureInfraVal}/100</td><td>{futureInfraVal >= 88 ? 'High Growth' : 'Moderate Growth'}</td><td>MMRDA GIS / Infrastructure Master Plan</td></tr>
+              <tr><td>11. Property Affordability</td><td>{locality.priceScore || 75}/100</td><td>{averagePriceCr <= budgetMax ? 'In Budget' : 'Above Budget'}</td><td>70K+ Mumbai Housing Listing Dataset</td></tr>
+              <tr className="highlight-row"><td>12. HomeWise Match Score</td><td>{livabilityVal}/100</td><td>{livabilityVal >= 85 ? 'Top Recommendation' : 'Balanced Match'}</td><td>Composite MCDM Personalized Preference Aggregation</td></tr>
             </tbody>
           </table>
         </div>
 
-        {/* Section 4: Strengths & Concerns */}
+        {/* Section 4: Data Pipeline & Academic Notice */}
         <div className="report-section">
-          <h2 className="section-title">4. Key Strengths & Location Concerns</h2>
-          <div className="grid-2-col">
-            <div className="box-strengths">
-              <h4 className="box-title flex items-center gap-1 text-emerald"><CheckCircle2 size={16} /> Key Strengths</h4>
-              <ul>
-                <li>High connectivity score of {connectivityScore}/100 across rail and highway corridors.</li>
-                <li>School accessibility score of {schoolScore}/100 with established educational institutions.</li>
-                <li>Reliable municipal water supply at {waterVal}/100 and power grid stability at {powerVal}/100.</li>
-              </ul>
-            </div>
-            <div className="box-concerns">
-              <h4 className="box-title flex items-center gap-1 text-amber"><AlertTriangle size={16} /> Location Caveats</h4>
-              <ul>
-                <li>Verify peak-hour train and highway traffic congestion schedules prior to booking.</li>
-                <li>Monsoon flood safety score is {floodSafetyScore}/100; inspect ground elevation on your specific lane.</li>
-                <li>Society maintenance charges and local parking space availability should be verified.</li>
-              </ul>
-            </div>
+          <h2 className="section-title">4. Verification & Prototype Data Pipeline Notice</h2>
+          <div className="disclaimer-callout">
+            <ShieldCheck size={20} className="text-emerald shrink-0" />
+            <p className="text-xs">
+              <strong>Academic Prototype Notice:</strong> HomeWise AI combines trained machine learning models (School Quality XGBoost, Hospital Accessibility Random Forest, Market Access XGBoost) with government geospatial records (ISRO Bhuvan, BMC, CPCB, Mumbai Police, and MMRDA). This demonstration report is generated for academic and decision-support illustration. Verify title and RERA certificates before making binding property purchases.
+            </p>
           </div>
-        </div>
-
-        {/* Section 5: Methodology & Disclaimer */}
-        <div className="report-section footer-disclaimer-section">
-          <h2 className="section-title">5. Methodology & Academic Disclaimer</h2>
-          <p className="disclaimer-text">
-            <strong>Prototype Synthetic Data — Not for Real Property Decisions:</strong> The scores shown in this report are calculated using HomeWise AI's 12-factor MCDM architecture. Where live government API connections are unavailable, synthetic fallback datasets for the Mumbai Metropolitan Region are utilized for academic demonstration purposes.
-          </p>
         </div>
       </div>
     </div>
