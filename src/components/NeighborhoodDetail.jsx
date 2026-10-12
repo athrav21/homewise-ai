@@ -24,7 +24,6 @@ import {
   X
 } from 'lucide-react';
 import AiInsightCard from './AiInsightCard';
-import WhatIfAnalysisTool from './WhatIfAnalysisTool';
 import DataPipelineStatusPanel from './DataPipelineStatusPanel';
 import { generateMumbaiAiInsight } from '../services/scoringService';
 import { calculateLocalityMatch } from '../services/recommendationService';
@@ -157,14 +156,6 @@ export default function NeighborhoodDetail({
           </div>
         </div>
       </div>
-
-      {/* What-If Scenario Analysis Slider Tool */}
-      <WhatIfAnalysisTool
-        locality={locality}
-        preferences={preferences}
-        onChangePreference={onChangePreference}
-        onRecalculate={() => {}}
-      />
 
       {/* Prototype AI Neighborhood Insight Card */}
       <AiInsightCard aiInsight={aiInsight} />
